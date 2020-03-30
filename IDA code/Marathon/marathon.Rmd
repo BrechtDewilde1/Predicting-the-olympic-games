@@ -1,0 +1,309 @@
+---
+title: "Predict racetime Olympic Marathon"
+author: "Brecht Dewilde"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse, mmpf)
+```
+
+## Introduction 
+The basis dataset is the historical dataset obtained from Kaggle: [dataset ](ttps://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results). This is a historical dataset containing the outcomes of all the games from Athens 1896 to Rio 2016. The full dataset contains 271 116 rows and 15 columns. Each row corresponds to an individual athlete competing in an individual Olympic event. The columns are:
+
+1. ID - Unique number for each athlete
+2. Name - Athlete's name
+3. Sex - M or F
+4. Age - Integer
+5. Height - In centimeters
+6. Weight - In kilograms
+7. Team - Team name
+8. NOC - National Olympic Committee 3-letter code
+9. Games - Year and season
+10. Year - Integer
+11. Season - Summer or Winter
+12. City - Host city
+13. Sport - Sport
+14. Event - Event
+15. Medal - Gold, Silver, Bronze, or NA
+
+
+Preview of the dataset: 
+```{r data preview, echo=FALSE}
+setwd("~/UGENT -  statistical data analysis/STATISTICAL DATA ANALYSIS/thesis/R analysis")
+fData <- read.csv(file.path("Data\\kaggle", "athlete_events.csv"))
+head(fData)
+```
+
+### Selecting marathon events
+At this point the focus is to predict the racetime of a racer competing in an Olympic marathon. Therefore, the following analysis will be performed on data that only contains instances of marathon runners. During the complete analysis, a distinction will be made between men and women, therefore two different datasets are created. The dimensions of these dataset are:
+
+```{r selecting only rows concerning marathon, echo=FALSE, eval=FALSE}
+marathon <- filter(fData, grepl("Marathon", fData$Event))
+marathonM <- filter(marathon, Sex == "M")
+marathonF <- filter(marathon, Sex == "F")
+paste("The mens dataset contains:", dim(marathonM)[1], "runners.")
+paste("The womens dataset contains:", dim(marathonF)[1], "runners.")
+```
+
+
+### Creating a basis dataset
+The targetvalue is the race time of the athletes. However, the basis dataset does not contain the actual racetimes, therefore these have to be scraped from another source. The [site](http://www.olympicgamesmarathon.com/results.php) contains the results from all the olympic marathons, a python script is written to scrape these racetimes. Consequently, a dataframe for each year is created and added to the directory: "scraped\race_times". First these dataframes are combined into one. Secondly, the basis dataframe is merged to it. 
+
+However, these are only male runners. In addition, there are multiple athletes whereof the race time is unknown. Specifically, for the olympics in the past. Athletes whereof the target value is unknown are not valuable for our analysis and will therefore be deleted. The merge condition is as follows:"if there are at least two words in the name vector that match then the rows will be merged together". We obtain a dataset containing  1032 athletes. This will be used as start point for our analysis.
+
+
+```{r reading the scraped data, echo=FALSE, eval=FALSE}
+dir =  "Data\\scraped\\race times"
+files = list.files(path = "Data\\scraped\\race times")
+data_frames <- vector(mode = "list", length = length(files))
+
+index <-1 
+for(file in files){
+  data_frames[[index]] <- read.csv(file.path(dir, file))
+  year <- gsub("[^0-9]", replacement = "", file)
+  data_frames[[index]]$Year <- year
+  index <- index +  1
+}
+race_times <- do.call("rbind", data_frames)
+rm("index", "dir", "file", "files", "data_frames", "year")
+```
+
+
+```{r combining the two datasets, echo=FALSE, eval=FALSE, warning=FALSE}
+# exclude racers without the racetimes
+race_times <- filter(race_times, Time != "")
+
+# The name column in the basis dataset contains first and last name as one, thus i have to paste 
+race_times$full_name <- paste(race_times$FirstName, race_times$LastName)
+
+# Reformat Name column to string such that we can merge
+marathonM$Name <- as.character(marathonM$Name)
+
+# Function to check whether there are two matches of words between names
+match_names <- function(name1, year1 = 0, name2, year2){
+    vec_name1 <- unlist(strsplit(name1, split = " "))
+    vec_name2 <- unlist(strsplit(name2, split = " "))
+    return(length(intersect(vec_name1, vec_name2)) >= 2 && year1 == year2)
+}
+
+# cartesian product of all combinations
+combinations <- mmpf::cartesianExpand(marathonM, race_times)
+indicator <- vector(length = length(combinations$nam))
+
+# Compute the output of the function to each row
+for(i in 1:nrow(combinations)){
+  indicator[i] <- match_names(combinations$Name[i], combinations$Year.x[i], combinations$full_name[i], combinations$Year.y[i])
+}
+
+# Filter on the indicator vector
+marathonM_times <- combinations[indicator,]
+
+rm("combinations", "marathon", "race_times", "i", "fData", "marathonM")
+```
+
+```{r reordering the columns and cleaning the data, echo=FALSE, eval=FALSE, warning=FALSE}
+# reordering the columns
+marathonM_times$Time <- as.POSIXct(marathonM_times$Time, format="%H:%M:%S")
+marathonM_times <- marathonM_times[, c("ID","Year.y", "full_name", "Age", "Height", "Weight", "Nationality", "Position", "Time")]
+colnames(marathonM_times) <- c("ID","Year", "full_name", "Age", "Height", "Weight", "Nationality", "Position", "Time")
+
+# reformat the columns
+marathonM_times$Year <- as.numeric(marathonM_times$Year)
+
+# functions to express the race time in minutes and seconds
+convert_to_mins <- function(time){
+  return(as.numeric(format(time, "%H")) * 60 + as.numeric(format(time, "%M")) + as.numeric(format(time, "%S"))/60)
+}
+
+convert_to_secs <- function(time){
+    return(as.numeric(format(time, "%H")) * 3600 + as.numeric(format(time, "%M")) * 60 + as.numeric(format(time, "%S")))
+}
+
+# create columns that contain time in minutes and seconds
+marathonM_times$Time_mins <- convert_to_mins(marathonM_times$Time)
+marathonM_times$Time_secs <- convert_to_secs(marathonM_times$Time)
+marathonM_times$Time <- format(marathonM_times$Time, "%H:%M:%S")
+
+# all rows that contain na values will be removed
+marathonM_times <- na.omit(marathonM_times)
+save(marathonM_times, file = "Data\\Rda\\marathonM_times.RData")
+rm("convert_to_mins", "convert_to_secs")
+```
+
+```{r preview of the basis dataset, echo=FALSE, warning=FALSE}
+marathonM_times <- load("~/UGENT -  statistical data analysis/STATISTICAL DATA ANALYSIS/thesis/R analysis/Data/Rda/marathonM_times.RData")
+rm("backup", "marathonF", "indicator")
+head(marathonM_times)
+```
+
+### Adding additional variables based on the available onces
+Prevention of data leakage. At this point I have to select a time window in which the features will be calculated.
+
+The variables that will be added are:
+** BMI **
+** gdp ** 
+** population **
+
+The kaggle page: "https://www.kaggle.com/chadalee/olympics-data-cleaning-exploration-prediction/data" explains why it can be helpfull to add each of these variables to the dataset. 
+
+```{r adding extra variables, echo=FALSE, warning=FALSE, eval = FALSE, warning=FALSE}
+marathonM_times$BMI <- marathonM_times$Weight / (marathonM_times$Height/100)^2
+
+# add gdp to the dataset and take into account the data leakage
+gdp <- read.csv(file = file.path("Data", "world_gdp.csv"))
+
+# gdp is in weird format, change format of the gdp database
+# remove the unnecessary columns
+gdp$World.Development.Indicators <- NULL
+gdp$X <- NULL
+gdp$X.1 <- NULL
+
+# the first row of the dataset equals the year, make this the colNames
+colNamesVec <- gdp[3,]
+colnames(gdp) <- colNamesVec
+colnames(gdp)[1] <- "country Name"
+gdp <- gdp[-c(1,2,3), ] 
+
+# update the basisDataFrame
+marathonM_times$Gdp <- vector(length = nrow(marathonM_times))
+for(i in 1:nrow(marathonM_times)){
+  nationality <- as.character(marathonM_times[i,]$Nationality)
+  year <- marathonM_times[i,]$Year
+  if(year < as.numeric(colnames(gdp)[2])){
+     marathonM_times$Gdp[i] <- NA
+  }else{
+     marathonM_times$Gdp[i] <- gdp %>% filter(`country Name` == nationality) %>% select(as.character(year))
+  }
+}
+
+# change numeric(0) to na
+idx <- !(sapply(marathonM_times$Gdp, length))
+marathonM_times$Gdp[idx] <- NA
+marathonM_times$Gdp <- unlist(marathonM_times$Gdp)
+
+# add population to the dataset and take into account the data leakage
+pop <- read.csv(file = file.path("Data", "world_pop.csv"))
+
+# Remove unncessary columns
+pop$Country.Code <- NULL
+pop$Indicator.Name <- NULL
+pop$Indicator.Code <- NULL
+
+# Rename the columns
+years <- as.character(seq(1960, 2016))
+colnames(pop) <- c("country Name", years)
+
+# update the basisDataFrame
+marathonM_times$Population <- vector("numeric", length = nrow(marathonM_times))
+for(i in 1:nrow(marathonM_times)){
+  nationality <- as.character(marathonM_times[i,]$Nationality)
+  year <- marathonM_times[i,]$Year
+  if(year < as.numeric(colnames(pop)[2])){
+    marathonM_times$Population[i] <- NA
+  }else{
+    marathonM_times$Population[i] <- pop %>% filter(`country Name` == nationality) %>% select(as.character(year))
+    }
+}
+
+# change numeric(0) to na
+idx <- !(sapply(marathonM_times$Population, length))
+marathonM_times$Population[idx] <- NA
+marathonM_times$Population <- unlist(marathonM_times$Population)
+
+
+# add region indicator
+regions <- read.csv(file.path("Data", "countries_regions.csv"), stringsAsFactors = FALSE)[, c(1,7)]
+marathonM_times$Region <- vector(mode = "character", length = nrow(marathonM_times))
+for(i in 1:nrow(marathonM_times)){
+  nationality <- as.character(marathonM_times$Nationality[i])
+  if(nationality %in% regions$name){
+    sub <- as.character(filter(regions, name == nationality) %>% select("sub.region"))
+    marathonM_times$Region[i] <- sub
+  } else{
+    marathonM_times$Region[i] <- NA
+  }
+}
+
+rm("i", "indicator", "nationality", "sub", "year", "backup", "colNamesVec", "gdp", "marathonF", "pop", "regions", "idx", "years")
+```
+
+```{r reshaping the dataframe, echo=FALSE, eval =FALSE}
+marathonM_times <- marathonM_times[,c( "ID" ,"Year" ,"full_name", "Age" ,"Height", "Weight", "BMI",  "Nationality", "Region", "Population", "Gdp", "Position", "Time", "Time_mins", "Time_secs")]
+save(marathonM_times, file = "Data\\Rda\\marathonM_times1.RData")
+```
+
+### First Regression analaysis
+#### Linearity assumption
+To check the linearity between each dependent and independent variable multiple scatterplots will be created. If non-linear relationships are found, then transformations will be used to adapt. 
+
+```{r checking the linearity assumption, warning=FALSE, echo=FALSE, message=FALSE, fig.width = 10}
+load("~/UGENT -  statistical data analysis/STATISTICAL DATA ANALYSIS/thesis/R analysis/Data/Rda/marathonM_times1.RData")
+library("gridExtra", lib.loc="~/R/win-library/3.5")
+# time evolution 
+ggplot(marathonM_times, aes(x = Year, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Race time in function of year")
+
+# scatter height, weight, bmi
+height <- ggplot(marathonM_times, aes(x = Height, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Height(m) VS Time(min)")
+
+weight <- ggplot(marathonM_times, aes(x = Weight, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Weight(kg) VS Time(min)")
+
+bmi <- ggplot(marathonM_times, aes(x = BMI, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("BMI VS Time(min)")
+
+grid.arrange(height, weight, bmi, ncol=3, top = "Race times in function of body characteristics")
+
+# Country characteristics
+population <- ggplot(marathonM_times, aes(x = Population, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Population VS Time(min)")
+
+gdp <- ggplot(marathonM_times, aes(x = Gdp, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("GDP VS Time(min)")
+
+grid.arrange(population, gdp, ncol = 2, top = "Race times in function of country characteristics")
+
+# Area vs times
+theme_set(theme_bw())
+
+# Draw plot
+avg_times <- group_by(marathonM_times, Region) %>% summarise(avg = mean(Time_mins))
+avg_times <- avg_times[order(avg_times$avg), ]  # sort
+avg_times <- na.omit(avg_times)
+avg_times$Region <- factor(avg_times$Region, levels = avg_times$Region) 
+
+ggplot(avg_times, aes(x=Region, y=avg)) + 
+  geom_bar(stat="identity", width=.5, fill="tomato3") + 
+  labs(title="Race times in function of graphical area", subtitle="Average racetimes") +
+  theme(axis.text.x = element_text(angle=65, vjust=0.6))
+rm("bmi", "gdp", "height", "population", "weight")
+
+
+
+
+```
+
+
+
+### The score variable
+Now an additional variable is added to the dataset. This variable comes from the site : "https://www.worldathletics.org/world-rankings/marathon/men". This site has created a 'score metric', this metric is based on the results from their best two marathons of the last two years (i guess, dive more into this!!!). The idea now is that with this score metric and the other variables that I will be able to predict the first race times.
+
+```{r add the score metric to the basis dataset, echo=FALSE, eval =FALSE}
+scores <- read.csv(file.path("Data//scraped", "scores.csv"))
+
+# Due to the fact that the lastnames of the scores dataframe are all capital we donnot find matches
+combinations <- mmpf::cartesianExpand(marathonM_times, scores)
+indicator <- vector(length = length(nrow(combinations)))
+
+# Compute the output of the function to each row
+for(i in 1:nrow(combinations)){
+  indicator[i] <- match_names(combinations$Name[i], combinations$Year.x[i], combinations$full_name[i], combinations$Year.y[i])
+}
+```
+
+
+
+
