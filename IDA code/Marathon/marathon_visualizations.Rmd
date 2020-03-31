@@ -1,0 +1,60 @@
+---
+title: "Marathon_Visualisations"
+author: "Brecht Dewilde"
+date: "30-3-2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+#### IDA
+To check the linearity between each dependent and independent variable multiple scatterplots will be created. If non-linear relationships are found, then transformations will be used to adapt. 
+
+```{r checking the linearity assumption, warning=FALSE, echo=FALSE, message=FALSE, fig.width = 10}
+load("~/UGENT -  statistical data analysis/STATISTICAL DATA ANALYSIS/thesis/R analysis/Data/Rda/marathonM_times1.RData")
+library("gridExtra", lib.loc="~/R/win-library/3.5")
+# time evolution 
+ggplot(marathonM_times, aes(x = Year, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Race time in function of year")
+
+# scatter height, weight, bmi
+height <- ggplot(marathonM_times, aes(x = Height, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Height(m) VS Time(min)")
+
+weight <- ggplot(marathonM_times, aes(x = Weight, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Weight(kg) VS Time(min)")
+
+bmi <- ggplot(marathonM_times, aes(x = BMI, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("BMI VS Time(min)")
+
+grid.arrange(height, weight, bmi, ncol=3, top = "Race times in function of body characteristics")
+
+# Country characteristics
+population <- ggplot(marathonM_times, aes(x = Population, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("Population VS Time(min)")
+
+gdp <- ggplot(marathonM_times, aes(x = Gdp, y = Time_mins)) + geom_jitter() + geom_smooth(se = FALSE, colour = "red") + 
+  ggtitle("GDP VS Time(min)")
+
+grid.arrange(population, gdp, ncol = 2, top = "Race times in function of country characteristics")
+
+# Area vs times
+theme_set(theme_bw())
+
+# Draw plot
+avg_times <- group_by(marathonM_times, Region) %>% summarise(avg = mean(Time_mins))
+avg_times <- avg_times[order(avg_times$avg), ]  # sort
+avg_times <- na.omit(avg_times)
+avg_times$Region <- factor(avg_times$Region, levels = avg_times$Region) 
+
+ggplot(avg_times, aes(x=Region, y=avg)) + 
+  geom_bar(stat="identity", width=.5, fill="tomato3") + 
+  labs(title="Race times in function of graphical area", subtitle="Average racetimes") +
+  theme(axis.text.x = element_text(angle=65, vjust=0.6))
+rm("bmi", "gdp", "height", "population", "weight")
+
+```
