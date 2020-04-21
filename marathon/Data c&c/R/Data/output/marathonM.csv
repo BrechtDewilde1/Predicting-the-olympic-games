@@ -1,0 +1,648 @@
+"","Name","Sex","Age","Height","Weight","bmi","Year","Nationality","SubRegion","continent","Population","GDP","countryWins","subRegionWins","HomeAdvantage","Position","Medal","Time","TimeMins","TimeSecs"
+"1","Allaoua Khellil","M",34,174,59,19.4873827454089,1988,"Algeria","Northern Africa","Africa",24591492,59089067187,0,2,FALSE,35,FALSE,"2:21:12",141.2,8472
+"2","Hakim Sadi","M",23,176,56,18.0785123966942,2016,"Algeria","Northern Africa","Africa",40606052,1.59049e+11,0,2,FALSE,104,FALSE,"2:26:47",146.783333333333,8807
+"3","Lus Ariel Molina","M",28,172,57,19.2671714440238,2016,"Argentina","Latin America and the Caribbean","Latin America and the Caribbean",43847430,5.45476e+11,0,1,FALSE,89,FALSE,"2:23:55",143.916666666667,8635
+"4","Mariano Nicols Mastromarino","M",33,169,56,19.6071566121634,2016,"Argentina","Latin America and the Caribbean","Latin America and the Caribbean",43847430,5.45476e+11,0,1,FALSE,53,FALSE,"2:18:44",138.733333333333,8324
+"5","Federico Bruno","M",23,185,66,19.2841490138787,2016,"Argentina","Latin America and the Caribbean","Latin America and the Caribbean",43847430,5.45476e+11,0,1,FALSE,137,FALSE,"2:40:05",160.083333333333,9605
+"6","Juan Fernando Molina","M",34,167,57,20.4381655849977,1972,"Argentina","Latin America and the Caribbean","Latin America and the Caribbean",24782949,34733000536,0,1,FALSE,53,FALSE,"2:38:18",158.3,9498
+"7","Michael Shelley","M",32,183,60,17.9163307354654,2016,"Australia","Australia and New Zealand","Oceania",24127159,1.20462e+12,0,0,FALSE,47,FALSE,"2:18:06",138.1,8286
+"8","Martin Dent","M",33,180,69,21.2962962962963,2012,"Australia","Australia and New Zealand","Oceania",22728254,1.53819e+12,0,0,FALSE,28,FALSE,"2:16:29",136.483333333333,8189
+"9","Robert Francois ""Rob"" de Castella","M",35,180,65,20.0617283950617,1992,"Australia","Australia and New Zealand","Oceania",17495000,3.25693e+11,0,0,FALSE,26,FALSE,"2:17:44",137.733333333333,8264
+"10","Sean Patrick Quilty","M",30,170,58,20.0692041522491,1996,"Australia","Australia and New Zealand","Oceania",18311000,4.01819e+11,0,0,FALSE,34,FALSE,"2:19:35",139.583333333333,8375
+"11","Allan Cleave Evan Lawrence","M",30,171,61,20.8611196607503,1960,"Australia","Australia and New Zealand","Oceania",10276477,18593347519,0,0,FALSE,54,FALSE,"2:38:46.0",158.766666666667,9526
+"12","Liam Adams","M",29,178,64,20.1994697639187,2016,"Australia","Australia and New Zealand","Oceania",24127159,1.20462e+12,0,0,FALSE,31,FALSE,"2:16:12",136.2,8172
+"13","Sisay Bezabeh","M",26,171,55,18.8092062514962,2004,"Australia","Australia and New Zealand","Oceania",20127400,6.1333e+11,0,0,FALSE,60,FALSE,"2:25:26",145.433333333333,8726
+"14","Robert Andrew ""Bob"" Vagg","M",24,173,62,20.7156938086805,1964,"Australia","Australia and New Zealand","Oceania",11167000,23787658192,0,0,FALSE,31,FALSE,"2:28:41.0",148.683333333333,8921
+"15","Roderic George ""Rod"" de Highden","M",31,178,60,18.9370029036738,2000,"Australia","Australia and New Zealand","Oceania",19153000,4.15446e+11,0,0,TRUE,28,FALSE,"2:18:04",138.066666666667,8284
+"16","Scott Westcott","M",40,179,64,19.974407790019,2016,"Australia","Australia and New Zealand","Oceania",24127159,1.20462e+12,0,0,FALSE,81,FALSE,"2:22:19",142.316666666667,8539
+"17","Nicholas ""Nick"" Harrison","M",33,187,76,21.7335354170837,2004,"Australia","Australia and New Zealand","Oceania",20127400,6.1333e+11,0,0,FALSE,45,FALSE,"2:21:42",141.7,8502
+"18","Christopher ""Chris"" Wardlaw","M",26,175,60,19.5918367346939,1976,"Australia","Australia and New Zealand","Oceania",14033000,1.04974e+11,0,0,FALSE,35,FALSE,"2:23:56",143.933333333333,8636
+"19","Ian Douglas Sinfield","M",25,187,78,22.3054705596385,1960,"Australia","Australia and New Zealand","Oceania",10276477,18593347519,0,0,FALSE,43,FALSE,"2:34:16.0",154.266666666667,9256
+"20","Bradley Dale ""Brad"" Camp","M",23,167,57,20.4381655849977,1988,"Australia","Australia and New Zealand","Oceania",16532200,2.36136e+11,0,0,FALSE,41,FALSE,"2:23:49",143.816666666667,8629
+"21","Robert Francois ""Rob"" de Castella","M",27,180,65,20.0617283950617,1984,"Australia","Australia and New Zealand","Oceania",15544000,1.93504e+11,0,0,FALSE,5,FALSE,"2:11:09",131.15,7869
+"22","Anthony ""Tony"" Cook","M",28,183,68,20.3051748335274,1964,"Australia","Australia and New Zealand","Oceania",11167000,23787658192,0,0,FALSE,52,FALSE,"2:42:03.6",162.05,9723
+"23","John Allan Farrington","M",26,174,61,20.147971991016,1968,"Australia","Australia and New Zealand","Oceania",12009000,32687870982,0,0,FALSE,43,FALSE,"2:50:16",170.266666666667,10216
+"24","Christopher ""Chris"" Wardlaw","M",30,175,60,19.5918367346939,1980,"Australia","Australia and New Zealand","Oceania",14692000,1.49887e+11,0,0,FALSE,28,FALSE,"2:20:42",140.7,8442
+"25","Lee Joseph Troop","M",35,178,56,17.6745360434289,2008,"Australia","Australia and New Zealand","Oceania",21249200,1.05533e+12,0,0,FALSE,60,FALSE,"2:27:17",147.283333333333,8837
+"26","Robert Francois ""Rob"" de Castella","M",31,180,65,20.0617283950617,1988,"Australia","Australia and New Zealand","Oceania",16532200,2.36136e+11,0,0,FALSE,8,FALSE,"2:13:07",133.116666666667,7987
+"27","Robert Francois ""Rob"" de Castella","M",23,180,65,20.0617283950617,1980,"Australia","Australia and New Zealand","Oceania",14692000,1.49887e+11,0,0,FALSE,10,FALSE,"2:14:31",134.516666666667,8071
+"28","Derek J. Clayton","M",29,187,72,20.589665131974,1972,"Australia","Australia and New Zealand","Oceania",13177000,52003504673,0,0,FALSE,13,FALSE,"2:19:49",139.816666666667,8389
+"29","Roderic George ""Rod"" de Highden","M",27,178,60,18.9370029036738,1996,"Australia","Australia and New Zealand","Oceania",18311000,4.01819e+11,0,0,FALSE,23,FALSE,"2:17:42",137.7,8262
+"30","Michael Shelley","M",28,183,60,17.9163307354654,2012,"Australia","Australia and New Zealand","Oceania",22728254,1.53819e+12,0,0,FALSE,16,FALSE,"2:14:10",134.166666666667,8050
+"31","Lee Joseph Troop","M",27,178,56,17.6745360434289,2000,"Australia","Australia and New Zealand","Oceania",19153000,4.15446e+11,0,0,TRUE,66,FALSE,"2:29:32",149.533333333333,8972
+"32","Lee Joseph Troop","M",31,178,56,17.6745360434289,2004,"Australia","Australia and New Zealand","Oceania",20127400,6.1333e+11,0,0,FALSE,28,FALSE,"2:18:46",138.766666666667,8326
+"33","Derek J. Clayton","M",25,187,72,20.589665131974,1968,"Australia","Australia and New Zealand","Oceania",12009000,32687870982,0,0,FALSE,7,FALSE,"2:27:23",147.383333333333,8843
+"34","Josef Steiner","M",29,179,66,20.5986080334571,1980,"Austria","Western Europe","Europe",7549433,82058912465,0,4,FALSE,39,FALSE,"2:24:24",144.4,8664
+"35","Michael Buchleitner","M",34,190,72,19.9445983379501,2004,"Austria","Western Europe","Europe",8171966,3.00904e+11,0,4,FALSE,29,FALSE,"2:19:19",139.316666666667,8359
+"36","Helmut Schmuck","M",29,179,64,19.974407790019,1992,"Austria","Western Europe","Europe",7840709,1.95078e+11,0,4,FALSE,47,FALSE,"2:23:38",143.633333333333,8618
+"37","Michael Buchleitner","M",30,190,72,19.9445983379501,2000,"Austria","Western Europe","Europe",8011566,1.968e+11,0,4,FALSE,33,FALSE,"2:19:26",139.433333333333,8366
+"38","Evans Chebet Kiplagat Barkowet","M",28,170,60,20.7612456747405,2016,"Azerbaijan","Western Asia","Asia",9762274,37847715736,0,0,FALSE,28,FALSE,"2:15:31",135.516666666667,8131
+"39","Tharcisse Gashaka","M",33,178,72,22.7244034844085,1996,"Burundi","Sub-Saharan Africa","Africa",6041112,869033856,0,13,FALSE,90,FALSE,"2:32:55",152.916666666667,9175
+"40","Joachim Nshimirimana","M",35,168,53,18.7783446712018,2008,"Burundi","Sub-Saharan Africa","Africa",8212264,1611634332,0,13,FALSE,68,FALSE,"2:29:55",149.916666666667,8995
+"41","Joachim Nshimirimana","M",31,168,53,18.7783446712018,2004,"Burundi","Sub-Saharan Africa","Africa",7182451,915257323,0,13,FALSE,32,FALSE,"2:19:31",139.516666666667,8371
+"42","Karel Lismont","M",23,168,62,21.9671201814059,1972,"Belgium","Western Europe","Europe",9711115,37408591330,2,4,FALSE,2,TRUE,"2:14:31",134.516666666667,8071
+"43","Walter Van Renterghem","M",28,176,62,20.0154958677686,1972,"Belgium","Western Europe","Europe",9711115,37408591330,2,4,FALSE,46,FALSE,"2:29:58",149.966666666667,8998
+"44","Karel Lismont","M",35,168,62,21.9671201814059,1984,"Belgium","Western Europe","Europe",9855372,83795680815,2,4,FALSE,24,FALSE,"2:17:07",137.116666666667,8227
+"45","Maurice Peiren","M",30,170,64,22.1453287197232,1968,"Belgium","Western Europe","Europe",9618756,21376353113,2,4,FALSE,20,FALSE,"2:32:49",152.816666666667,9169
+"46","Koen Naert","M",26,182,66,19.9251298152397,2016,"Belgium","Western Europe","Europe",11348159,4.67956e+11,2,4,FALSE,22,FALSE,"2:14:53",134.883333333333,8093
+"47","Eddy Marcel Hellebuyck","M",35,163,47,17.6897888516692,1996,"Belgium","Western Europe","Europe",10156637,2.81358e+11,2,4,FALSE,67,FALSE,"2:25:04",145.066666666667,8704
+"48","Karel Lismont","M",27,168,62,21.9671201814059,1976,"Belgium","Western Europe","Europe",9818227,71494539498,2,4,FALSE,3,TRUE,"2:11:12",131.2,7872
+"49","Armand Parmentier","M",30,175,64,20.8979591836735,1984,"Belgium","Western Europe","Europe",9855372,83795680815,2,4,FALSE,30,FALSE,"2:18:10",138.166666666667,8290
+"50","Florent Caelen","M",27,175,54,17.6326530612245,2016,"Belgium","Western Europe","Europe",11348159,4.67956e+11,2,4,FALSE,44,FALSE,"2:17:59",137.983333333333,8279
+"51","Gaston Roelants","M",31,174,67,22.1297397278372,1968,"Belgium","Western Europe","Europe",9618756,21376353113,2,4,FALSE,11,FALSE,"2:29:04",149.066666666667,8944
+"52","Johan Geirnaert","M",33,174,64,21.1388558594266,1984,"Belgium","Western Europe","Europe",9855372,83795680815,2,4,FALSE,41,FALSE,"2:21:35",141.583333333333,8495
+"53","Willem Van Schuerbeeck","M",31,179,60,18.7260073031428,2016,"Belgium","Western Europe","Europe",11348159,4.67956e+11,2,4,FALSE,56,FALSE,"2:18:56 ",138.933333333333,8336
+"54","Karel Lismont","M",31,168,62,21.9671201814059,1980,"Belgium","Western Europe","Europe",9859242,1.27508e+11,2,4,FALSE,9,FALSE,"2:13:27",133.45,8007
+"55","Raymond ""Ray"" Swan","M",37,167,57,20.4381655849977,1976,"Bermuda","Northern America","Northern America",53200,386300000,0,4,FALSE,58,FALSE,"2:39:18",159.3,9558
+"56","Marco Ivn Condori Colque","M",34,168,60,21.2585034013605,2000,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",8339512,8397912509,0,1,FALSE,72,FALSE,"2:34:11",154.183333333333,9251
+"57","Ricardo Condori","M",22,163,56,21.0771952275208,1972,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",4698083,1257615645,0,1,FALSE,58,FALSE,"2:56:11",176.183333333333,10571
+"58","Juan Rodrigo Camacho","M",25,176,62,20.0154958677686,1984,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",6085496,6169481549,0,1,FALSE,38,FALSE,"2:21:04",141.066666666667,8464
+"59","Crispin Quispe","M",26,163,56,21.0771952275208,1972,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",4698083,1257615645,0,1,FALSE,61,FALSE,"3:07:22",187.366666666667,11242
+"60","Juan Rodrigo Camacho","M",29,176,62,20.0154958677686,1988,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",6592787,4597615563,0,1,FALSE,69,FALSE,"2:34:41",154.683333333333,9281
+"61","Policarpio Calizaya Huaca","M",33,172,62,20.9572742022715,1996,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",7717443,7396966657,0,1,FALSE,91,FALSE,"2:33:08",153.133333333333,9188
+"62","Juan Rodrigo Camacho","M",33,176,62,20.0154958677686,1992,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",7131707,5643893347,0,1,FALSE,57,FALSE,"2:26:01",146.016666666667,8761
+"63","Tiyapo Maso","M",27,170,58,20.0692041522491,2000,"Botswana","Sub-Saharan Africa","Africa",1728340,5788329609,0,13,FALSE,77,FALSE,"2:38:53",158.883333333333,9533
+"64","Benjamin Keleketu","M",27,150,55,24.4444444444444,1992,"Botswana","Sub-Saharan Africa","Africa",1455833,4146513722,0,13,FALSE,83,FALSE,"2:45:57",165.95,9957
+"65","Ndabili Bashingili","M",28,172,59,19.9432125473229,2008,"Botswana","Sub-Saharan Africa","Africa",1946351,10945070442,0,13,FALSE,56,FALSE,"2:25:11",145.183333333333,8711
+"66","Ndabili Bashingili","M",24,172,59,19.9432125473229,2004,"Botswana","Sub-Saharan Africa","Africa",1829330,8957467707,0,13,FALSE,25,FALSE,"2:18:09",138.15,8289
+"67","Bigboy Josie Matlapeng","M",30,175,69,22.530612244898,1988,"Botswana","Sub-Saharan Africa","Africa",1301818,2644536804,0,13,FALSE,34,FALSE,"2:20:51",140.85,8451
+"68","Wilson Theleso","M",24,170,65,22.4913494809689,1984,"Botswana","Sub-Saharan Africa","Africa",1151292,1240796365,0,13,FALSE,55,FALSE,"2:29:20",149.333333333333,8960
+"69","Paulo Roberto de Almeida Paula","M",37,170,55,19.0311418685121,2016,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",207652865,1.79619e+12,1,1,TRUE,15,FALSE,"2:13:56 ",133.933333333333,8036
+"70","Solonei Rocha da Silva","M",34,172,65,21.9713358572201,2016,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",207652865,1.79619e+12,1,1,TRUE,78,FALSE,"2:22:05",142.083333333333,8525
+"71","Vanderlei Cordeiro de Lima","M",26,168,54,19.1326530612245,1996,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",164913306,8.50426e+11,1,1,FALSE,47,FALSE,"2:21:01",141.016666666667,8461
+"72","Diamantino Silveira dos Santos","M",35,166,59,21.4109449847583,1996,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",164913306,8.50426e+11,1,1,FALSE,10,FALSE,"2:15:55",135.916666666667,8155
+"73","Diamantino Silveira dos Santos","M",35,166,59,21.4109449847583,1996,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",164913306,8.50426e+11,1,1,FALSE,73,FALSE,"2:26:53",146.883333333333,8813
+"74","Vanderlei Cordeiro de Lima","M",35,168,54,19.1326530612245,2004,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",184738458,6.69316e+11,1,1,FALSE,3,TRUE,"2:12:11",132.183333333333,7931
+"75","Vanderlei Cordeiro de Lima","M",31,168,54,19.1326530612245,2000,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",175287587,6.55421e+11,1,1,FALSE,75,FALSE,"2:37:08",157.133333333333,9428
+"76","Eloi Rodrgues Schleder","M",33,176,64,20.6611570247934,1984,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",132800684,2.09024e+11,1,1,FALSE,23,FALSE,"2:16:35",136.583333333333,8195
+"77","Paulo Roberto de Almeida Paula","M",33,170,55,19.0311418685121,2012,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",200560983,2.46519e+12,1,1,FALSE,8,FALSE,"2:12:17",132.283333333333,7937
+"78","Marlson Gomes dos Santos","M",34,174,58,19.1570881226054,2012,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",200560983,2.46519e+12,1,1,FALSE,5,FALSE,"2:11:10",131.166666666667,7870
+"79","Franck Caldeira de Almeida","M",29,173,49,16.3720805907314,2012,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",200560983,2.46519e+12,1,1,FALSE,13,FALSE,"2:13:35",133.583333333333,8015
+"80","Luiz Antnio dos Santos","M",32,168,65,23.0300453514739,1996,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",164913306,8.50426e+11,1,1,FALSE,10,FALSE,"2:15:55",135.916666666667,8155
+"81","Luiz Antnio dos Santos","M",32,168,65,23.0300453514739,1996,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",164913306,8.50426e+11,1,1,FALSE,73,FALSE,"2:26:53",146.883333333333,8813
+"82","Osmiro de Souza Silva","M",30,182,65,19.6232339089482,1992,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",154564278,4.00599e+11,1,1,FALSE,24,FALSE,"2:17:16",137.266666666667,8236
+"83","Diamantino Silveira dos Santos","M",27,166,59,21.4109449847583,1988,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",144001542,3.30397e+11,1,1,FALSE,48,FALSE,"2:25:13",145.216666666667,8713
+"84","Jos Teles de Souza","M",37,163,58,21.8299521999323,2008,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",192979029,1.69582e+12,1,1,FALSE,38,FALSE,"2:20:25",140.416666666667,8425
+"85","Saad Hamada Mubarak Ali","M",31,165,67,24.6097337006428,1992,"Bahrain","Western Asia","Asia",523087,4751063830,0,0,FALSE,79,FALSE,"2:39:19",159.316666666667,9559
+"86","Nasar Sakar Saeed","M",30,174,66,21.7994451050337,2008,"Bahrain","Western Asia","Asia",1114590,25710877660,0,0,FALSE,37,FALSE,"2:20:24",140.4,8424
+"87","Petko Lyubenov Stefanov","M",24,167,56,20.0796012764889,1996,"Bulgaria","Eastern Europe","Europe",8362826,10109404160,0,0,FALSE,80,FALSE,"2:29:06",149.1,8946
+"88","Petko Lyubenov Stefanov","M",28,167,56,20.0796012764889,2000,"Bulgaria","Eastern Europe","Europe",8170172,13148099185,0,0,FALSE,60,FALSE,"2:26:24",146.4,8784
+"89","Ferdinand Amadi","M",21,170,60,20.7612456747405,1992,"Central African Republic","Sub-Saharan Africa","Africa",3095807,1411917558,0,13,FALSE,74,FALSE,"2:35:39",155.65,9339
+"90","Kuniaki Takizaki","M",38,151,55,24.1217490460945,2016,"Cambodia","South-eastern Asia","Asia",15762370,20016747754,0,0,FALSE,139,FALSE,"2:45:55",165.916666666667,9955
+"91","Hem Bunting","M",22,167,63,22.5895514360501,2008,"Cambodia","South-eastern Asia","Asia",13880509,10351914093,0,0,FALSE,73,FALSE,"2:33:32",153.533333333333,9212
+"92","To Rithya","M",32,164,54,20.0773349196907,2000,"Cambodia","South-eastern Asia","Asia",12152354,3654031716,0,0,FALSE,80,FALSE,"3:03:56",183.933333333333,11036
+"93","To Rithya","M",28,164,54,20.0773349196907,1996,"Cambodia","South-eastern Asia","Asia",10980273,3506695720,0,0,FALSE,105,FALSE,"2:47:10",167.166666666667,10030
+"94","Peter Kevin Maher","M",28,195,79,20.77580539119,1988,"Canada","Northern America","Northern America",26895000,5.07354e+11,0,4,FALSE,46,FALSE,"2:24:49",144.816666666667,8689
+"95","Eric Gillis","M",32,172,58,19.6051919956733,2012,"Canada","Northern America","Northern America",34750545,1.82429e+12,0,4,FALSE,22,FALSE,"2:16:00",136,8160
+"96","Bruce William Deacon","M",33,166,56,20.3222528668892,2000,"Canada","Northern America","Northern America",30769700,7.42293e+11,0,4,FALSE,44,FALSE,"2:21:38",141.633333333333,8498
+"97","Reid Coolsaet","M",32,173,62,20.7156938086805,2012,"Canada","Northern America","Northern America",34750545,1.82429e+12,0,4,FALSE,27,FALSE,"2:16:29",136.483333333333,8189
+"98","David ""Dave"" Edge","M",33,170,55,19.0311418685121,1988,"Canada","Northern America","Northern America",26895000,5.07354e+11,0,4,FALSE,67,FALSE,"2:32:19",152.316666666667,9139
+"99","Carey Michael Nelson","M",33,179,64,19.974407790019,1996,"Canada","Northern America","Northern America",29671900,6.28546e+11,0,4,FALSE,35,FALSE,"2:19:39",139.65,8379
+"100","Dylan Wykes","M",29,187,68,19.4457948468644,2012,"Canada","Northern America","Northern America",34750545,1.82429e+12,0,4,FALSE,20,FALSE,"2:15:26",135.433333333333,8126
+"101","Reid Coolsaet","M",37,173,62,20.7156938086805,2016,"Canada","Northern America","Northern America",36286425,1.52976e+12,0,4,FALSE,23,FALSE,"2:14:58",134.966666666667,8098
+"102","Bruce William Deacon","M",29,166,56,20.3222528668892,1996,"Canada","Northern America","Northern America",29671900,6.28546e+11,0,4,FALSE,39,FALSE,"2:19:56",139.933333333333,8396
+"103","Eric Gillis","M",36,172,58,19.6051919956733,2016,"Canada","Northern America","Northern America",36286425,1.52976e+12,0,4,FALSE,10,FALSE,"2:12:29",132.483333333333,7949
+"104","Gordon E. ""Gord"" Dickson","M",28,175,54,17.6326530612245,1960,"Canada","Northern America","Northern America",17909009,41093453545,0,4,FALSE,55,FALSE,"2:38:46.0",158.766666666667,9526
+"105","Wayne Yetman","M",29,172,64,21.6333153055706,1976,"Canada","Northern America","Northern America",23518000,2.06576e+11,0,4,TRUE,36,FALSE,"2:24:17",144.283333333333,8657
+"106","Jerome Drayton","M",31,175,57,18.6122448979592,1976,"Canada","Northern America","Northern America",23518000,2.06576e+11,0,4,TRUE,6,FALSE,"2:13:30",133.5,8010
+"107","Peter Joseph Fonseca","M",29,172,55,18.5911303407247,1996,"Canada","Northern America","Northern America",29671900,6.28546e+11,0,4,FALSE,21,FALSE,"2:17:28",137.466666666667,8248
+"108","Alain Bordeleau","M",27,177,63,20.1091640333238,1984,"Canada","Northern America","Northern America",25702000,3.55373e+11,0,4,FALSE,65,FALSE,"2:34:27",154.45,9267
+"109","Jaime Enrique Ojeda Paredes","M",28,169,56,19.6071566121634,1992,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",13671033,45964327559,0,1,FALSE,62,FALSE,"2:28:39",148.65,8919
+"110","Marcelo Barrientos Cardenas","M",26,173,60,20.0474456213038,1996,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",14497826,78039572222,0,1,FALSE,86,FALSE,"2:31:05",151.083333333333,9065
+"111","Ricardo Vidal","M",34,183,71,21.2009913703007,1964,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",8430838,5982347826,0,1,FALSE,30,FALSE,"2:28:01.6",148.016666666667,8881
+"112","Daniel Estrada Coz","M",26,173,61,20.3815697149921,2016,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",17909754,2.47028e+11,0,1,FALSE,98,FALSE,"2:25:33",145.55,8733
+"113","Juan Silva","M",30,167,58,20.7967298935064,1960,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",7716625,4.11e+09,0,1,FALSE,33,FALSE,"2:31:18",151.3,9078
+"114","Li Zhuhong","M",20,173,60,20.0474456213038,2004,"China","Eastern Asia","Asia",1296075000,1.95535e+12,0,4,FALSE,31,FALSE,"2:19:26",139.433333333333,8366
+"115","Zhu Renxue","M",25,170,50,17.3010380622837,2016,"China","Eastern Asia","Asia",1378665000,1.11991e+13,0,4,FALSE,96,FALSE,"2:25:31",145.516666666667,8731
+"116","Li Zhuhong","M",24,173,60,20.0474456213038,2008,"China","Eastern Asia","Asia",1324655000,4.59821e+12,0,4,TRUE,51,FALSE,"2:24:08",144.133333333333,8648
+"117","Dong Guojian","M",25,170,55,19.0311418685121,2012,"China","Eastern Asia","Asia",1350695000,8.56055e+12,0,4,FALSE,54,FALSE,"2:20:39",140.65,8439
+"118","Zhang Guowei","M",29,168,54,19.1326530612245,1988,"China","Eastern Asia","Asia",1101630000,3.12354e+11,0,4,FALSE,38,FALSE,"2:22:49",142.816666666667,8569
+"119","Duo Bujie","M",22,175,55,17.9591836734694,2016,"China","Eastern Asia","Asia",1378665000,1.11991e+13,0,4,FALSE,91,FALSE,"2:24:22",144.366666666667,8662
+"120","Dong Guojian","M",29,170,55,19.0311418685121,2016,"China","Eastern Asia","Asia",1378665000,1.11991e+13,0,4,FALSE,29,FALSE,"2:15:32",135.533333333333,8132
+"121","Zhu Ronghua","M",30,170,65,22.4913494809689,2004,"China","Eastern Asia","Asia",1296075000,1.95535e+12,0,4,FALSE,76,FALSE,"2:34:02",154.033333333333,9242
+"122","Deng Haiyang","M",23,170,65,22.4913494809689,2008,"China","Eastern Asia","Asia",1324655000,4.59821e+12,0,4,TRUE,25,FALSE,"2:16:17",136.283333333333,8177
+"123","Cai Shangyan","M",25,168,51,18.0697278911565,1988,"China","Eastern Asia","Asia",1101630000,3.12354e+11,0,4,FALSE,26,FALSE,"2:17:54",137.9,8274
+"124","Willy Mwenze Kalombo","M",28,176,63,20.338326446281,1996,"Democratic Republic of the Congo","Sub-Saharan Africa","Africa",42770544,5771454940,0,13,FALSE,16,FALSE,"2:17:01",137.016666666667,8221
+"125","Kaleka Mutoke","M",30,176,65,20.9839876033058,1996,"Democratic Republic of the Congo","Sub-Saharan Africa","Africa",42770544,5771454940,0,13,FALSE,96,FALSE,"2:34:40",154.666666666667,9280
+"126","Kaleka Mutoke","M",22,176,65,20.9839876033058,1988,"Democratic Republic of the Congo","Sub-Saharan Africa","Africa",32444156,8861299977,0,13,FALSE,89,FALSE,"2:55:21",175.35,10521
+"127","Juan Carlos Cardona Rivas","M",38,165,60,22.038567493113,2012,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",46881475,3.6966e+11,0,1,FALSE,83,FALSE,"2:40:13",160.216666666667,9613
+"128","Luis Barbosa","M",27,159,56,22.1510225070211,1980,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",27737900,33400735644,0,1,FALSE,34,FALSE,"2:22:58",142.966666666667,8578
+"129","Juan Carlos Cardona Rivas","M",34,165,60,22.038567493113,2008,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",44901544,2.43982e+11,0,1,FALSE,43,FALSE,"2:21:57",141.95,8517
+"130","Juan Carlos Cardona Rivas","M",30,165,60,22.038567493113,2004,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",42724163,1.17075e+11,0,1,FALSE,51,FALSE,"2:22:49",142.816666666667,8569
+"131","Pedro Elias Ortiz","M",32,169,63,22.0580511886839,1988,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",32975535,39212550050,0,1,FALSE,39,FALSE,"2:23:34",143.566666666667,8614
+"132","Domingo Tibaduiza Reyes","M",29,169,54,18.9069010188719,1980,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",27737900,33400735644,0,1,FALSE,17,FALSE,"2:17:06",137.1,8226
+"133","Jos Alirio Carrasco Lemus","M",28,170,57,19.7231833910035,2004,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",42724163,1.17075e+11,0,1,FALSE,43,FALSE,"2:21:14",141.233333333333,8474
+"134","Jairo Cubillos Ramrez","M",21,168,64,22.6757369614512,1976,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",25323406,15341403660,0,1,FALSE,48,FALSE,"2:29:04",149.066666666667,8944
+"135","Diego Alberto Colorado Agudelo","M",42,171,57,19.4931773879142,2016,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",48653419,2.82463e+11,0,1,FALSE,125,FALSE,"2:31:20",151.333333333333,9080
+"136","Carlos Mario Grisales","M",29,159,57,22.5465764803607,1996,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",38049038,97160109278,0,1,FALSE,11,FALSE,"2:15:56",135.933333333333,8156
+"137","Antnio Carlos Zeferino Pia","M",34,183,65,19.4093582967542,2000,"Cape Verde","Sub-Saharan Africa","Africa",435079,539227278,0,13,FALSE,67,FALSE,"2:29:46",149.766666666667,8986
+"138","Antnio Carlos Zeferino Pia","M",30,183,65,19.4093582967542,1996,"Cape Verde","Sub-Saharan Africa","Africa",398773,501979069,0,13,FALSE,94,FALSE,"2:34:13",154.216666666667,9253
+"139","Nelson da Cruz","M",30,181,70,21.3668691431885,2008,"Cape Verde","Sub-Saharan Africa","Africa",491723,1789333749,0,13,FALSE,48,FALSE,"2:23:47",143.783333333333,8627
+"140","Antnio Carlos Zeferino Pia","M",38,183,65,19.4093582967542,2004,"Cape Verde","Sub-Saharan Africa","Africa",467664,924318491,0,13,FALSE,78,FALSE,"2:36:22",156.366666666667,9382
+"141","Ronald Alfredo ""Ronaldo"" Lanzoni Campos","M",29,182,73,22.0384011592803,1988,"Costa Rica","Latin America and the Caribbean","Latin America and the Caribbean",2944557,6063759371,0,1,FALSE,40,FALSE,"2:23:45",143.75,8625
+"142","Jos Luis Molina Nez","M",31,172,62,20.9572742022715,1996,"Costa Rica","Latin America and the Caribbean","Latin America and the Caribbean",3596732,11618286553,0,1,FALSE,24,FALSE,"2:17:49",137.816666666667,8269
+"143","Jos Luis Molina Nez","M",35,172,62,20.9572742022715,2000,"Costa Rica","Latin America and the Caribbean","Latin America and the Caribbean",3925443,14949514585,0,1,FALSE,39,FALSE,"2:20:37",140.616666666667,8437
+"144","Aguelmis Rojas de Armas","M",25,182,75,22.6421929718633,2004,"Cuba","Latin America and the Caribbean","Latin America and the Caribbean",11266941,3.8203e+10,0,1,FALSE,47,FALSE,"2:21:59",141.983333333333,8519
+"145","Rigoberto Mendoza Prez","M",30,170,59,20.4152249134948,1976,"Cuba","Latin America and the Caribbean","Latin America and the Caribbean",9544271,13789579903,0,1,FALSE,33,FALSE,"2:22:43",142.716666666667,8563
+"146","Marios Kassianidis","M",29,175,66,21.5510204081633,1984,"Cyprus","Western Asia","Asia",697717,2278248953,0,0,FALSE,62,FALSE,"2:32:51",152.85,9171
+"147","Jan Kreisinger","M",27,186,70,20.2335530119089,2012,"Czech Republic","Eastern Europe","Europe",10510785,2.07376e+11,0,0,FALSE,67,FALSE,"2:25:03",145.05,8703
+"148","Jesper Lind Skak Faurschou","M",29,183,63,18.8121472722386,2012,"Denmark","Northern Europe","Europe",5591572,3.27149e+11,0,2,FALSE,41,FALSE,"2:18:44",138.733333333333,8324
+"149","Johannes Lauridsen","M",29,173,61,20.3815697149921,1960,"Denmark","Northern Europe","Europe",4579603,6248946880,0,2,FALSE,41,FALSE,"2:32:32",152.533333333333,9152
+"150","Abdi Hakin Achkel Ulad","M",25,175,57,18.6122448979592,2016,"Denmark","Northern Europe","Europe",5731118,3.069e+11,0,2,FALSE,35,FALSE,"2:17:06",137.1,8226
+"151","Georg Bruno Meyer Olsen","M",31,179,67,20.9107081551762,1968,"Denmark","Northern Europe","Europe",4864883,13196541952,0,2,FALSE,34,FALSE,"2:42:24",162.4,9744
+"152","Ahmed Salah Houssein","M",35,180,64,19.7530864197531,1992,"Djibouti","Sub-Saharan Africa","Africa",615054,478058305,1,13,FALSE,30,FALSE,"2:19:04",139.066666666667,8344
+"153","Ahmed Salah Houssein","M",39,180,64,19.7530864197531,1996,"Djibouti","Sub-Saharan Africa","Africa",643682,494004648,1,13,FALSE,42,FALSE,"2:20:33",140.55,8433
+"154","Omar Moussa Bouh","M",27,163,53,19.9480597689036,1988,"Djibouti","Sub-Saharan Africa","Africa",528999,395794539,1,13,FALSE,49,FALSE,"2:25:25",145.416666666667,8725
+"155","Ahmed Salah Houssein","M",31,180,64,19.7530864197531,1988,"Djibouti","Sub-Saharan Africa","Africa",528999,395794539,1,13,FALSE,3,TRUE,"2:10:59",130.983333333333,7859
+"156","Rolando Patricio Vera Rodas","M",31,155,47,19.5629552549428,1996,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",11683479,25226393197,0,1,FALSE,22,FALSE,"2:17:40",137.666666666667,8260
+"157","Silvio Ramn Guerra Burbano","M",35,165,57,20.9366391184573,2004,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",13509647,36591661000,0,1,FALSE,61,FALSE,"2:25:29",145.483333333333,8729
+"158","Miguel ngel Almachi Condo","M",31,165,55,20.2020202020202,2016,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",16385068,98613972000,0,1,FALSE,85,FALSE,"2:23:00",143,8580
+"159","Miguel ngel Almachi Condo","M",27,165,55,20.2020202020202,2012,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",15419666,87924544000,0,1,FALSE,50,FALSE,"2:19:53",139.883333333333,8393
+"160","Franklin Bolvar Tenorio Ramn","M",35,169,60,21.0076677987465,2004,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",13509647,36591661000,0,1,FALSE,71,FALSE,"2:31:12",151.2,9072
+"161","Franklin Bolvar Tenorio Ramn","M",39,169,60,21.0076677987465,2008,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",14447562,61762635000,0,1,FALSE,65,FALSE,"2:29:05",149.083333333333,8945
+"162","Segundo Oswaldo Jami Jami","M",30,165,54,19.8347107438017,2016,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",16385068,98613972000,0,1,FALSE,124,FALSE,"2:31:07",151.116666666667,9067
+"163","Rolando Patricio Vera Rodas","M",27,155,47,19.5629552549428,1992,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",10705667,18094238119,0,1,FALSE,43,FALSE,"2:21:30",141.5,8490
+"164","Silvio Ramn Guerra Burbano","M",31,165,57,20.9366391184573,2000,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",12628596,18327764882,0,1,FALSE,14,FALSE,"2:16:27",136.45,8187
+"165","Ahmed Abdel Mougod Soliman","M",29,186,75,21.6788067984738,2000,"Egypt","Northern Africa","Africa",69905988,99838543960,0,2,FALSE,47,FALSE,"2:22:47",142.783333333333,8567
+"166","Miguel Navarro Palos","M",30,170,62,21.4532871972318,1960,"Spain","Southern Europe","Europe",30455000,12072126075,0,3,FALSE,17,FALSE,"2:26:38",146.633333333333,8798
+"167","Carles Castillejo Salvador","M",33,165,61,22.4058769513315,2012,"Spain","Southern Europe","Europe",46773055,1.33602e+12,0,3,FALSE,24,FALSE,"2:26:33",146.55,8793
+"168","Carles Castillejo Salvador","M",37,165,61,22.4058769513315,2016,"Spain","Southern Europe","Europe",46443959,1.23726e+12,0,3,FALSE,49,FALSE,"2:18:34",138.566666666667,8314
+"169","Rodrigo Gavela Rodrguez","M",26,173,60,20.0474456213038,1992,"Spain","Southern Europe","Europe",39157685,6.29202e+11,0,3,TRUE,18,FALSE,"2:16:23",136.383333333333,8183
+"170","Alberto Juzdado Lpez","M",29,172,61,20.619253650622,1996,"Spain","Southern Europe","Europe",39889852,6.40998e+11,0,3,FALSE,18,FALSE,"2:17:24",137.4,8244
+"171","Alberto Juzdado Lpez","M",34,172,61,20.619253650622,2000,"Spain","Southern Europe","Europe",40567864,5.95403e+11,0,3,FALSE,42,FALSE,"2:21:18",141.3,8478
+"172","Julio Rey de Paz","M",32,166,54,19.5964581216432,2004,"Spain","Southern Europe","Europe",42921895,1.06956e+12,0,3,FALSE,58,FALSE,"2:21:06",141.1,8466
+"173","Pavel Loskutov","M",38,178,62,19.5682363337962,2008,"Estonia","Northern Europe","Europe",1337090,24194039256,0,2,FALSE,75,FALSE,"2:39:01",159.016666666667,9541
+"174","Pavel Loskutov","M",34,178,62,19.5682363337962,2004,"Estonia","Northern Europe","Europe",1362550,12059201242,0,2,FALSE,26,FALSE,"2:18:09",138.15,8289
+"175","Pavel Loskutov","M",30,178,62,19.5682363337962,2000,"Estonia","Northern Europe","Europe",1396985,5685774809,0,2,FALSE,35,FALSE,"2:19:41",139.683333333333,8381
+"176","Pavel Loskutov","M",26,178,62,19.5682363337962,1996,"Estonia","Northern Europe","Europe",1415594,4746109767,0,2,FALSE,58,FALSE,"2:23:14",143.233333333333,8594
+"177","Roman Fosti","M",33,181,70,21.3668691431885,2016,"Estonia","Northern Europe","Europe",1316481,23337907619,0,2,FALSE,61,FALSE,"2:31:20",151.333333333333,9080
+"178","Tiidrek Nurme","M",30,184,70,20.6758034026465,2016,"Estonia","Northern Europe","Europe",1316481,23337907619,0,2,FALSE,63,FALSE,"2:20:01",140.016666666667,8401
+"179","Gezahgne Abera","M",22,166,58,21.0480476121353,2000,"Ethiopia","Sub-Saharan Africa","Africa",66537331,8242392104,3,13,FALSE,1,TRUE,"2:10:11",130.183333333333,7811
+"180","Tereje Wodajo","M",22,157,53,21.5018864862672,2004,"Ethiopia","Sub-Saharan Africa","Africa",74624405,10131187261,3,13,FALSE,46,FALSE,"2:21:53",141.883333333333,8513
+"181","Deriba Merga Ejigu","M",25,169,53,18.5567732222261,2008,"Ethiopia","Sub-Saharan Africa","Africa",83184892,27066912635,3,13,FALSE,4,FALSE,"2:10:21",130.35,7821
+"182","Feyisa Lilesa","M",26,175,67,21.8775510204082,2016,"Ethiopia","Sub-Saharan Africa","Africa",102403196,72374224249,3,13,FALSE,2,TRUE,"2:09:54",129.9,7794
+"183","Abebe Mekonnen","M",32,167,62,22.2309871275413,1996,"Ethiopia","Sub-Saharan Africa","Africa",59155148,8547939731,3,13,FALSE,81,FALSE,"2:29:45",149.75,8985
+"184","Tesfaye Tola","M",25,167,60,21.5138585105239,2000,"Ethiopia","Sub-Saharan Africa","Africa",66537331,8242392104,3,13,FALSE,3,TRUE,"2:11:10",131.166666666667,7870
+"185","Gashaw Asfaw Melese","M",29,168,51,18.0697278911565,2008,"Ethiopia","Sub-Saharan Africa","Africa",83184892,27066912635,3,13,FALSE,7,FALSE,"2:10:52",130.866666666667,7852
+"186","Simretu Alemayehu","M",29,182,68,20.5289216278227,2000,"Ethiopia","Sub-Saharan Africa","Africa",66537331,8242392104,3,13,FALSE,22,FALSE,"2:17:21",137.35,8241
+"187","Ambesse Tolosa","M",26,168,56,19.8412698412698,2004,"Ethiopia","Sub-Saharan Africa","Africa",74624405,10131187261,3,13,FALSE,15,FALSE,"2:15:39",135.65,8139
+"188","Lemi Berhanu Hayle","M",21,168,53,18.7783446712018,2016,"Ethiopia","Sub-Saharan Africa","Africa",102403196,72374224249,3,13,FALSE,13,FALSE,"2:13:29",133.483333333333,8009
+"189","Bineshwar ""Binesh"" Prasad","M",25,167,56,20.0796012764889,1988,"Fiji","Melanesia","Oceania",722917,1109976928,0,0,FALSE,76,FALSE,"2:41:50",161.833333333333,9710
+"190","Jukka Olavi Toivola","M",26,176,60,19.3698347107438,1976,"Finland","Northern Europe","Europe",4725664,31873171719,0,2,FALSE,27,FALSE,"2:24:16",144.266666666667,8656
+"191","Eino Olavi Valle","M",32,171,62,21.2031052289593,1964,"Finland","Northern Europe","Europe",4548543,7766655086,0,2,FALSE,28,FALSE,"2:27:00",147,8820
+"192","Pertti Pellervo Tiainen","M",29,173,58,19.379197433927,1984,"Finland","Northern Europe","Europe",4881803,52926394935,0,2,FALSE,27,FALSE,"2:28:55",148.916666666667,8935
+"193","Francis Chepsiror Kirwa","M",33,181,60,18.3144592655902,2008,"Finland","Northern Europe","Europe",5313399,2.83742e+11,0,2,FALSE,17,FALSE,"2:14:22",134.366666666667,8062
+"194","Eino Ilmari Oksanen","M",29,172,64,21.6333153055706,1960,"Finland","Northern Europe","Europe",4429634,5224102196,0,2,FALSE,24,FALSE,"2:26:38",146.633333333333,8798
+"195","Olavi Adrian Manninen","M",32,174,60,19.8176773682124,1960,"Finland","Northern Europe","Europe",4429634,5224102196,0,2,FALSE,23,FALSE,"2:26:33",146.55,8793
+"196","Paavo Kalervo Pystynen","M",32,170,63,21.7993079584775,1964,"Finland","Northern Europe","Europe",4548543,7766655086,0,2,FALSE,20,FALSE,"2:26:00.6",146,8760
+"197","Reino Ensio Paukkonen","M",26,170,54,18.6851211072664,1972,"Finland","Northern Europe","Europe",4639657,14754136507,0,2,FALSE,19,FALSE,"2:21:06",141.1,8466
+"198","Antti Viskari","M",32,171,61,20.8611196607503,1960,"Finland","Northern Europe","Europe",4429634,5224102196,0,2,FALSE,53,FALSE,"2:38:06.0",158.1,9486
+"199","Seppo Olavi Nikkari","M",24,192,69,18.7174479166667,1972,"Finland","Northern Europe","Europe",4639657,14754136507,0,2,FALSE,11,FALSE,"2:18:49",138.816666666667,8329
+"200","Jussi Pekka Utriainen","M",33,175,57,18.6122448979592,2012,"Finland","Northern Europe","Europe",5413971,2.56706e+11,0,2,FALSE,69,FALSE,"2:26:25",146.416666666667,8785
+"201","Eino Ilmari Oksanen","M",33,172,64,21.6333153055706,1964,"Finland","Northern Europe","Europe",4548543,7766655086,0,2,FALSE,13,FALSE,"2:22:36.0",142.6,8556
+"202","Jacques ""Jacky"" Boxberger","M",35,183,70,20.9023858580429,1984,"France","Western Europe","Europe",56470769,5.32649e+11,0,4,FALSE,42,FALSE,"2:22:00",142,8520
+"203","Fernand Kolbeck","M",27,175,64,20.8979591836735,1972,"France","Western Europe","Europe",52959228,2.04283e+11,0,4,FALSE,28,FALSE,"2:23:01",143.016666666667,8581
+"204","Alexandre ""Alex"" Gonzalez","M",37,183,71,21.2009913703007,1988,"France","Western Europe","Europe",57836486,1.0235e+12,0,4,FALSE,37,FALSE,"2:22:24",142.4,8544
+"205","El Hassan Lahssini","M",29,177,64,20.4283571132178,2004,"France","Western Europe","Europe",62704897,2.12411e+12,0,4,FALSE,36,FALSE,"2:19:50",139.833333333333,8390
+"206","Driss El Himer","M",30,178,58,18.3057694735513,2004,"France","Western Europe","Europe",62704897,2.12411e+12,0,4,FALSE,68,FALSE,"2:29:07",149.116666666667,8947
+"207","Mohamed Ouaadi","M",31,172,57,19.2671714440238,2000,"France","Western Europe","Europe",60912498,1.36844e+12,0,4,FALSE,8,FALSE,"2:14:04",134.066666666667,8044
+"208","Alain Lazare","M",32,169,53,18.5567732222261,1984,"France","Western Europe","Europe",56470769,5.32649e+11,0,4,FALSE,28,FALSE,"2:17:52",137.866666666667,8272
+"209","Simon Munyutu","M",30,172,58,19.6051919956733,2008,"France","Western Europe","Europe",64374990,2.92347e+12,0,4,FALSE,57,FALSE,"2:25:50",145.833333333333,8750
+"210","Fernand Kolbeck","M",31,175,64,20.8979591836735,1976,"France","Western Europe","Europe",54541493,3.7341e+11,0,4,FALSE,34,FALSE,"2:22:56",142.933333333333,8576
+"211","Luis Soares","M",28,172,59,19.9432125473229,1992,"France","Western Europe","Europe",58851216,1.40872e+12,0,4,FALSE,45,FALSE,"2:21:57",141.95,8517
+"212","Alain (Ali-) Mimoun Ould Kacha","M",39,170,56,19.3771626297578,1960,"France","Western Europe","Europe",46814237,62651474947,0,4,FALSE,34,FALSE,"2:31:20",151.333333333333,9080
+"213","Pascal Zilliox","M",30,175,56,18.2857142857143,1992,"France","Western Europe","Europe",58851216,1.40872e+12,0,4,FALSE,64,FALSE,"2:30:02",150.033333333333,9002
+"214","Ralf Salzmann","M",29,172,58,19.6051919956733,1984,"Germany","Western Europe","Europe",77858685,7.22368e+11,2,4,FALSE,18,FALSE,"2:15:29",135.483333333333,8129
+"215","Paul Angenvoorth","M",27,178,64,20.1994697639187,1972,"Germany","Western Europe","Europe",78688452,2.98667e+11,2,4,TRUE,16,FALSE,"2:32:13",152.216666666667,9133
+"216","Ralf Salzmann","M",33,172,58,19.6051919956733,1988,"Germany","Western Europe","Europe",78144619,1.39593e+12,2,4,FALSE,23,FALSE,"2:16:54",136.9,8214
+"217","Lutz Philipp","M",31,178,69,21.7775533392248,1972,"Germany","Western Europe","Europe",78688452,2.98667e+11,2,4,TRUE,32,FALSE,"2:24:25",144.416666666667,8665
+"218","Manfred Steffny","M",31,176,54,17.4328512396694,1972,"Germany","Western Europe","Europe",78688452,2.98667e+11,2,4,TRUE,31,FALSE,"2:24:25",144.416666666667,8665
+"219","Elias Rodriguez","M",36,165,62,22.77318640955,2000,"Micronesia","Micronesia","Oceania",107432,233226300,0,0,FALSE,81,FALSE,"3:09:14",189.233333333333,11354
+"220","Mark Steinle","M",25,183,63,18.8121472722386,2000,"UK","Northern Europe","Europe",58892514,1.64795e+12,1,2,FALSE,56,FALSE,"2:24:42",144.7,8682
+"221","Robin Evan Hugh Jones","M",28,180,64,19.7530864197531,1984,"UK","Northern Europe","Europe",56422072,4.61487e+11,1,2,FALSE,12,FALSE,"2:13:57",133.95,8037
+"222","Derek Hawkins","M",27,180,68,20.9876543209877,2016,"UK","Northern Europe","Europe",65637239,2.6479e+12,1,2,FALSE,114,FALSE,"2:29:24",149.4,8964
+"223","Callum Hawkins","M",24,179,62,19.3502075465809,2016,"UK","Northern Europe","Europe",65637239,2.6479e+12,1,2,FALSE,9,FALSE,"2:11:52",131.866666666667,7912
+"224","Peter Kenneth Whitehead","M",31,173,62,20.7156938086805,1996,"UK","Northern Europe","Europe",58166950,1.40878e+12,1,2,FALSE,55,FALSE,"2:22:37",142.616666666667,8557
+"225","Arthur Patrick Keily","M",39,165,56,20.5693296602388,1960,"UK","Northern Europe","Europe",52400000,72328047042,1,2,FALSE,25,FALSE,"2:27:00",147,8820
+"226","Brian Leonard Kilby","M",22,170,57,19.7231833910035,1960,"UK","Northern Europe","Europe",52400000,72328047042,1,2,FALSE,29,FALSE,"2:28:55",148.916666666667,8935
+"227","Denis ""Sonny"" O'Gorman","M",32,160,54,21.09375,1960,"UK","Northern Europe","Europe",52400000,72328047042,1,2,FALSE,16,FALSE,"2:24:16",144.266666666667,8656
+"228","Brian Leonard Kilby","M",26,170,57,19.7231833910035,1964,"UK","Northern Europe","Europe",5.4e+07,93387598814,1,2,FALSE,4,FALSE,"2:17:02.4",137.033333333333,8222
+"229","Benjamin Basil Heatley","M",30,173,66,22.0521901834341,1964,"UK","Northern Europe","Europe",5.4e+07,93387598814,1,2,FALSE,2,TRUE,"2:16:19.2",136.316666666667,8179
+"230","Timothy Frederick Kemball ""Tim"" Johnston","M",27,175,61,19.9183673469388,1968,"UK","Northern Europe","Europe",55211700,1.04703e+11,1,2,FALSE,8,FALSE,"2:28:04",148.066666666667,8884
+"231","William Arthur ""Bill"" Adcocks","M",26,168,55,19.4869614512472,1968,"UK","Northern Europe","Europe",55211700,1.04703e+11,1,2,FALSE,5,FALSE,"2:25:33",145.55,8733
+"232","Colin Kirkham","M",27,179,61,19.0381074248619,1972,"UK","Northern Europe","Europe",56086065,1.69965e+11,1,2,FALSE,20,FALSE,"2:21:54",141.9,8514
+"233","Keith Angus","M",33,170,59,20.4152249134948,1976,"UK","Northern Europe","Europe",56211968,2.32615e+11,1,2,FALSE,31,FALSE,"2:22:18",142.3,8538
+"234","George Jeffrey ""Jeff"" Norman","M",31,173,59,19.7133215276154,1976,"UK","Northern Europe","Europe",56211968,2.32615e+11,1,2,FALSE,26,FALSE,"2:20:04",140.066666666667,8404
+"235","Scott Ashley Overall","M",29,181,62,18.9249412411099,2012,"UK","Northern Europe","Europe",63700300,2.66209e+12,1,2,TRUE,61,FALSE,"2:22:37",142.616666666667,8557
+"236","Paul R. Davies-Hale","M",30,176,60,19.3698347107438,1992,"UK","Northern Europe","Europe",57580402,1.17966e+12,1,2,FALSE,41,FALSE,"2:21:15",141.25,8475
+"237","Lee Matthew Merrien","M",33,182,61,18.4156502837821,2012,"UK","Northern Europe","Europe",63700300,2.66209e+12,1,2,TRUE,30,FALSE,"2:17:00",137,8220
+"238","Matthew ""Matt"" O'Dowd","M",28,173,60,20.0474456213038,2004,"UK","Northern Europe","Europe",59987905,2.39856e+12,1,2,FALSE,50,FALSE,"2:22:37",142.616666666667,8557
+"239","Kevin John Forster","M",29,178,61,19.252619618735,1988,"UK","Northern Europe","Europe",56928327,9.10123e+11,1,2,FALSE,33,FALSE,"2:20:45",140.75,8445
+"240","Keith John Cullen","M",28,177,61,19.4707778735357,2000,"UK","Northern Europe","Europe",58892514,1.64795e+12,1,2,FALSE,19,FALSE,"2:16:59",136.983333333333,8219
+"241","Richard David Nerurkar","M",32,178,64,20.1994697639187,1996,"UK","Northern Europe","Europe",58166950,1.40878e+12,1,2,FALSE,5,FALSE,"2:13:39",133.65,8019
+"242","Hannes Waldemar Cierpinski","M",25,170,59,20.4152249134948,1976,"Germany","Western Europe","Europe",78336950,5.17788e+11,2,4,FALSE,1,TRUE,"2:09:55",129.916666666667,7795
+"243","Eckhard Lesse","M",23,179,62,19.3502075465809,1972,"Germany","Western Europe","Europe",78688452,2.98667e+11,2,4,TRUE,25,FALSE,"2:31:54",151.9,9114
+"244","Daviti Kharazishvili","M",24,171,68,23.2550186382135,2016,"Georgia","Western Asia","Asia",3719300,14378016729,0,0,FALSE,72,FALSE,"2:31:32",151.533333333333,9092
+"245","Michael Fietz","M",32,181,65,19.8406642043894,2000,"Germany","Western Europe","Europe",82211508,1.94995e+12,2,4,FALSE,37,FALSE,"2:20:09",140.15,8409
+"246","Stephan Timo Freigang","M",24,177,64,20.4283571132178,1992,"Germany","Western Europe","Europe",80624598,2.12313e+12,2,4,FALSE,3,TRUE,"2:14:00",134,8040
+"247","Philipp Pflieger","M",29,188,70,19.8053417836125,2016,"Germany","Western Europe","Europe",82667685,3.4778e+12,2,4,FALSE,55,FALSE,"2:18:56",138.933333333333,8336
+"248","Konrad Waldemar Dobler","M",35,178,63,19.8838530488575,1992,"Germany","Western Europe","Europe",80624598,2.12313e+12,2,4,FALSE,49,FALSE,"2:23:44",143.733333333333,8624
+"249","Konrad Waldemar Dobler","M",39,178,63,19.8838530488575,1996,"Germany","Western Europe","Europe",81914831,2.50367e+12,2,4,FALSE,48,FALSE,"2:21:12",141.2,8472
+"250","Lothar Carsten Eich","M",30,190,65,18.005540166205,2000,"Germany","Western Europe","Europe",82211508,1.94995e+12,2,4,FALSE,54,FALSE,"2:24:11",144.183333333333,8651
+"251","Nikolaos ""Nikos"" Polias","M",33,183,69,20.6037803457852,2004,"Greece","Southern Europe","Europe",10955141,2.40521e+11,0,3,TRUE,24,FALSE,"2:17:56",137.933333333333,8276
+"252","Spyridon ""Spyros"" Andriopoulos","M",33,176,62,20.0154958677686,1996,"Greece","Southern Europe","Europe",10608800,1.45862e+11,0,3,FALSE,36,FALSE,"2:19:41",139.683333333333,8381
+"253","Carlos Octavio Cuque Lpez","M",22,160,50,19.53125,1968,"Guatemala","Latin America and the Caribbean","Latin America and the Caribbean",5311615,1610500000,0,1,FALSE,39,FALSE,"2:45:20",165.333333333333,9920
+"254","Julio Faustino Quevedo Elias","M",32,175,55,17.9591836734694,1972,"Guatemala","Latin America and the Caribbean","Latin America and the Caribbean",5941567,2101300000,0,1,FALSE,54,FALSE,"2:40:38",160.633333333333,9638
+"255","Carlos Octavio Cuque Lpez","M",26,160,50,19.53125,1972,"Guatemala","Latin America and the Caribbean","Latin America and the Caribbean",5941567,2101300000,0,1,FALSE,43,FALSE,"2:28:37",148.616666666667,8917
+"256","Juan Carlos Trujillo","M",31,175,58,18.9387755102041,2016,"Guatemala","Latin America and the Caribbean","Latin America and the Caribbean",16582469,68763255964,0,1,FALSE,67,FALSE,"2:20:24",140.4,8424
+"257","Harry Prowell","M",32,175,56,18.2857142857143,1968,"Guyana","Latin America and the Caribbean","Latin America and the Caribbean",686146,229750000,0,1,FALSE,50,FALSE,"2:57:01",177.016666666667,10621
+"258","Luis Antonio Raudales","M",20,171,56,19.1511918197052,1976,"Honduras","Latin America and the Caribbean","Latin America and the Caribbean",3251158,1347999950,0,1,FALSE,49,FALSE,"2:29:25",149.416666666667,8965
+"259","Gyula Borka","M",33,174,57,18.8267934998018,1992,"Hungary","Eastern Europe","Europe",10369341,38724945368,0,0,FALSE,38,FALSE,"2:20:46",140.766666666667,8446
+"260","Ethel Hudson","M",26,158,55,22.0317256849864,1996,"Indonesia","South-eastern Asia","Asia",199914831,2.42086e+11,0,0,FALSE,72,FALSE,"2:26:02",146.033333333333,8762
+"261","Kheta Ram","M",29,169,53,18.5567732222261,2016,"India","Southern Asia","Asia",1324171354,2.26379e+12,0,0,FALSE,26,FALSE,"2:15:26 ",135.433333333333,8126
+"262","Hari Chand","M",27,172,63,21.295294753921,1980,"India","Southern Asia","Asia",696783517,1.8384e+11,0,0,FALSE,31,FALSE,"2:22:08",142.133333333333,8528
+"263","Randhawa Ranjit Bhatia","M",24,180,63,19.4444444444444,1960,"India","Southern Asia","Asia",449480608,36535925030,0,0,FALSE,60,FALSE,"2:57:06.0",177.1,10626
+"264","Shivnath Singh","M",30,168,57,20.1955782312925,1976,"India","Southern Asia","Asia",635771734,1.01347e+11,0,0,FALSE,11,FALSE,"2:16:22",136.366666666667,8182
+"265","Nitendra Singh Rawat","M",29,172,58,19.6051919956733,2016,"India","Southern Asia","Asia",1324171354,2.26379e+12,0,0,FALSE,84,FALSE,"2:22:52",142.866666666667,8572
+"266","Lal Chand Nil","M",32,177,62,19.7899709534297,1960,"India","Southern Asia","Asia",449480608,36535925030,0,0,FALSE,40,FALSE,"2:32:13",152.216666666667,9133
+"267","Harbans Lal","M",26,171,63,21.5450907971684,1964,"India","Southern Asia","Asia",487484535,55726873076,0,0,FALSE,43,FALSE,"2:37:05.8",157.083333333333,9425
+"268","Balkrishan Akotkar","M",27,171,57,19.4931773879142,1964,"India","Southern Asia","Asia",487484535,55726873076,0,0,FALSE,33,FALSE,"2:29:27.4",149.45,8967
+"269","Jagmal Singh Ragho","M",37,173,53,17.708576965485,1960,"India","Southern Asia","Asia",449480608,36535925030,0,0,FALSE,45,FALSE,"2:35:01.0",155.016666666667,9301
+"270","Daniel ""Dan"" McDaid","M",31,180,61,18.8271604938272,1972,"Ireland","Northern Europe","Europe",3036850,6325627655,1,2,FALSE,23,FALSE,"2:22:25",142.416666666667,8545
+"271","John Treacy","M",35,175,59,19.265306122449,1992,"Ireland","Northern Europe","Europe",3558430,55985505159,1,2,FALSE,51,FALSE,"2:24:11",144.183333333333,8651
+"272","Neil Cusack","M",24,174,65,21.4691504822301,1976,"Ireland","Northern Europe","Europe",3238050,9465078121,1,2,FALSE,55,FALSE,"2:35:47",155.783333333333,9347
+"273","Paul Pollock","M",30,177,57,18.1940055539596,2016,"Ireland","Northern Europe","Europe",4773095,3.04819e+11,1,2,FALSE,32,FALSE,"2:16:24",136.4,8184
+"274","John Frances Woods","M",32,170,60,20.7612456747405,1988,"Ireland","Northern Europe","Europe",3524949,37818133413,1,2,FALSE,52,FALSE,"2:25:38",145.633333333333,8738
+"275","Kevin Seaward","M",32,175,59,19.265306122449,2016,"Ireland","Northern Europe","Europe",4773095,3.04819e+11,1,2,FALSE,64,FALSE,"2:20:06",140.1,8406
+"276","Daniel ""Dan"" McDaid","M",34,180,61,18.8271604938272,1976,"Ireland","Northern Europe","Europe",3238050,9465078121,1,2,FALSE,42,FALSE,"2:27:07",147.116666666667,8827
+"277","Desmond ""Des"" McGann","M",27,173,55,18.3768251528618,1972,"Ireland","Northern Europe","Europe",3036850,6325627655,1,2,FALSE,42,FALSE,"2:28:31",148.516666666667,8911
+"278","Mark Kenneally","M",31,192,76,20.6163194444444,2012,"Ireland","Northern Europe","Europe",4586897,2.25572e+11,1,2,FALSE,57,FALSE,"2:21:13",141.216666666667,8473
+"279","John Treacy","M",27,175,59,19.265306122449,1984,"Ireland","Northern Europe","Europe",3532423,20130728274,1,2,FALSE,2,TRUE,"2:29:45",149.75,8985
+"280","James ""Jim"" McNamara","M",37,180,64,19.7530864197531,1976,"Ireland","Northern Europe","Europe",3238050,9465078121,1,2,FALSE,39,FALSE,"2:24:57",144.95,8697
+"281","Donald ""Donie"" Walsh","M",24,174,57,18.8267934998018,1972,"Ireland","Northern Europe","Europe",3036850,6325627655,1,2,FALSE,47,FALSE,"2:29:40",149.666666666667,8980
+"282","Ageze Guadie","M",26,175,56,18.2857142857143,2016,"Israel","Western Asia","Asia",8547100,3.17745e+11,0,0,FALSE,122,FALSE,"2:30:45",150.75,9045
+"283","Asaf Bimro","M",35,165,52,19.1000918273646,2004,"Israel","Western Asia","Asia",6809000,1.35445e+11,0,0,FALSE,59,FALSE,"2:25:20",145.333333333333,8720
+"284","Zohar Zemiro","M",35,171,57,19.4931773879142,2012,"Israel","Western Asia","Asia",7910500,2.57297e+11,0,0,FALSE,81,FALSE,"2:34:59",154.983333333333,9299
+"285","Haile (Ayele) Satayin (Seteng, Setegne)","M",42,169,54,18.9069010188719,2004,"Israel","Western Asia","Asia",6809000,1.35445e+11,0,0,FALSE,20,FALSE,"2:17:25",137.416666666667,8245
+"286","Tasama Moogas","M",28,165,52,19.1000918273646,2016,"Israel","Western Asia","Asia",8547100,3.17745e+11,0,0,FALSE,121,FALSE,"2:30:30",150.5,9030
+"287","Ruggero Pertile","M",41,165,55,20.2020202020202,2016,"Italy","Southern Europe","Europe",60600590,1.85891e+12,2,3,FALSE,38,FALSE,"2:17:30",137.5,8250
+"288","Ruggero Pertile","M",33,165,55,20.2020202020202,2008,"Italy","Southern Europe","Europe",58826731,2.39073e+12,2,3,FALSE,15,FALSE,"2:13:39",133.65,8019
+"289","Davide Milesi","M",31,178,61,19.252619618735,1996,"Italy","Southern Europe","Europe",56860281,1.30893e+12,2,3,FALSE,50,FALSE,"2:21:45",141.75,8505
+"290","Francesco Perrone","M",29,170,64,22.1453287197232,1960,"Italy","Southern Europe","Europe",50199700,40385288344,2,3,TRUE,37,FALSE,"2:31:32",151.533333333333,9092
+"291","Salvatore Bettiol","M",30,178,57,17.9901527584901,1992,"Italy","Southern Europe","Europe",56797087,1.31581e+12,2,3,FALSE,5,FALSE,"2:14:15",134.25,8055
+"292","Alessio Faustini","M",32,168,48,17.0068027210884,1992,"Italy","Southern Europe","Europe",56797087,1.31581e+12,2,3,FALSE,44,FALSE,"2:21:37",141.616666666667,8497
+"293","Stefano Baldini","M",37,176,62,20.0154958677686,2008,"Italy","Southern Europe","Europe",58826731,2.39073e+12,2,3,FALSE,12,FALSE,"2:13:25",133.416666666667,8005
+"294","Antonio ""Antonino"" Ambu","M",28,165,55,20.2020202020202,1964,"Italy","Southern Europe","Europe",51675350,63175417019,2,3,FALSE,40,FALSE,"2:34:37.6",154.616666666667,9277
+"295","Antonio Brutti","M",27,169,59,20.6575400021008,1972,"Italy","Southern Europe","Europe",54381345,1.44781e+11,2,3,FALSE,21,FALSE,"2:22:12",142.2,8532
+"296","Franco De Menego","M",27,180,70,21.6049382716049,1972,"Italy","Southern Europe","Europe",54381345,1.44781e+11,2,3,FALSE,38,FALSE,"2:26:52",146.866666666667,8812
+"297","Massimo Magnani","M",24,173,65,21.7180660897457,1976,"Italy","Southern Europe","Europe",55718260,2.23976e+11,2,3,FALSE,13,FALSE,"2:16:56",136.933333333333,8216
+"298","Marco Marchei","M",25,178,60,18.9370029036738,1980,"Italy","Southern Europe","Europe",56433883,4.75683e+11,2,3,FALSE,35,FALSE,"2:23:21",143.35,8601
+"299","Giorgio Jegher","M",27,178,65,20.5150864789799,1964,"Italy","Southern Europe","Europe",51675350,63175417019,2,3,FALSE,17,FALSE,"2:24:45.2",144.75,8685
+"300","Giacomo Leone","M",29,170,68,23.5294117647059,2000,"Italy","Southern Europe","Europe",56942108,1.14176e+12,2,3,FALSE,5,FALSE,"2:12:14",132.233333333333,7934
+"301","Ruggero Pertile","M",37,165,55,20.2020202020202,2012,"Italy","Southern Europe","Europe",59539717,2.07282e+12,2,3,FALSE,10,FALSE,"2:12:45",132.75,7965
+"302","Stefano Baldini","M",33,176,62,20.0154958677686,2004,"Italy","Southern Europe","Europe",57685327,1.79831e+12,2,3,FALSE,1,TRUE,"2:10:55",130.916666666667,7855
+"303","Daniele Caimmi","M",31,180,60,18.5185185185185,2004,"Italy","Southern Europe","Europe",57685327,1.79831e+12,2,3,FALSE,52,FALSE,"2:23:07",143.116666666667,8587
+"304","Massimo Magnani","M",28,173,65,21.7180660897457,1980,"Italy","Southern Europe","Europe",56433883,4.75683e+11,2,3,FALSE,8,FALSE,"2:13:12",133.2,7992
+"305","Gelindo Bordin","M",29,180,68,20.9876543209877,1988,"Italy","Southern Europe","Europe",56629288,8.88668e+11,2,3,FALSE,1,TRUE,"2:10:32",130.533333333333,7832
+"306","Orlando Pizzolato","M",30,179,61,19.0381074248619,1988,"Italy","Southern Europe","Europe",56629288,8.88668e+11,2,3,FALSE,16,FALSE,"2:15:20",135.333333333333,8120
+"307","Silvio De Florentiis","M",25,173,55,18.3768251528618,1960,"Italy","Southern Europe","Europe",50199700,40385288344,2,3,TRUE,38,FALSE,"2:31:54",151.9,9114
+"308","Gioacchino De Palma","M",28,170,68,23.5294117647059,1968,"Italy","Southern Europe","Europe",53235750,87942231678,2,3,FALSE,31,FALSE,"2:39:58",159.966666666667,9598
+"309","Antonio ""Antonino"" Ambu","M",32,165,55,20.2020202020202,1968,"Italy","Southern Europe","Europe",53235750,87942231678,2,3,FALSE,21,FALSE,"2:33:19",153.316666666667,9199
+"310","Salvatore Bettiol","M",34,178,57,17.9901527584901,1996,"Italy","Southern Europe","Europe",56860281,1.30893e+12,2,3,FALSE,20,FALSE,"2:17:27",137.45,8247
+"311","Stefano La Rosa","M",30,166,55,19.9593554942662,2016,"Italy","Southern Europe","Europe",60600590,1.85891e+12,2,3,FALSE,57,FALSE,"2:18:57",138.95,8337
+"312","Danilo Goffi","M",23,173,52,17.3744528717966,1996,"Italy","Southern Europe","Europe",56860281,1.30893e+12,2,3,FALSE,9,FALSE,"2:15:08",135.133333333333,8108
+"313","Ottaviano Andriani","M",34,172,54,18.2531097890752,2008,"Italy","Southern Europe","Europe",58826731,2.39073e+12,2,3,FALSE,23,FALSE,"2:16:10",136.166666666667,8170
+"314","Marco Marchei","M",29,178,60,18.9370029036738,1984,"Italy","Southern Europe","Europe",56576718,4.36443e+11,2,3,FALSE,43,FALSE,"2:22:38",142.633333333333,8558
+"315","Alberico Di Cecco","M",30,173,62,20.7156938086805,2004,"Italy","Southern Europe","Europe",57685327,1.79831e+12,2,3,FALSE,9,FALSE,"2:14:34",134.566666666667,8074
+"316","Renato Martini","M",22,170,65,22.4913494809689,1972,"Italy","Southern Europe","Europe",54381345,1.44781e+11,2,3,FALSE,24,FALSE,"2:22:41",142.683333333333,8561
+"317","Nils Antonio","M",33,177,68,21.7051294327939,1996,"Jamaica","Latin America and the Caribbean","Latin America and the Caribbean",2561993,6504445801,0,1,FALSE,104,FALSE,"2:44:10",164.166666666667,9850
+"318","Derrick Adamson","M",26,177,72,22.98190175237,1984,"Jamaica","Latin America and the Caribbean","Latin America and the Caribbean",2308947,2373566957,0,1,FALSE,52,FALSE,"2:25:02",145.033333333333,8702
+"319","Derrick Adamson","M",30,177,72,22.98190175237,1988,"Jamaica","Latin America and the Caribbean","Latin America and the Caribbean",2393534,3828310735,0,1,FALSE,84,FALSE,"2:47:57",167.95,10077
+"320","Ismael Mahmoud Ghassab","M",23,171,63,21.5450907971684,1984,"Jordan","Western Asia","Asia",2780428,4966710013,0,0,FALSE,64,FALSE,"2:33:30",153.5,9210
+"321","Methkal Marouf Abu Drais","M",28,168,67,23.7386621315193,2012,"Jordan","Western Asia","Asia",7992573,30937277606,0,0,FALSE,56,FALSE,"2:21:00",141,8460
+"322","Methkal Marouf Abu Drais","M",32,168,67,23.7386621315193,2016,"Jordan","Western Asia","Asia",9455802,38654727746,0,0,FALSE,140,FALSE,"2:46:18",166.3,9978
+"323","Kazumi Watanabe","M",24,167,52,18.645344042454,1960,"Japan","Eastern Asia","Asia",92500572,44307342950,3,4,FALSE,32,FALSE,"2:29:45",149.75,8985
+"324","Arata Fujiwara","M",30,167,54,19.3624726594715,2012,"Japan","Eastern Asia","Asia",127629000,6.20321e+12,3,4,FALSE,45,FALSE,"2:19:11",139.183333333333,8351
+"325","Toru Terasawa","M",29,163,54,20.3244382551093,1964,"Japan","Eastern Asia","Asia",97826000,81749006382,3,4,TRUE,15,FALSE,"2:23:09.0",143.15,8589
+"326","Masaki Oya","M",30,164,48,17.8465199286139,1996,"Japan","Eastern Asia","Asia",125757000,4.83371e+12,3,4,FALSE,54,FALSE,"2:22:13",142.216666666667,8533
+"327","Kenji Kimihara","M",27,167,58,20.7967298935064,1968,"Japan","Eastern Asia","Asia",101061000,1.46601e+11,3,4,FALSE,2,TRUE,"2:23:31",143.516666666667,8611
+"328","Nobuyoshi Sadanaga","M",31,165,56,20.5693296602388,1960,"Japan","Eastern Asia","Asia",92500572,44307342950,3,4,FALSE,46,FALSE,"2:35:11.0",155.183333333333,9311
+"329","Kurao Hiroshima","M",31,160,58,22.65625,1960,"Japan","Eastern Asia","Asia",92500572,44307342950,3,4,FALSE,31,FALSE,"2:29:40",149.666666666667,8980
+"330","Hisanori Kitajima","M",31,171,55,18.8092062514962,2016,"Japan","Eastern Asia","Asia",126994511,4.94016e+12,3,4,FALSE,94,FALSE,"2:25:11",145.183333333333,8711
+"331","Kokichi Tsuburaya","M",24,163,54,20.3244382551093,1964,"Japan","Eastern Asia","Asia",97826000,81749006382,3,4,TRUE,3,TRUE,"2:16:22.8",136.366666666667,8182
+"332","Satoru Sasaki","M",30,171,56,19.1511918197052,2016,"Japan","Eastern Asia","Asia",126994511,4.94016e+12,3,4,FALSE,16,FALSE,"2:13:57",133.95,8037
+"333","Tomoaki Kunichika","M",31,179,62,19.3502075465809,2004,"Japan","Eastern Asia","Asia",127761000,4.81515e+12,3,4,FALSE,42,FALSE,"2:21:13",141.216666666667,8473
+"334","Tsuyoshi Ogata","M",35,165,50,18.3654729109275,2008,"Japan","Eastern Asia","Asia",128063000,5.03791e+12,3,4,FALSE,13,FALSE,"2:13:26",133.433333333333,8006
+"335","Kenji Kimihara","M",23,167,58,20.7967298935064,1964,"Japan","Eastern Asia","Asia",97826000,81749006382,3,4,TRUE,8,FALSE,"2:19:49.0",139.816666666667,8389
+"336","Kenjiro Jitsui","M",27,166,54,19.5964581216432,1996,"Japan","Eastern Asia","Asia",125757000,4.83371e+12,3,4,FALSE,93,FALSE,"2:33:27",153.45,9207
+"337","Hiromi Taniguchi","M",32,171,55,18.8092062514962,1992,"Japan","Eastern Asia","Asia",124229000,3.89783e+12,3,4,FALSE,8,FALSE,"2:14:42",134.7,8082
+"338","Toshinari Suwa","M",27,178,58,18.3057694735513,2004,"Japan","Eastern Asia","Asia",127761000,4.81515e+12,3,4,FALSE,6,FALSE,"2:13:24",133.4,8004
+"339","Hiromi Taniguchi","M",36,171,55,18.8092062514962,1996,"Japan","Eastern Asia","Asia",125757000,4.83371e+12,3,4,FALSE,19,FALSE,"2:17:26",137.433333333333,8246
+"340","Suehiro Ishikawa","M",36,169,56,19.6071566121634,2016,"Japan","Eastern Asia","Asia",126994511,4.94016e+12,3,4,FALSE,36,FALSE,"2:17:08",137.133333333333,8228
+"341","Kenji Kimihara","M",31,167,58,20.7967298935064,1972,"Japan","Eastern Asia","Asia",107188000,3.16393e+11,3,4,FALSE,5,FALSE,"2:16:27",136.45,8187
+"342","Akio Usami","M",29,168,59,20.9041950113379,1972,"Japan","Eastern Asia","Asia",107188000,3.16393e+11,3,4,FALSE,12,FALSE,"2:18:58",138.966666666667,8338
+"343","Atsushi Sato","M",30,170,55,19.0311418685121,2008,"Japan","Eastern Asia","Asia",128063000,5.03791e+12,3,4,FALSE,76,FALSE,"2:41:08",161.133333333333,9668
+"344","Ryo Yamamoto","M",28,173,60,20.0474456213038,2012,"Japan","Eastern Asia","Asia",127629000,6.20321e+12,3,4,FALSE,40,FALSE,"2:18:34",138.566666666667,8314
+"345","Toshihiko Seko","M",28,170,62,21.4532871972318,1984,"Japan","Eastern Asia","Asia",120018000,1.30974e+12,3,4,FALSE,14,FALSE,"2:14:13",134.216666666667,8053
+"346","Shigeru So","M",31,178,60,18.9370029036738,1984,"Japan","Eastern Asia","Asia",120018000,1.30974e+12,3,4,FALSE,17,FALSE,"2:14:38",134.633333333333,8078
+"347","Nobuyuki Sato","M",28,175,57,18.6122448979592,2000,"Japan","Eastern Asia","Asia",126843000,4.88752e+12,3,4,FALSE,41,FALSE,"2:20:52",140.866666666667,8452
+"348","Shinji Kawashima","M",34,166,53,19.2335607490202,2000,"Japan","Eastern Asia","Asia",126843000,4.88752e+12,3,4,FALSE,21,FALSE,"2:17:21",137.35,8241
+"349","Shigeru Aburaya","M",27,163,51,19.1953027964922,2004,"Japan","Eastern Asia","Asia",127761000,4.81515e+12,3,4,FALSE,5,FALSE,"2:13:11",133.183333333333,7991
+"350","Takeyuki Nakayama","M",32,180,57,17.5925925925926,1992,"Japan","Eastern Asia","Asia",124229000,3.89783e+12,3,4,FALSE,4,FALSE,"2:14:02",134.033333333333,8042
+"351","Akio Usami","M",33,168,59,20.9041950113379,1976,"Japan","Eastern Asia","Asia",112771000,5.83143e+11,3,4,FALSE,32,FALSE,"2:22:29",142.483333333333,8549
+"352","Hisatoshi (Masanari-) Shintaku","M",30,175,60,19.5918367346939,1988,"Japan","Eastern Asia","Asia",122613000,3.05064e+12,3,4,FALSE,17,FALSE,"2:15:42",135.7,8142
+"353","Toshihiko Seko","M",32,170,62,21.4532871972318,1988,"Japan","Eastern Asia","Asia",122613000,3.05064e+12,3,4,FALSE,9,FALSE,"2:13:41",133.683333333333,8021
+"354","Kentaro Nakamoto","M",29,173,58,19.379197433927,2012,"Japan","Eastern Asia","Asia",127629000,6.20321e+12,3,4,FALSE,6,FALSE,"2:11:16",131.266666666667,7876
+"355","Koichi Morishita","M",24,165,54,19.8347107438017,1992,"Japan","Eastern Asia","Asia",124229000,3.89783e+12,3,4,FALSE,2,TRUE,"2:13:45",133.75,8025
+"356","Akio Usami","M",25,168,59,20.9041950113379,1968,"Japan","Eastern Asia","Asia",101061000,1.46601e+11,3,4,FALSE,9,FALSE,"2:28:06",148.1,8886
+"357","Takeyuki Nakayama","M",28,180,57,17.5925925925926,1988,"Japan","Eastern Asia","Asia",122613000,3.05064e+12,3,4,FALSE,4,FALSE,"2:11:05",131.083333333333,7865
+"358","Noriyasu Mizukami","M",28,172,61,20.619253650622,1976,"Japan","Eastern Asia","Asia",112771000,5.83143e+11,3,4,FALSE,21,FALSE,"2:18:44",138.733333333333,8324
+"359","Takeshi So","M",31,178,60,18.9370029036738,1984,"Japan","Eastern Asia","Asia",120018000,1.30974e+12,3,4,FALSE,4,FALSE,"2:10:55",130.916666666667,7855
+"360","Takhir Mamashayev","M",28,176,65,20.9839876033058,2008,"Kazakhstan","Central Asia","Asia",15674000,1.33442e+11,0,0,FALSE,70,FALSE,"2:30:26",150.433333333333,9026
+"361","Joseph Nzau","M",32,173,64,21.3839419960573,1984,"Kenya","Sub-Saharan Africa","Africa",18937738,6191437070,7,13,FALSE,7,FALSE,"2:11:28",131.466666666667,7888
+"362","Douglas Wakiihuri Maina","M",28,186,65,18.788299225344,1992,"Kenya","Sub-Saharan Africa","Africa",24963953,8209129172,7,13,FALSE,36,FALSE,"2:19:38",139.633333333333,8378
+"363","Douglas Wakiihuri Maina","M",24,186,65,18.788299225344,1988,"Kenya","Sub-Saharan Africa","Africa",21871442,8355380879,7,13,FALSE,2,TRUE,"2:10:47",130.783333333333,7847
+"364","Abel Kirui","M",30,177,62,19.7899709534297,2012,"Kenya","Sub-Saharan Africa","Africa",43646629,50412754822,7,13,FALSE,2,TRUE,"2:08:27",128.45,7707
+"365","Ibrahim Kipkemboi Hussein","M",34,170,57,19.7231833910035,1992,"Kenya","Sub-Saharan Africa","Africa",24963953,8209129172,7,13,FALSE,37,FALSE,"2:19:49",139.816666666667,8389
+"366","Erick Wainaina","M",26,175,58,18.9387755102041,2000,"Kenya","Sub-Saharan Africa","Africa",31450483,12705357103,7,13,FALSE,2,TRUE,"2:10:31",130.516666666667,7831
+"367","Paul Mose","M",19,168,58,20.5498866213152,1968,"Kenya","Sub-Saharan Africa","Africa",10502245,1353295458,7,13,FALSE,48,FALSE,"2:55:17",175.283333333333,10517
+"368","Emmanuel Kipchirchir Mutai","M",27,162,52,19.8140527358634,2012,"Kenya","Sub-Saharan Africa","Africa",43646629,50412754822,7,13,FALSE,17,FALSE,"2:14:49",134.816666666667,8089
+"369","Paul Kibii Tergat","M",35,182,62,18.7175461900737,2004,"Kenya","Sub-Saharan Africa","Africa",35074931,16095337094,7,13,FALSE,10,FALSE,"2:14:45",134.75,8085
+"370","Eliud Kipchoge","M",31,167,57,20.4381655849977,2016,"Kenya","Sub-Saharan Africa","Africa",48461567,70529014778,7,13,FALSE,1,TRUE,"2:08:44",128.733333333333,7724
+"371","Wilson Kipsang Kiprotich","M",30,182,62,18.7175461900737,2012,"Kenya","Sub-Saharan Africa","Africa",43646629,50412754822,7,13,FALSE,3,TRUE,"2:09:37",129.616666666667,7777
+"372","Erick Wainaina","M",30,175,58,18.9387755102041,2004,"Kenya","Sub-Saharan Africa","Africa",35074931,16095337094,7,13,FALSE,7,FALSE,"2:13:30",133.5,8010
+"373","Lameck Aguta Orero","M",24,173,59,19.7133215276154,1996,"Kenya","Sub-Saharan Africa","Africa",28147734,12045858436,7,13,FALSE,52,FALSE,"2:22:04",142.066666666667,8524
+"374","Ezequiel Bitok","M",30,173,55,18.3768251528618,1996,"Kenya","Sub-Saharan Africa","Africa",28147734,12045858436,7,13,FALSE,56,FALSE,"2:23:03",143.05,8583
+"375","Boniface Merande","M",30,170,60,20.7612456747405,1992,"Kenya","Sub-Saharan Africa","Africa",24963953,8209129172,7,13,FALSE,14,FALSE,"2:15:46",135.766666666667,8146
+"376","Samuel Kamau ""Sammy"" Wanjiru","M",21,163,51,19.1953027964922,2008,"Kenya","Sub-Saharan Africa","Africa",39148416,35895153328,7,13,FALSE,1,TRUE,"2:06:32",126.533333333333,7592
+"377","Erick Wainaina","M",22,175,58,18.9387755102041,1996,"Kenya","Sub-Saharan Africa","Africa",28147734,12045858436,7,13,FALSE,3,TRUE,"2:12:44",132.733333333333,7964
+"378","Nabiba Naftali Temu","M",19,174,62,20.4782666138195,1964,"Kenya","Sub-Saharan Africa","Africa",9200157,998759334,7,13,FALSE,49,FALSE,"2:40:46.6",160.766666666667,9646
+"379","Nabiba Naftali Temu","M",23,174,62,20.4782666138195,1968,"Kenya","Sub-Saharan Africa","Africa",10502245,1353295458,7,13,FALSE,19,FALSE,"2:32:36",152.6,9156
+"380","Valery Pisarev","M",25,175,70,22.8571428571429,2004,"Kyrgyzstan","Central Asia","Asia",5104700,2211535312,0,0,FALSE,79,FALSE,"2:40:10",160.166666666667,9610
+"381","Baek Seung-Do","M",32,172,58,19.6051919956733,2000,"South Korea","Eastern Asia","Asia",47008111,5.61633e+11,1,4,FALSE,65,FALSE,"2:28:25",148.416666666667,8905
+"382","Lee Bong-Ju","M",35,167,56,20.0796012764889,2004,"South Korea","Eastern Asia","Asia",48082519,7.64881e+11,1,4,FALSE,14,FALSE,"2:15:33",135.55,8133
+"383","Chae Hong-Nak","M",23,172,61,20.619253650622,1984,"South Korea","Eastern Asia","Asia",40405956,96597434180,1,4,FALSE,48,FALSE,"2:23:33",143.55,8613
+"384","Kim Jae-Ryong","M",26,172,60,20.2812330989724,1992,"South Korea","Eastern Asia","Asia",43747962,3.50051e+11,1,4,FALSE,10,FALSE,"2:15:01",135.016666666667,8101
+"385","Lee Bong-Ju","M",27,167,56,20.0796012764889,1996,"South Korea","Eastern Asia","Asia",45524681,5.98099e+11,1,4,FALSE,2,TRUE,"2:12:39",132.65,7959
+"386","Kim Won-Tak","M",24,171,56,19.1511918197052,1988,"South Korea","Eastern Asia","Asia",42031247,1.96964e+11,1,4,TRUE,18,FALSE,"2:15:44",135.733333333333,8144
+"387","Lee Bong-Ju","M",31,167,56,20.0796012764889,2000,"South Korea","Eastern Asia","Asia",47008111,5.61633e+11,1,4,FALSE,24,FALSE,"2:17:57",137.95,8277
+"388","Kim Bong-Nae","M",26,168,61,21.6128117913832,1968,"South Korea","Eastern Asia","Asia",30838302,6117260076,1,4,FALSE,38,FALSE,"2:43:56",163.933333333333,9836
+"389","Lee Sang-Cheol","M",24,160,47,18.359375,1960,"South Korea","Eastern Asia","Asia",25012374,3957873926,1,4,FALSE,47,FALSE,"2:35:14.0",155.233333333333,9314
+"390","Adel Mohamed Adili","M",21,176,65,20.9839876033058,1996,"Libya","Northern Africa","Africa",5035884,27884615385,0,2,FALSE,88,FALSE,"2:32:12",152.2,9132
+"391","Mohamed Khamis Taher","M",32,176,74,23.8894628099174,1992,"Libya","Northern Africa","Africa",4651004,33881392045,0,2,FALSE,75,FALSE,"2:35:46",155.766666666667,9346
+"392","Ali Zayed Mabrouk El-Zaidi","M",30,169,60,21.0076677987465,2004,"Libya","Northern Africa","Africa",5704759,33122307692,0,2,FALSE,39,FALSE,"2:27:30",147.5,8850
+"393","Alifu Albert Massaquoi","M",23,172,68,22.9853975121687,1960,"Liberia","Sub-Saharan Africa","Africa",1120313,190495600,0,13,FALSE,62,FALSE,"3:43:18.0",223.3,13398
+"394","Zepherinus Joseph","M",28,171,63,21.5450907971684,2004,"Saint Lucia","Latin America and the Caribbean","Latin America and the Caribbean",162251,893107222,0,1,FALSE,80,FALSE,"2:44:19",164.316666666667,9859
+"395","Gabashane Vincent Rakabaele","M",35,163,54,20.3244382551093,1984,"Lesotho","Sub-Saharan Africa","Africa",1442212,333158476,0,13,FALSE,61,FALSE,"2:32:15",152.25,9135
+"396","Thabiso Paul Moqhali","M",32,168,49,17.3611111111111,2000,"Lesotho","Sub-Saharan Africa","Africa",1868699,887295268,0,13,FALSE,16,FALSE,"2:16:43",136.716666666667,8203
+"397","Mohala Mohloli","M",26,180,54,16.6666666666667,1988,"Lesotho","Sub-Saharan Africa","Africa",1550262,470389180,0,13,FALSE,82,FALSE,"2:44:44",164.733333333333,9884
+"398","Gabashane Vincent Rakabaele","M",31,163,54,20.3244382551093,1980,"Lesotho","Sub-Saharan Africa","Africa",1310118,431561376,0,13,FALSE,36,FALSE,"2:23:29",143.483333333333,8609
+"399","Thabiso Paul Moqhali","M",24,168,49,17.3611111111111,1992,"Lesotho","Sub-Saharan Africa","Africa",1667121,831033941,0,13,FALSE,33,FALSE,"2:19:28",139.466666666667,8368
+"400","Marcel Tschopp","M",34,182,63,19.0194420963652,2008,"Liechtenstein","Western Europe","Europe",35541,5081432924,0,4,FALSE,74,FALSE,"2:35:06",155.1,9306
+"401","Marcel Tschopp","M",38,182,63,19.0194420963652,2012,"Liechtenstein","Western Europe","Europe",36545,5456009385,0,4,FALSE,75,FALSE,"2:28:54",148.9,8934
+"402","Pavelas Fedorenka","M",31,190,70,19.3905817174515,1996,"Lithuania","Northern Europe","Europe",3601613,8385109020,0,2,FALSE,70,FALSE,"2:25:41",145.683333333333,8741
+"403","Valdas Dopolskas","M",24,183,69,20.6037803457852,2016,"Lithuania","Northern Europe","Europe",2872298,42738875963,0,2,FALSE,111,FALSE,"2:28:21",148.35,8901
+"404","Justin Gloden","M",35,174,63,20.8085612366231,1988,"Luxembourg","Western Europe","Europe",373450,9750161053,0,4,FALSE,36,FALSE,"2:22:14",142.233333333333,8534
+"405","Jean Aniset","M",30,166,60,21.7738423573813,1964,"Luxembourg","Western Europe","Europe",327750,903158754,0,4,FALSE,34,FALSE,"2:29:52.6",149.866666666667,8992
+"406","Jules Randrianarivelo","M",27,167,56,20.0796012764889,1984,"Madagascar","Sub-Saharan Africa","Africa",9780872,2939485472,0,13,FALSE,72,FALSE,"2:43:05",163.083333333333,9785
+"407","Alain Clerk Razahasoa","M",26,175,52,16.9795918367347,1992,"Madagascar","Sub-Saharan Africa","Africa",12301336,3024459564,0,13,FALSE,81,FALSE,"2:41:41",161.683333333333,9701
+"408","Jules Randrianarivelo","M",23,167,56,20.0796012764889,1980,"Madagascar","Sub-Saharan Africa","Africa",8716553,4042139901,0,13,FALSE,25,FALSE,"2:19:23",139.383333333333,8363
+"409","Noureddine Sobhi","M",26,176,62,20.0154958677686,1988,"Morocco","Northern Africa","Africa",23961820,25705296184,2,2,FALSE,30,FALSE,"2:19:56",139.933333333333,8396
+"410","Rachid Kisri","M",36,179,60,18.7260073031428,2012,"Morocco","Northern Africa","Africa",33333789,98266306615,2,2,FALSE,18,FALSE,"2:15:09",135.15,8109
+"411","Rachid Kisri","M",41,179,60,18.7260073031428,2016,"Morocco","Northern Africa","Africa",35276786,1.03606e+11,2,2,FALSE,73,FALSE,"2:21:00",141,8460
+"412","Rhadi Ben Abdesselam","M",31,180,65,20.0617283950617,1960,"Morocco","Northern Africa","Africa",12328532,2037150716,2,2,FALSE,2,TRUE,"2:15:41.6",135.683333333333,8141
+"413","Jaouad Gharib","M",32,176,66,21.3068181818182,2004,"Morocco","Northern Africa","Africa",30179285,59626020162,2,2,FALSE,11,FALSE,"2:15:12",135.2,8112
+"414","Abderrahim Ben Redouane","M",30,165,58,21.3039485766759,1996,"Morocco","Northern Africa","Africa",27460603,43161452678,2,2,FALSE,84,FALSE,"2:30:49",150.816666666667,9049
+"415","Jaouad Gharib","M",36,176,66,21.3068181818182,2008,"Morocco","Northern Africa","Africa",31596855,92507257784,2,2,FALSE,2,TRUE,"2:07:16",127.266666666667,7636
+"416","Mike Wedston Tebulo","M",27,176,76,24.5351239669421,2012,"Malawi","Sub-Saharan Africa","Africa",16097305,6028470989,0,13,FALSE,44,FALSE,"2:19:11",139.183333333333,8351
+"417","George Mambosasa","M",20,169,61,21.3577955953923,1984,"Malawi","Sub-Saharan Africa","Africa",6895928,1208026080,0,13,FALSE,74,FALSE,"2:46:14",166.233333333333,9974
+"418","Smartex Godfrey Tambala","M",26,168,62,21.9671201814059,1992,"Malawi","Sub-Saharan Africa","Africa",9729717,1799529357,0,13,FALSE,63,FALSE,"2:29:02",149.033333333333,8942
+"419","John Mwathiwa","M",29,171,60,20.5191340925413,1996,"Malawi","Sub-Saharan Africa","Africa",10109789,2281039098,0,13,FALSE,65,FALSE,"2:24:45",144.75,8685
+"420","Matthews Kambale","M",19,157,50,20.2847985719502,1972,"Malawi","Sub-Saharan Africa","Africa",4859610,406084197,0,13,FALSE,56,FALSE,"2:45:50",165.833333333333,9950
+"421","John Mwathiwa","M",21,171,60,20.5191340925413,1988,"Malawi","Sub-Saharan Africa","Africa",8636935,1379923808,0,13,FALSE,87,FALSE,"2:51:43",171.716666666667,10303
+"422","Valeriu Vlas","M",24,172,52,17.5770686857761,1996,"Moldova","Eastern Europe","Europe",3667748,1695130457,0,0,FALSE,77,FALSE,"2:28:36",148.6,8916
+"423","Valeriu Vlas","M",29,172,52,17.5770686857761,2000,"Moldova","Eastern Europe","Europe",3639592,1288429151,0,0,FALSE,55,FALSE,"2:24:35",144.583333333333,8675
+"424","Iaroslav Musinschi","M",31,182,73,22.0384011592803,2008,"Moldova","Eastern Europe","Europe",3570108,6054806101,0,0,FALSE,41,FALSE,"2:21:18",141.3,8478
+"425","Roman Prodius","M",35,182,70,21.1327134404057,2016,"Moldova","Eastern Europe","Europe",3552000,6749515655,0,0,FALSE,105,FALSE,"2:27:01",147.016666666667,8821
+"426","Iaroslav Musinschi","M",35,182,73,22.0384011592803,2012,"Moldova","Eastern Europe","Europe",3559519,7284686576,0,0,FALSE,25,FALSE,"2:16:25",136.416666666667,8185
+"427","Hussein Haleem","M",23,156,48,19.723865877712,1992,"Maldives","Southern Asia","Asia",234000,284853359,0,0,FALSE,86,FALSE,"3:04:16",184.266666666667,11056
+"428","Daniel de Jess Vargas Snchez","M",28,162,53,20.1950922115531,2012,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",120828307,1.1866e+12,0,1,FALSE,39,FALSE,"2:18:26",138.433333333333,8306
+"429","Ricardo Ramos Vargas","M",30,172,56,18.9291508923743,2016,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",127540423,1.04692e+12,0,1,FALSE,120,FALSE,"2:30:20",150.333333333333,9020
+"430","Daniel de Jess Vargas Snchez","M",32,162,53,20.1950922115531,2016,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",127540423,1.04692e+12,0,1,FALSE,54,FALSE,"2:18:51",138.85,8331
+"431","Arturo Malaquias Delgado","M",37,169,55,19.2570288155177,2012,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",120828307,1.1866e+12,0,1,FALSE,70,FALSE,"2:26:37",146.616666666667,8797
+"432","Jos Ernani Palalia Ramrez","M",32,169,57,19.9572844088092,2004,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",106995583,7.70268e+11,0,1,FALSE,72,FALSE,"2:31:41",151.683333333333,9101
+"433","Francisco Bautista Cuamatzi","M",35,165,55,20.2020202020202,2008,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",113661809,1.10128e+12,0,1,FALSE,66,FALSE,"2:29:28",149.466666666667,8968
+"434","Procopio Franco Hernndez","M",34,169,60,21.0076677987465,2004,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",106995583,7.70268e+11,0,1,FALSE,55,FALSE,"2:23:34",143.566666666667,8614
+"435","Carlos Cordero Gmez","M",35,159,54,21.3599145603418,2012,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",120828307,1.1866e+12,0,1,FALSE,60,FALSE,"2:22:08",142.133333333333,8528
+"436","Pablo Garrido Lugo","M",30,173,66,22.0521901834341,1968,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",48894019,29363632000,0,1,TRUE,26,FALSE,"2:35:47",155.783333333333,9347
+"437","Rafael Tadeo Palomares","M",22,168,52,18.4240362811791,1972,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",55478151,45178120000,0,1,FALSE,51,FALSE,"2:35:48",155.8,9348
+"438","Fidel Negrete Gamboa","M",32,167,58,20.7967298935064,1964,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",43264272,20070136000,0,1,FALSE,21,FALSE,"2:26:07.0",146.116666666667,8767
+"439","Carlos Cordero Gmez","M",31,159,54,21.3599145603418,2008,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",113661809,1.10128e+12,0,1,FALSE,32,FALSE,"2:18:40",138.666666666667,8320
+"440","Procopio Franco Hernndez","M",38,169,60,21.0076677987465,2008,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",113661809,1.10128e+12,0,1,FALSE,47,FALSE,"2:23:24",143.4,8604
+"441","Mario Cuevas","M",26,168,58,20.5498866213152,1976,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",62623763,89023915584,0,1,FALSE,18,FALSE,"2:18:08",138.133333333333,8288
+"442","Jacinto Sabinal Romero","M",30,175,65,21.2244897959184,1972,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",55478151,45178120000,0,1,FALSE,26,FALSE,"2:22:56",142.933333333333,8576
+"443","Jos Isidro Rico Rangel","M",31,175,60,19.5918367346939,1992,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",88828310,3.63609e+11,0,1,FALSE,29,FALSE,"2:18:52",138.866666666667,8332
+"444","Ajay Chuttoo","M",30,165,65,23.8751147842057,1996,"Mauritius","Sub-Saharan Africa","Africa",1133996,4421943910,0,13,FALSE,103,FALSE,"2:42:07",162.116666666667,9727
+"445","David Carver","M",28,183,68,20.3051748335274,2016,"Mauritius","Sub-Saharan Africa","Africa",1263473,12168437744,0,13,FALSE,102,FALSE,"2:26:16",146.266666666667,8776
+"446","Tuihaleni Frank Kayele","M",28,176,58,18.724173553719,1992,"Namibia","Sub-Saharan Africa","Africa",1513721,3448326858,0,13,FALSE,69,FALSE,"2:31:41",151.683333333333,9101
+"447","Joseph Tjitunga","M",24,178,64,20.1994697639187,1996,"Namibia","Sub-Saharan Africa","Africa",1706489,3945340776,0,13,FALSE,76,FALSE,"2:27:52",147.866666666667,8872
+"448","Mynhardt Mbeumuna Kauanivi","M",32,178,59,18.6213861886125,2016,"Namibia","Sub-Saharan Africa","Africa",2479713,10947880690,0,13,FALSE,70,FALSE,"2:20:45 ",140.75,8445
+"449","William Duilio Aguirre Villavicencio","M",33,173,65,21.7180660897457,1996,"Nicaragua","Latin America and the Caribbean","Latin America and the Caribbean",4700779,4308351903,0,1,FALSE,99,FALSE,"2:37:02",157.033333333333,9422
+"450","William Duilio Aguirre Villavicencio","M",29,173,65,21.7180660897457,1992,"Nicaragua","Latin America and the Caribbean","Latin America and the Caribbean",4331277,1792800000,0,1,FALSE,73,FALSE,"2:34:18",154.3,9258
+"451","Abdi Nageeye","M",27,165,54,19.8347107438017,2016,"Netherlands","Western Europe","Europe",17018408,7.77228e+11,0,4,FALSE,11,FALSE,"2:13:01",133.016666666667,7981
+"452","Albert ""Bert"" van Vlaanderen","M",31,180,60,18.5185185185185,1996,"Netherlands","Western Europe","Europe",15530498,4.45705e+11,0,4,FALSE,45,FALSE,"2:20:48",140.8,8448
+"453","Martin ""Marti"" ten Kate","M",29,172,58,19.6051919956733,1988,"Netherlands","Western Europe","Europe",14760094,2.58568e+11,0,4,FALSE,15,FALSE,"2:14:53",134.883333333333,8093
+"454","Albert ""Bert"" van Vlaanderen","M",27,180,60,18.5185185185185,1992,"Netherlands","Western Europe","Europe",15184166,3.5833e+11,0,4,FALSE,15,FALSE,"2:15:47",135.783333333333,8147
+"455","Kamiel Maase","M",36,191,70,19.1880705024533,2008,"Netherlands","Western Europe","Europe",16445593,9.36228e+11,0,4,FALSE,39,FALSE,"2:20:30",140.5,8430
+"456","Greg van Hest","M",27,184,69,20.3804347826087,2000,"Netherlands","Western Europe","Europe",15925513,4.12807e+11,0,4,FALSE,25,FALSE,"2:18:00",138,8280
+"457","Kamiel Maase","M",28,191,70,19.1880705024533,2000,"Netherlands","Western Europe","Europe",15925513,4.12807e+11,0,4,FALSE,13,FALSE,"2:16:24",136.4,8184
+"458","Baikuntha Manandhar","M",27,162,50,19.0519737844841,1980,"Nepal","Southern Asia","Asia",14902163,1945916583,0,0,FALSE,37,FALSE,"2:23:51",143.85,8631
+"459","Arjun Pandit","M",25,171,57,19.4931773879142,1984,"Nepal","Southern Asia","Asia",16347242,2581207388,0,0,FALSE,63,FALSE,"2:32:53",152.883333333333,9173
+"460","Arjun Kumar Basnet","M",32,171,58,19.8351629561233,2008,"Nepal","Southern Asia","Asia",26475859,12545438605,0,0,FALSE,45,FALSE,"2:23:09",143.15,8589
+"461","Hari Bahadur Rokaya","M",26,167,57,20.4381655849977,1992,"Nepal","Southern Asia","Asia",19773772,3401211581,0,0,FALSE,70,FALSE,"2:32:26",152.433333333333,9146
+"462","Baikuntha Manandhar","M",23,162,50,19.0519737844841,1976,"Nepal","Southern Asia","Asia",13621110,1452792989,0,0,FALSE,50,FALSE,"2:30:07",150.116666666667,9007
+"463","Tika Bahadur Bogati","M",33,164,56,20.8209399167162,1996,"Nepal","Southern Asia","Asia",21903379,4521580381,0,0,FALSE,74,FALSE,"2:27:04",147.066666666667,8824
+"464","Baikuntha Manandhar","M",31,162,50,19.0519737844841,1984,"Nepal","Southern Asia","Asia",16347242,2581207388,0,0,FALSE,46,FALSE,"2:22:52",142.866666666667,8572
+"465","Baikuntha Manandhar","M",35,162,50,19.0519737844841,1988,"Nepal","Southern Asia","Asia",17873667,3487009748,0,0,FALSE,54,FALSE,"2:25:57",145.95,8757
+"466","Amiri Prasad Yadav","M",25,157,51,20.6904945433892,1984,"Nepal","Southern Asia","Asia",16347242,2581207388,0,0,FALSE,69,FALSE,"2:38:10",158.166666666667,9490
+"467","Martin Ande","M",20,170,57,19.7231833910035,1968,"Nigeria","Sub-Saharan Africa","Africa",53505978,5200895982,0,13,FALSE,54,FALSE,"3:03:47",183.783333333333,11027
+"468","Urige Arado Buta","M",33,180,64,19.7530864197531,2012,"Norway","Northern Europe","Europe",5018573,5.10229e+11,0,2,FALSE,36,FALSE,"2:17:58",137.966666666667,8278
+"469","Sondre Nordstad Moen","M",25,178,62,19.5682363337962,2016,"Norway","Northern Europe","Europe",5232929,3.71076e+11,0,2,FALSE,19,FALSE,"2:14:17",134.283333333333,8057
+"470","Tor Olav Torgersen","M",32,172,63,21.295294753921,1960,"Norway","Northern Europe","Europe",3581239,5163271598,0,2,FALSE,26,FALSE,"2:27:30",147.5,8850
+"471","Jonathan Craig Wyatt","M",31,175,63,20.5714285714286,2004,"New Zealand","Australia and New Zealand","Oceania",4087500,1.03906e+11,0,0,FALSE,21,FALSE,"2:17:45",137.75,8265
+"472","Jeffrey Lynn ""Jeff"" Julian","M",29,172,60,20.2812330989724,1964,"New Zealand","Australia and New Zealand","Oceania",2585400,7274144351,0,0,FALSE,29,FALSE,"2:27:57.6",147.95,8877
+"473","John Campbell","M",39,175,57,18.6122448979592,1988,"New Zealand","Australia and New Zealand","Oceania",3283400,45176167472,0,0,FALSE,12,FALSE,"2:14:08",134.133333333333,8048
+"474","Derek Owen Froude","M",25,182,64,19.3213380026567,1984,"New Zealand","Australia and New Zealand","Oceania",3227100,21665456808,0,0,FALSE,34,FALSE,"2:19:44",139.733333333333,8384
+"475","Sean Patrick Wade","M",30,175,63,20.5714285714286,1996,"New Zealand","Australia and New Zealand","Oceania",3732000,70140835299,0,0,FALSE,83,FALSE,"2:30:35",150.583333333333,9035
+"476","Raymond Leslie ""Ray"" Puckett","M",28,165,54,19.8347107438017,1964,"New Zealand","Australia and New Zealand","Oceania",2585400,7274144351,0,0,FALSE,27,FALSE,"2:27:34.0",147.566666666667,8854
+"477","Jeffrey Lynn ""Jeff"" Julian","M",24,172,60,20.2812330989724,1960,"New Zealand","Australia and New Zealand","Oceania",2371800,5485854792,0,0,FALSE,18,FALSE,"2:24:50.6",144.833333333333,8690
+"478","Ivan Keats","M",27,165,60,22.038567493113,1964,"New Zealand","Australia and New Zealand","Oceania",2585400,7274144351,0,0,FALSE,42,FALSE,"2:36:16.8",156.266666666667,9376
+"479","Dale Richard Warrender","M",30,180,69,21.2962962962963,2004,"New Zealand","Australia and New Zealand","Oceania",4087500,1.03906e+11,0,0,FALSE,33,FALSE,"2:19:42",139.7,8382
+"480","Rex Albert Wilson","M",32,172,62,20.9572742022715,1992,"New Zealand","Australia and New Zealand","Oceania",3531700,41649298171,0,0,FALSE,16,FALSE,"2:15:51",135.85,8151
+"481","Derek Owen Froude","M",33,182,64,19.3213380026567,1992,"New Zealand","Australia and New Zealand","Oceania",3531700,41649298171,0,0,FALSE,35,FALSE,"2:19:37",139.616666666667,8377
+"482","Raymond Leslie ""Ray"" Puckett","M",24,165,54,19.8347107438017,1960,"New Zealand","Australia and New Zealand","Oceania",2371800,5485854792,0,0,FALSE,51,FALSE,"2:37:36.0",157.6,9456
+"483","Awadh Shaban bin Fateh Al-Sameer","M",27,167,60,21.5138585105239,1988,"Oman","Western Asia","Asia",1678116,8386215865,0,0,FALSE,83,FALSE,"2:46:59",166.983333333333,10019
+"484","Jorge Castelblanco","M",28,169,58,20.307412205455,2016,"Panama","Latin America and the Caribbean","Latin America and the Caribbean",4034119,55187700000,0,1,FALSE,135,FALSE,"2:39:25",159.416666666667,9565
+"485","Miguel Mallqui","M",24,167,58,20.7967298935064,1996,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",24441074,55252414130,0,1,FALSE,71,FALSE,"2:25:56",145.933333333333,8756
+"486","Cristhian Simen Pacheco Mendoza","M",23,162,50,19.0519737844841,2016,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",31773839,1.92207e+11,0,1,FALSE,52,FALSE,"2:18:41",138.683333333333,8321
+"487","Roy Vence","M",30,168,47,16.6524943310658,1996,"Philippines","South-eastern Asia","Asia",71446107,82848140618,0,0,FALSE,100,FALSE,"2:37:10",157.166666666667,9430
+"488","Leonardo Illut","M",27,172,61,20.619253650622,1984,"Philippines","South-eastern Asia","Asia",52873974,31408492877,0,0,FALSE,77,FALSE,"2:49:39",169.65,10179
+"489","Herman Suizo","M",33,160,51,19.921875,1992,"Philippines","South-eastern Asia","Asia",65075486,52976344929,0,0,FALSE,52,FALSE,"2:25:18",145.3,8718
+"490","Benjamin Silva-Netto","M",29,163,56,21.0771952275208,1968,"Philippines","South-eastern Asia","Asia",33797042,7591603053,0,0,FALSE,49,FALSE,"2:56:19",176.316666666667,10579
+"491","Eduardo Buenavista","M",24,152,62,26.8351800554017,2004,"Philippines","South-eastern Asia","Asia",84678493,91371239765,0,0,FALSE,67,FALSE,"2:28:18",148.3,8898
+"492","Aaron Dupnai","M",20,162,54,20.5761316872428,1988,"Papua New Guinea","Melanesia","Oceania",4100729,3655979702,0,0,FALSE,75,FALSE,"2:41:47",161.783333333333,9707
+"493","John Kokinai","M",25,168,57,20.1955782312925,1976,"Papua New Guinea","Melanesia","Oceania",2957339,1511856584,0,0,FALSE,59,FALSE,"2:41:49",161.816666666667,9709
+"494","Tau John Tokwepota","M",28,163,48,18.066167337875,1984,"Papua New Guinea","Melanesia","Oceania",3694041,2552526263,0,0,FALSE,66,FALSE,"2:36:36",156.6,9396
+"495","Tau John Tokwepota","M",20,163,48,18.066167337875,1976,"Papua New Guinea","Melanesia","Oceania",2957339,1511856584,0,0,FALSE,56,FALSE,"2:38:04",158.066666666667,9484
+"496","Jan Huruk","M",32,178,63,19.8838530488575,1992,"Poland","Eastern Europe","Europe",38363667,94337050693,0,0,FALSE,7,FALSE,"2:14:32",134.533333333333,8072
+"497","Arkadiusz Rafa Sowa","M",29,172,58,19.6051919956733,2008,"Poland","Eastern Europe","Europe",38125759,5.33816e+11,0,0,FALSE,54,FALSE,"2:24:48",144.8,8688
+"498","Yared Neda Shegumo","M",33,178,62,19.5682363337962,2016,"Poland","Eastern Europe","Europe",37948016,4.71364e+11,0,0,FALSE,128,FALSE,"2:31:54",151.9,9114
+"499","Waldemar Glinka","M",36,175,76,24.8163265306122,2004,"Poland","Eastern Europe","Europe",38182222,2.55102e+11,0,0,FALSE,34,FALSE,"2:19:43",139.716666666667,8383
+"500","Grzegorz Gajdus","M",29,181,70,21.3668691431885,1996,"Poland","Eastern Europe","Europe",38624370,1.59943e+11,0,0,FALSE,61,FALSE,"2:23:41",143.683333333333,8621
+"501","Henryk Jzef Szost","M",26,186,70,20.2335530119089,2008,"Poland","Eastern Europe","Europe",38125759,5.33816e+11,0,0,FALSE,34,FALSE,"2:19:43",139.716666666667,8383
+"502","Henryk Jzef Szost","M",30,186,70,20.2335530119089,2012,"Poland","Eastern Europe","Europe",38063164,5.00284e+11,0,0,FALSE,9,FALSE,"2:12:28",132.466666666667,7948
+"503","Joaquim Fernando da Mota Silva","M",27,176,60,19.3698347107438,1988,"Portugal","Southern Europe","Europe",10019610,56352797354,1,3,FALSE,27,FALSE,"2:18:05",138.083333333333,8285
+"504","Dionsio da Silva Castro","M",28,167,56,20.0796012764889,1992,"Portugal","Southern Europe","Europe",9952494,1.07603e+11,1,3,FALSE,56,FALSE,"2:26:00",146,8760
+"505","Rui Pedro S Alves da Silva","M",35,173,60,20.0474456213038,2016,"Portugal","Southern Europe","Europe",10324611,2.04837e+11,1,3,FALSE,123,FALSE,"2:30:52",150.866666666667,9052
+"506","Manuel Fernando Gonilho Matias","M",34,172,58,19.6051919956733,1996,"Portugal","Southern Europe","Europe",10063945,1.2263e+11,1,3,FALSE,46,FALSE,"2:20:58",140.966666666667,8458
+"507","Paulo Jorge Caetano Gomes","M",35,173,69,23.0545624644993,2008,"Portugal","Southern Europe","Europe",10558177,2.62008e+11,1,3,FALSE,30,FALSE,"2:18:15",138.25,8295
+"508","Carlos Alberto de Sousa Lopes","M",37,167,55,19.7210369679802,1984,"Portugal","Southern Europe","Europe",9996232,25220451794,1,3,FALSE,1,TRUE,"2:09:21",129.35,7761
+"509","Anacleto Pereira Pinto","M",32,172,63,21.295294753921,1980,"Portugal","Southern Europe","Europe",9766312,32899759311,1,3,FALSE,16,FALSE,"2:17:04",137.066666666667,8224
+"510","Domingos da Silva Castro","M",32,167,56,20.0796012764889,1996,"Portugal","Southern Europe","Europe",10063945,1.2263e+11,1,3,FALSE,25,FALSE,"2:18:03",138.05,8283
+"511","Antnio Coelho Pinto","M",30,165,59,21.6712580348944,1996,"Portugal","Southern Europe","Europe",10063945,1.2263e+11,1,3,FALSE,14,FALSE,"2:16:41",136.683333333333,8201
+"512","Antnio Coelho Pinto","M",34,165,59,21.6712580348944,2000,"Portugal","Southern Europe","Europe",10289898,1.18358e+11,1,3,FALSE,11,FALSE,"2:15:17",135.283333333333,8117
+"513","Armando Rodrigues Aldegalega","M",34,161,53,20.4467420238417,1972,"Portugal","Southern Europe","Europe",8630430,11240223128,1,3,FALSE,41,FALSE,"2:28:24",148.4,8904
+"514","Anacleto Pereira Pinto","M",28,172,63,21.295294753921,1976,"Portugal","Southern Europe","Europe",9355810,20334835544,1,3,FALSE,22,FALSE,"2:18:53",138.883333333333,8333
+"515","Domingos da Silva Castro","M",36,167,56,20.0796012764889,2000,"Portugal","Southern Europe","Europe",10289898,1.18358e+11,1,3,FALSE,18,FALSE,"2:16:52",136.866666666667,8212
+"516","Ricardo Domingos Pires Ribas","M",38,179,69,21.5349083986143,2016,"Portugal","Southern Europe","Europe",10324611,2.04837e+11,1,3,FALSE,134,FALSE,"2:38:29",158.483333333333,9509
+"517","Armando Rodrigues Aldegalega","M",26,161,53,20.4467420238417,1964,"Portugal","Southern Europe","Europe",9035365,4235608178,1,3,FALSE,44,FALSE,"2:38:02.2",158.033333333333,9482
+"518","Ahmed Jumaa Jaber","M",20,178,62,19.5682363337962,2004,"Qatar","Western Asia","Asia",758855,31734065934,0,0,FALSE,38,FALSE,"2:20:27",140.45,8427
+"519","Mohammed Abduh Bakhet","M",24,155,50,20.8116545265349,2012,"Qatar","Western Asia","Asia",2109568,1.86834e+11,0,0,FALSE,68,FALSE,"2:25:17",145.283333333333,8717
+"520","Yousuf Othman Qader","M",23,170,58,20.0692041522491,2008,"Qatar","Western Asia","Asia",1389342,1.1527e+11,0,0,FALSE,64,FALSE,"2:28:40",148.666666666667,8920
+"521","Marius Viorel Ionescu","M",31,170,55,19.0311418685121,2016,"Romania","Eastern Europe","Europe",19705301,1.87592e+11,0,0,FALSE,37,FALSE,"2:17:27",137.45,8247
+"522","Marius Viorel Ionescu","M",27,170,55,19.0311418685121,2012,"Romania","Eastern Europe","Europe",20058035,1.71665e+11,0,0,FALSE,26,FALSE,"2:16:28",136.466666666667,8188
+"523","Keith Martin James","M",25,166,55,19.9593554942662,1960,"South Africa","Sub-Saharan Africa","Africa",17396367,7575248495,1,13,FALSE,13,FALSE,"2:22:58",142.966666666667,8578
+"524","Norman Dlomo","M",33,165,55,20.2020202020202,2008,"South Africa","Sub-Saharan Africa","Africa",49557573.3,2.871e+11,1,13,FALSE,53,FALSE,"2:24:28",144.466666666667,8668
+"525","Lusapho Lesly April","M",34,172,50,16.901027582477,2016,"South Africa","Sub-Saharan Africa","Africa",55908865,2.95456e+11,1,13,FALSE,24,FALSE,"2:15:24",135.4,8124
+"526","Stephen Mokoka","M",27,157,52,21.0961905148282,2012,"South Africa","Sub-Saharan Africa","Africa",52506515.08,3.96333e+11,1,13,FALSE,49,FALSE,"2:19:52",139.866666666667,8392
+"527","Chiko Johannes Maremane","M",34,160,53,20.703125,2000,"South Africa","Sub-Saharan Africa","Africa",44896856,1.36362e+11,1,13,FALSE,43,FALSE,"2:21:25",141.416666666667,8485
+"528","Josia Thugwane","M",29,158,45,18.0259573786252,2000,"South Africa","Sub-Saharan Africa","Africa",44896856,1.36362e+11,1,13,FALSE,20,FALSE,"2:16:59",136.983333333333,8219
+"529","Hendrick Ramaala","M",28,172,60,20.2812330989724,2000,"South Africa","Sub-Saharan Africa","Africa",44896856,1.36362e+11,1,13,FALSE,12,FALSE,"2:16:19",136.316666666667,8179
+"530","Lusapho Lesly April","M",30,172,50,16.901027582477,2012,"South Africa","Sub-Saharan Africa","Africa",52506515.08,3.96333e+11,1,13,FALSE,43,FALSE,"2:19:00",139,8340
+"531","Sibusiso Nzima","M",29,164,57,21.192742415229,2016,"South Africa","Sub-Saharan Africa","Africa",55908865,2.95456e+11,1,13,FALSE,97,FALSE,"2:25:33",145.55,8733
+"532","Josia Thugwane","M",25,158,45,18.0259573786252,1996,"South Africa","Sub-Saharan Africa","Africa",42210216,1.47608e+11,1,13,FALSE,1,TRUE,"2:12:36 ",132.6,7956
+"533","Hendrick Ramaala","M",36,172,60,20.2812330989724,2008,"South Africa","Sub-Saharan Africa","Africa",49557573.3,2.871e+11,1,13,FALSE,44,FALSE,"2:22:43",142.716666666667,8563
+"534","Aleksey Mikhaylovich Reunkov","M",28,176,63,20.338326446281,2012,"Russia","Eastern Europe","Europe",143201676,2.21026e+12,0,0,FALSE,14,FALSE,"2:13:49",133.816666666667,8029
+"535","Oleg Sergeyevich Kulkov","M",30,172,60,20.2812330989724,2008,"Russia","Eastern Europe","Europe",142742350,1.66084e+12,0,0,FALSE,29,FALSE,"2:18:11",138.183333333333,8291
+"536","Leonid Vladimirovich Shvetsov","M",35,186,70,20.2335530119089,2004,"Russia","Eastern Europe","Europe",144067054,5.91017e+11,0,0,FALSE,13,FALSE,"2:15:28",135.466666666667,8128
+"537","Leonid Vladimirovich Shvetsov","M",27,186,70,20.2335530119089,1996,"Russia","Eastern Europe","Europe",148160042,3.9172e+11,0,0,FALSE,66,FALSE,"2:24:49",144.816666666667,8689
+"538","Aleksey Vladimirovich Sokolov","M",28,178,60,18.9370029036738,2008,"Russia","Eastern Europe","Europe",142742350,1.66084e+12,0,0,FALSE,21,FALSE,"2:15:57",135.95,8157
+"539","Pavel Vladimirovich Kokin","M",26,178,71,22.4087867693473,2000,"Russia","Eastern Europe","Europe",146596557,2.59708e+11,0,0,FALSE,26,FALSE,"2:18:02",138.033333333333,8282
+"540","Oleg Strizhakov","M",33,179,61,19.0381074248619,1996,"Russia","Eastern Europe","Europe",148160042,3.9172e+11,0,0,FALSE,37,FALSE,"2:19:51",139.85,8391
+"541","Telesphore Dusabe","M",23,161,54,20.8325296091972,1988,"Rwanda","Sub-Saharan Africa","Africa",7030179,2395493878,0,13,FALSE,78,FALSE,"2:42:52",162.866666666667,9772
+"542","Mathias Ntawulikura","M",40,171,63,21.5450907971684,2004,"Rwanda","Sub-Saharan Africa","Africa",8818438,2089188829,0,13,FALSE,62,FALSE,"2:26:05",146.083333333333,8765
+"543","Mathias Ntawulikura","M",36,171,63,21.5450907971684,2000,"Rwanda","Sub-Saharan Africa","Africa",8025703,1734938264,0,13,FALSE,15,FALSE,"2:16:39",136.65,8199
+"544","Baba Ibrahim Suma-Keita","M",33,174,65,21.4691504822301,1980,"Sierra Leone","Sub-Saharan Africa","Africa",3365441,1100685845,0,13,FALSE,46,FALSE,"2:41:20",161.333333333333,9680
+"545","Alifu Albert Massaquoi","M",31,172,68,22.9853975121687,1968,"Sierra Leone","Sub-Saharan Africa","Africa",2596568,329860092,0,13,FALSE,45,FALSE,"2:52:28",172.466666666667,10348
+"546","Gian Luigi Macina","M",36,187,70,20.0177299894192,2000,"San Marino","Southern Europe","Europe",27418,1101897072,0,3,FALSE,74,FALSE,"2:35:42",155.7,9342
+"547","Anuradha Indrajith Cooray","M",26,178,58,18.3057694735513,2004,"Sri Lanka","Southern Asia","Asia",19228000,20662525941,0,0,FALSE,30,FALSE,"2:19:24",139.4,8364
+"548","Linus Clifford Diaz","M",26,162,52,19.8140527358634,1960,"Sri Lanka","Southern Asia","Asia",9896000,1409873950,0,0,FALSE,39,FALSE,"2:32:12",152.2,9132
+"549","Anuradha Indrajith Cooray","M",38,178,58,18.3057694735513,2016,"Sri Lanka","Southern Asia","Asia",21203000,81321876307,0,0,FALSE,34,FALSE,"2:17:06",137.1,8226
+"550","Vithanakande Kande Lek Samarasinghe","M",26,162,49,18.6709343087944,1988,"Sri Lanka","Southern Asia","Asia",16593000,6978371581,0,0,FALSE,65,FALSE,"2:31:29",151.483333333333,9089
+"551","Rupasinghe A. Wimalasena Perera","M",23,170,50,17.3010380622837,1968,"Sri Lanka","Southern Asia","Asia",11992000,1801344538,0,0,FALSE,51,FALSE,"2:59:05",179.083333333333,10745
+"552","Kuruppu Arachigue Karunaratne","M",32,169,52,18.2066454255803,1992,"Sri Lanka","Southern Asia","Asia",17524000,9703011636,0,0,FALSE,71,FALSE,"2:32:26",152.433333333333,9146
+"553","Sarath Prasanna Gamage","M",28,151,46,20.1745537476426,2000,"Sri Lanka","Southern Asia","Asia",18655000,16330814180,0,0,FALSE,73,FALSE,"2:34:39",154.65,9279
+"554","Anuradha Indrajith Cooray","M",34,178,58,18.3057694735513,2012,"Sri Lanka","Southern Asia","Asia",20425000,68434399083,0,0,FALSE,55,FALSE,"2:20:41",140.683333333333,8441
+"555","Ahmed Adam Salah","M",30,154,64,26.986001011975,1996,"Sudan","Northern Africa","Africa",24786190,9018243044,0,2,FALSE,42,FALSE,"2:20:33",140.55,8433
+"556","Oskar Leupi","M",31,172,64,21.6333153055706,1964,"Switzerland","Western Europe","Europe",5789228,14480556572,0,4,FALSE,41,FALSE,"2:35:05.4",155.083333333333,9305
+"557","Arthur Wittwer","M",32,172,62,20.9572742022715,1960,"Switzerland","Western Europe","Europe",5327827,9522746719,0,4,FALSE,44,FALSE,"2:34:42.2",154.7,9282
+"558","Joseph Peter","M",30,171,55,18.8092062514962,1980,"Switzerland","Western Europe","Europe",6319408,1.19008e+11,0,4,FALSE,40,FALSE,"2:24:53",144.883333333333,8693
+"559","Josef Gwerder","M",29,170,65,22.4913494809689,1968,"Switzerland","Western Europe","Europe",6067714,18942729779,0,4,FALSE,32,FALSE,"2:40:16",160.266666666667,9616
+"560","Helmut Kunisch","M",31,172,63,21.295294753921,1968,"Switzerland","Western Europe","Europe",6067714,18942729779,0,4,FALSE,44,FALSE,"2:50:58",170.966666666667,10258
+"561","Tadesse Abraham","M",33,178,61,19.252619618735,2016,"Switzerland","Western Europe","Europe",8372098,6.68851e+11,0,4,FALSE,7,FALSE,"2:11:42",131.7,7902
+"562","Marcel Matanin","M",30,176,60,19.3698347107438,2004,"Slovakia","Eastern Europe","Europe",5372280,57240535138,0,0,FALSE,81,FALSE,"2:50:26",170.433333333333,10226
+"563","Lars Tommy Persson","M",25,192,76,20.6163194444444,1980,"Sweden","Northern Europe","Europe",8310531,1.40089e+11,0,2,FALSE,30,FALSE,"2:21:11",141.183333333333,8471
+"564","Pal Anders Szalkai","M",26,182,65,19.6232339089482,1996,"Sweden","Northern Europe","Europe",8840998,2.88104e+11,0,2,FALSE,64,FALSE,"2:24:27",144.45,8667
+"565","John Evert Nyberg","M",35,184,67,19.7896975425331,1960,"Sweden","Northern Europe","Europe",7484656,14842870293,0,2,FALSE,58,FALSE,"2:42:59.0",162.983333333333,9779
+"566","Lucky Willie Bhembe","M",26,169,58,20.307412205455,2000,"Swaziland","Sub-Saharan Africa","Africa",1061468,1738100853,0,13,FALSE,51,FALSE,"2:23:08",143.133333333333,8588
+"567","Isaac Mandla Simelane","M",28,165,50,18.3654729109275,1996,"Swaziland","Sub-Saharan Africa","Africa",981764,1602760100,0,13,FALSE,62,FALSE,"2:23:43",143.716666666667,8623
+"568","Daniel Tornado Sibandze","M",32,165,60,22.038567493113,1996,"Swaziland","Sub-Saharan Africa","Africa",981764,1602760100,0,13,FALSE,78,FALSE,"2:28:49",148.816666666667,8929
+"569","Samuel ""Sam"" Hlawe","M",32,169,64,22.4081789853296,1984,"Swaziland","Sub-Saharan Africa","Africa",679976,494475700,0,13,FALSE,45,FALSE,"2:22:45",142.75,8565
+"570","Samuel ""Sam"" Hlawe","M",36,169,64,22.4081789853296,1988,"Swaziland","Sub-Saharan Africa","Africa",800456,692016714,0,13,FALSE,44,FALSE,"2:24:42",144.7,8682
+"571","Richard Mabuza","M",26,168,57,20.1955782312925,1972,"Swaziland","Sub-Saharan Africa","Africa",472230,146741251,0,13,FALSE,17,FALSE,"2:20:39",140.65,8439
+"572","Moussa El-Hariri","M",25,177,65,20.7475501931118,1992,"Syria","Western Asia","Asia",13187085,13253565899,0,0,FALSE,84,FALSE,"2:47:06",167.1,10026
+"573","Boonthung Srisung","M",35,171,59,20.1771485243323,2016,"Thailand","South-eastern Asia","Asia",68863514,4.07026e+11,0,0,FALSE,133,FALSE,"2:37:46",157.766666666667,9466
+"574","Augusto Ramos Soares","M",25,165,58,21.3039485766759,2012,"Timor-Leste","South-eastern Asia","Asia",1156760,1188900000,0,0,FALSE,84,FALSE,"2:45:09",165.15,9909
+"575","Tahar Mansouri","M",31,173,65,21.7180660897457,1996,"Tunisia","Northern Africa","Africa",9256037,19587322786,0,2,FALSE,26,FALSE,"2:18:06",138.1,8286
+"576","Atef Saad","M",28,176,57,18.4013429752066,2016,"Tunisia","Northern Africa","Africa",11403248,42062549395,0,2,FALSE,62,FALSE,"2:19:50",139.833333333333,8390
+"577","Tahar Mansouri","M",35,173,65,21.7180660897457,2000,"Tunisia","Northern Africa","Africa",9699197,21473188882,0,2,FALSE,38,FALSE,"2:20:33",140.55,8433
+"578","Wissem Hosni","M",27,175,57,18.6122448979592,2012,"Tunisia","Northern Africa","Africa",10886668,45044112939,0,2,FALSE,71,FALSE,"2:26:43",146.716666666667,8803
+"579","Mehmet Terzi","M",33,176,59,19.0470041322314,1988,"Turkey","Western Asia","Asia",52053704,90852814005,0,0,FALSE,32,FALSE,"2:20:12",140.2,8412
+"580","Ercan Muslu","M",27,160,52,20.3125,2016,"Turkey","Western Asia","Asia",79512426,8.63712e+11,0,0,FALSE,51,FALSE,"2:18:40",138.666666666667,8320
+"581","Mehmet Terzi","M",29,176,59,19.0470041322314,1984,"Turkey","Western Asia","Asia",48114105,59989909458,0,0,FALSE,16,FALSE,"2:14:20",134.333333333333,8060
+"582","Bekir Karayel","M",34,170,62,21.4532871972318,2016,"Turkey","Western Asia","Asia",79512426,8.63712e+11,0,0,FALSE,126,FALSE,"2:31:27",151.45,9087
+"583","Abdil Ceylan","M",25,178,60,18.9370029036738,2008,"Turkey","Western Asia","Asia",70440032,7.64336e+11,0,0,FALSE,71,FALSE,"2:31:43",151.716666666667,9103
+"584","Ahmet Altun","M",30,168,57,20.1955782312925,1988,"Turkey","Western Asia","Asia",52053704,90852814005,0,0,FALSE,71,FALSE,"2:37:44",157.733333333333,9464
+"585","Kaan Kigen (Mike Kipruto-) zbilen (Kigen-)","M",30,178,57,17.9901527584901,2016,"Turkey","Western Asia","Asia",79512426,8.63712e+11,0,0,FALSE,17,FALSE,"2:14:11",134.183333333333,8051
+"586","Bekir Karayel","M",30,170,62,21.4532871972318,2012,"Turkey","Western Asia","Asia",74569867,8.73982e+11,0,0,FALSE,76,FALSE,"2:29:38",149.633333333333,8978
+"587","Veli Balli","M",26,175,67,21.8775510204082,1976,"Turkey","Western Asia","Asia",40189511,51280134554,0,0,FALSE,38,FALSE,"2:24:47",144.783333333333,8687
+"588","Stephen Kiprotich","M",23,172,56,18.9291508923743,2012,"Uganda","Sub-Saharan Africa","Africa",36306796,23132149257,1,13,FALSE,1,TRUE,"2:08:01",128.016666666667,7681
+"589","Vincent Ruguga","M",24,173,63,21.0498179023689,1984,"Uganda","Sub-Saharan Africa","Africa",14174470,3615647477,1,13,FALSE,29,FALSE,"2:17:54",137.9,8274
+"590","Stephen Kiprotich","M",27,172,56,18.9291508923743,2016,"Uganda","Sub-Saharan Africa","Africa",41487965,24078931933,1,13,FALSE,14,FALSE,"2:13:32",133.533333333333,8012
+"591","Alex Malinga","M",34,175,61,19.9183673469388,2008,"Uganda","Sub-Saharan Africa","Africa",31663896,14239026630,1,13,FALSE,31,FALSE,"2:18:26",138.433333333333,8306
+"592","Vincent Ruguga","M",28,173,63,21.0498179023689,1988,"Uganda","Sub-Saharan Africa","Africa",16262533,6508931652,1,13,FALSE,63,FALSE,"2:31:04",151.066666666667,9064
+"593","Alex Malinga","M",26,175,61,19.9183673469388,2000,"Uganda","Sub-Saharan Africa","Africa",24039274,6193246837,1,13,FALSE,57,FALSE,"2:24:53",144.883333333333,8693
+"594","Jackson Fred Ogwang","M",29,167,58,20.7967298935064,1988,"Uganda","Sub-Saharan Africa","Africa",16262533,6508931652,1,13,FALSE,92,FALSE,"2:59:35",179.583333333333,10775
+"595","Ihor Oleksiyovych Olefirenko","M",26,186,70,20.2335530119089,2016,"Ukraine","Eastern Europe","Europe",45004645,93270479389,0,0,FALSE,30,FALSE,"2:15:36",135.6,8136
+"596","Ihor Pavlovych Russ","M",27,174,62,20.4782666138195,2016,"Ukraine","Eastern Europe","Europe",45004645,93270479389,0,0,FALSE,48,FALSE,"2:18:19",138.316666666667,8299
+"597","Vasyl Oleksandrovych Matviychuk","M",26,180,62,19.1358024691358,2008,"Ukraine","Eastern Europe","Europe",46258200,1.79992e+11,0,0,FALSE,27,FALSE,"2:17:50",137.833333333333,8270
+"598","Ivan Babaryka","M",29,180,69,21.2962962962963,2012,"Ukraine","Eastern Europe","Europe",45593300,1.75781e+11,0,0,FALSE,59,FALSE,"2:21:52",141.866666666667,8512
+"599","Vitaliy Petrovych Shafar","M",30,174,62,20.4782666138195,2012,"Ukraine","Eastern Europe","Europe",45593300,1.75781e+11,0,0,FALSE,29,FALSE,"2:16:36",136.6,8196
+"600","Ernesto Andrs Zamora","M",33,180,63,19.4444444444444,2016,"Uruguay","Latin America and the Caribbean","Latin America and the Caribbean",3444006,52419720714,0,1,FALSE,50,FALSE,"2:18:36 ",138.6,8316
+"601","Nelson Ernesto Zamora Villalba","M",33,172,62,20.9572742022715,1992,"Uruguay","Latin America and the Caribbean","Latin America and the Caribbean",3154855,12878157306,0,1,FALSE,54,FALSE,"2:25:32",145.533333333333,8732
+"602","Waldemar Cotelo","M",32,173,60,20.0474456213038,1996,"Uruguay","Latin America and the Caribbean","Latin America and the Caribbean",3248035,20515465834,0,1,FALSE,79,FALSE,"2:28:50",148.833333333333,8930
+"603","Martn Esteban Cuestas","M",29,182,62,18.7175461900737,2016,"Uruguay","Latin America and the Caribbean","Latin America and the Caribbean",3444006,52419720714,0,1,FALSE,110,FALSE,"2:28:10",148.166666666667,8890
+"604","Frank Charles Shorter","M",28,178,61,19.252619618735,1976,"USA","Northern America","Northern America",218035000,1.87759e+12,4,4,FALSE,2,TRUE,"2:10:45",130.75,7845
+"605","Galen Rupp","M",30,181,61,18.61970025335,2016,"USA","Northern America","Northern America",323127513,1.86245e+13,4,4,FALSE,3,TRUE,"2:10:05 ",130.083333333333,7805
+"606","Daniel ""Dan"" Browne","M",29,178,66,20.8307031940412,2004,"USA","Northern America","Northern America",292805298,1.22749e+13,4,4,FALSE,65,FALSE,"2:27:17",147.283333333333,8837
+"607","Keith Alan Brantly","M",34,180,64,19.7530864197531,1996,"USA","Northern America","Northern America",269394000,8.1002e+12,4,4,TRUE,28,FALSE,"2:18:17",138.283333333333,8297
+"608","Jack Stangl ""Jack"" Bacheler","M",28,200,77,19.25,1972,"USA","Northern America","Northern America",209896000,1.28245e+12,4,4,FALSE,9,FALSE,"2:17:38",137.633333333333,8258
+"609","Mebrahtom R. ""Meb"" Keflezighi","M",29,166,56,20.3222528668892,2004,"USA","Northern America","Northern America",292805298,1.22749e+13,4,4,FALSE,2,TRUE,"2:11:29 ",131.483333333333,7889
+"610","Alan Lawrence Culpepper","M",31,186,59,17.0539946814661,2004,"USA","Northern America","Northern America",292805298,1.22749e+13,4,4,FALSE,12,FALSE,"2:15:26",135.433333333333,8126
+"611","Dathan James Ritzenhein","M",25,173,55,18.3768251528618,2008,"USA","Northern America","Northern America",304093966,1.47186e+13,4,4,FALSE,9,FALSE,"2:11:59",131.983333333333,7919
+"612","Brian E. Sell","M",29,178,64,20.1994697639187,2008,"USA","Northern America","Northern America",304093966,1.47186e+13,4,4,FALSE,22,FALSE,"2:16:07",136.116666666667,8167
+"613","Ryan Hall","M",25,180,61,18.8271604938272,2008,"USA","Northern America","Northern America",304093966,1.47186e+13,4,4,FALSE,10,FALSE,"2:12:33",132.55,7953
+"614","Mebrahtom R. ""Meb"" Keflezighi","M",37,166,56,20.3222528668892,2012,"USA","Northern America","Northern America",313998379,1.61553e+13,4,4,FALSE,4,FALSE,"2:11:06",131.1,7866
+"615","Jared Ward","M",27,178,66,20.8307031940412,2016,"USA","Northern America","Northern America",323127513,1.86245e+13,4,4,FALSE,6,FALSE,"2:11:30 ",131.5,7890
+"616","Mebrahtom R. ""Meb"" Keflezighi","M",41,166,56,20.3222528668892,2016,"USA","Northern America","Northern America",323127513,1.86245e+13,4,4,FALSE,33,FALSE,"2:16:46",136.766666666667,8206
+"617","Gordon Edmund McKenzie","M",33,172,61,20.619253650622,1960,"USA","Northern America","Northern America",180671000,5.433e+11,4,4,FALSE,48,FALSE,"2:35:16.0",155.266666666667,9316
+"618","Frank Charles Shorter","M",24,178,61,19.252619618735,1972,"USA","Northern America","Northern America",209896000,1.28245e+12,4,4,FALSE,1,TRUE,"2:12:19",132.316666666667,7939
+"619","Kenneth Clark ""Kenny"" Moore","M",28,183,64,19.1107527844964,1972,"USA","Northern America","Northern America",209896000,1.28245e+12,4,4,FALSE,4,FALSE,"2:15:39",135.65,8139
+"620","Kenneth Clark ""Kenny"" Moore","M",24,183,64,19.1107527844964,1968,"USA","Northern America","Northern America",200706000,9.425e+11,4,4,FALSE,14,FALSE,"2:29:49",149.816666666667,8989
+"621","Mark J. Coogan","M",30,178,62,19.5682363337962,1996,"USA","Northern America","Northern America",269394000,8.1002e+12,4,4,TRUE,41,FALSE,"2:20:27",140.45,8427
+"622","Leonard Graves ""Buddy"" Edelen","M",27,178,64,20.1994697639187,1964,"USA","Northern America","Northern America",191889000,6.858e+11,4,4,FALSE,6,FALSE,"2:18:12.4",138.2,8292
+"623","George L. Young","M",31,175,67,21.8775510204082,1968,"USA","Northern America","Northern America",200706000,9.425e+11,4,4,FALSE,16,FALSE,"2:31:15",151.25,9075
+"624","Alberto Bauday Salazar","M",25,181,64,19.5354232166295,1984,"USA","Northern America","Northern America",235825000,4.04069e+12,4,4,TRUE,15,FALSE,"2:14:19",134.316666666667,8059
+"625","Carlos Emilio Tarazona","M",34,174,61,20.147971991016,2000,"Venezuela","Latin America and the Caribbean","Latin America and the Caribbean",24488340,1.17141e+11,0,1,FALSE,40,FALSE,"2:20:39",140.65,8439
+"626","Carlos Emilio Tarazona","M",29,174,61,20.147971991016,1996,"Venezuela","Latin America and the Caribbean","Latin America and the Caribbean",22650102,68263823149,0,1,FALSE,89,FALSE,"2:32:35",152.583333333333,9155
+"627","Pedro Jess Mora Suescun","M",34,169,55,19.2570288155177,2012,"Venezuela","Latin America and the Caribbean","Latin America and the Caribbean",29893080,3.81286e+11,0,1,FALSE,62,FALSE,"2:22:40",142.666666666667,8560
+"628","Mohamed Al-Saadi","M",28,170,60,20.7612456747405,1996,"Yemen","Western Asia","Asia",15889449,5785685311,0,0,FALSE,101,FALSE,"2:40:41",160.683333333333,9641
+"629","Constantino Kapambwe","M",24,162,57,21.7192501143118,1964,"Zambia","Sub-Saharan Africa","Africa",3452942,839428571,0,13,FALSE,46,FALSE,"2:39:28.4",159.466666666667,9568
+"630","Laurent Daniel Chifita","M",21,168,56,19.8412698412698,1964,"Zambia","Sub-Saharan Africa","Africa",3452942,839428571,0,13,FALSE,57,FALSE,"2:51:52.2",171.866666666667,10312
+"631","Trevor Sackville Anthony ""Trev"" Haynes","M",34,179,63,19.6623076683,1964,"Zambia","Sub-Saharan Africa","Africa",3452942,839428571,0,13,FALSE,54,FALSE,"2:45:08.6",165.133333333333,9908
+"632","Buumba Gabriel Halwand","M",32,175,51,16.6530612244898,1980,"Zambia","Sub-Saharan Africa","Africa",5889230,3829500000,0,13,FALSE,43,FALSE,"2:36:51",156.85,9411
+"633","Jordan Chipangama","M",27,173,53,17.708576965485,2016,"Zambia","Sub-Saharan Africa","Africa",16591390,21063989683,0,13,FALSE,93,FALSE,"2:24:58",144.966666666667,8698
+"634","Damiano Ngwila Musonda","M",34,171,54,18.4672206832872,1980,"Zambia","Sub-Saharan Africa","Africa",5889230,3829500000,0,13,FALSE,48,FALSE,"2:42:11",162.183333333333,9731
+"635","Cuthbert Nyasango","M",33,163,56,21.0771952275208,2016,"Zimbabwe","Sub-Saharan Africa","Africa",16150362,16619960402,0,13,FALSE,58,FALSE,"2:18:58",138.966666666667,8338
+"636","Tendai Chimusasa","M",25,180,60,18.5185185185185,1996,"Zimbabwe","Sub-Saharan Africa","Africa",11518262,8553146600,0,13,FALSE,13,FALSE,"2:16:31",136.516666666667,8191
+"637","Cephas Matafi","M",21,170,60,20.7612456747405,1992,"Zimbabwe","Sub-Saharan Africa","Africa",10682868,6751472200,0,13,FALSE,58,FALSE,"2:26:17",146.283333333333,8777
+"638","Tendai Chimusasa","M",29,180,60,18.5185185185185,2000,"Zimbabwe","Sub-Saharan Africa","Africa",12222251,6689957600,0,13,FALSE,9,FALSE,"2:14:19",134.316666666667,8059
+"639","Abel Chimukoko","M",31,186,70,20.2335530119089,2004,"Zimbabwe","Sub-Saharan Africa","Africa",12777511,5805598400,0,13,FALSE,48,FALSE,"2:22:09",142.15,8529
+"640","Wirimai Juwawo","M",31,172,63,21.295294753921,2012,"Zimbabwe","Sub-Saharan Africa","Africa",14710826,14242490252,0,13,FALSE,15,FALSE,"2:14:09",134.15,8049
+"641","Pardon Ndhlovu","M",28,158,54,21.6311488543503,2016,"Zimbabwe","Sub-Saharan Africa","Africa",16150362,16619960402,0,13,FALSE,41,FALSE,"2:17:48",137.8,8268
+"642","James Gombedza","M",26,168,60,21.2585034013605,1988,"Zimbabwe","Sub-Saharan Africa","Africa",9604302,7814784100,0,13,FALSE,72,FALSE,"2:38:13",158.216666666667,9493
+"643","Cuthbert Nyasango","M",29,163,56,21.0771952275208,2012,"Zimbabwe","Sub-Saharan Africa","Africa",14710826,14242490252,0,13,FALSE,7,FALSE,"2:12:08",132.133333333333,7928
+"644","Patric Nyambariro-Nhauro","M",26,163,53,19.9480597689036,1984,"Zimbabwe","Sub-Saharan Africa","Africa",8342195,6352125900,0,13,FALSE,67,FALSE,"2:37:18",157.3,9438
+"645","Tapfumaneyi Jonga","M",20,163,55,20.7008167413151,1980,"Zimbabwe","Sub-Saharan Africa","Africa",7164172,6678868200,0,13,FALSE,51,FALSE,"2:47:17",167.283333333333,10037
+"646","Mathias Kanda","M",22,160,61,23.828125,1964,"Zimbabwe","Sub-Saharan Africa","Africa",4269863,1217138000,0,13,FALSE,51,FALSE,"2:41:09.0",161.15,9669
+"647","Robson Mrombe","M",23,168,59,20.9041950113379,1964,"Zimbabwe","Sub-Saharan Africa","Africa",4269863,1217138000,0,13,FALSE,56,FALSE,"2:49:30.8",169.5,10170

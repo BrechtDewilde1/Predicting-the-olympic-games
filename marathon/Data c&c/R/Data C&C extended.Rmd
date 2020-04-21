@@ -1,0 +1,225 @@
+---
+title: "Data C&C extended dataframes"
+author: "Brecht Dewilde"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(sjmisc)
+setwd("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R")
+source("function_library.R")
+```
+
+### Load non extended dataframes
+```{r load non extended df}
+load("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/Rda/marathonF.RData")
+load("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/Rda/marathonM.RData")
+```
+
+### Load record history data
+```{r}
+m_records <- read.csv(file.path("Data\\record history", "male_records.csv"), stringsAsFactors = FALSE)
+f_records <- read.csv(file.path("Data\\record history", "female_records.csv"), stringsAsFactors = FALSE)
+```
+
+### Load and merge label datasets
+```{r}
+dir <- "Data\\labels\\"
+file.names <- paste0(dir, list.files(path = "Data\\labels"))
+out <- lapply(file.names, read.csv, stringsAsFactors = FALSE)
+out <- lapply(out, labels_cleaning)
+out <- do.call(rbind, out)[, c(2,3,5)]
+out <- as.data.frame(out %>% filter(Distance == "Marathon"))
+labels <- out %>% distinct(Venue, .keep_all = TRUE)
+
+rm("dir", "file.names", "out")
+```
+
+### Clean the record datasets
+Male
+```{r}
+# convert date column to data type
+Sys.setlocale("LC_ALL","English")
+m_records$date <- as.Date(m_records$date, format = "%d %b %Y")
+
+# Remove the countries between brackets, such that only the city name remains
+m_records$HostCity <- trimws(gsub("\\(([^)]*)\\)", "", m_records$place))
+
+# Remove all words with two letters
+m_records$HostCity <- trimws(gsub("\\b[[:alpha:]]{2}\\b", "", m_records$HostCity))
+```
+
+Female
+```{r}
+# convert date column to data type
+Sys.setlocale("LC_ALL","English")
+f_records$date <- as.Date(f_records$date, format = "%d %b %Y")
+
+# Remove the countries between brackets, such that only the city name remains
+f_records$HostCity <- trimws(gsub("\\(([^)]*)\\)", "", f_records$place))
+
+# Remove all words with two letters
+f_records$HostCity <- trimws(gsub("\\b[[:alpha:]]{2}\\b", "", f_records$HostCity))
+```
+
+
+### Add features to record datasets
+Male 
+```{r}
+# add minutes and seconds racetimes
+m_records$TimeMins <- convert_to_mins(as.POSIXct(m_records$performance, format = "%H:%M:%S"))
+m_records$TimeSecs <- convert_to_secs(as.POSIXct(m_records$performance, format = "%H:%M:%S"))
+
+# Add Gold/Silver/Bronze
+m_records$label = vector("character", length = nrow(m_records))
+counter <- 1
+for(ven in labels$Venue){
+  m_records$label[which(grepl(ven, m_records$HostCity))] <- labels$Label[counter]
+  counter <- counter + 1 
+}
+
+# Add none in case there is no label 
+m_records$label[which(m_records$label == "")] <- "No Label"
+
+# Add TimeScore variable
+m_records$TimeScore <- time_score(m_records$TimeSecs)
+
+# Add position variable
+m_records <- as.data.frame(m_records %>% group_by(place, date) %>% arrange(desc(TimeScore)) %>% mutate(position = row_number(place)))
+
+# Add PositionScore variable
+output <- place_score(m_records$position, m_records$label)
+m_records$position_score <- output
+
+# Add performanceScore variable
+m_records$performance_score <- m_records$TimeScore + m_records$position_score
+
+rm("output")
+```
+
+Female
+```{r}
+# add minutes and seconds racetimes
+f_records$TimeMins <- convert_to_mins(as.POSIXct(f_records$performance, format = "%H:%M:%S"))
+f_records$TimeSecs <- convert_to_secs(as.POSIXct(f_records$performance, format = "%H:%M:%S"))
+
+# Add Gold/Silver/Bronze
+f_records$label = vector("character", length = nrow(f_records))
+counter <- 1
+for(ven in labels$Venue){
+  f_records$label[which(grepl(ven, f_records$HostCity))] <- labels$Label[counter]
+  counter <- counter + 1 
+}
+
+# Add none in case there is no label 
+f_records$label[which(f_records$label == "")] <- "No Label"
+
+# Add TimeScore variable
+f_records$TimeScore <- time_score(f_records$TimeSecs)
+
+# Add position variable
+f_records <- as.data.frame(f_records %>% group_by(place, date) %>% arrange(desc(TimeScore)) %>% mutate(position = row_number(place)))
+
+# Add PositionScore variable
+output <- place_score(f_records$position, f_records$label)
+f_records$position_score <- output
+
+# Add performance score variable
+f_records$performance_score <- f_records$TimeScore + f_records$position_score
+
+rm("counter", "ven", "labels", "output")
+```
+
+### Add features to marathon sets
+Male 
+```{r}
+marathonM$marathons <- vector("numeric", length = nrow(marathonM))
+marathonM$Gmarathons <- vector("numeric", length = nrow(marathonM))
+marathonM$Smarathons <- vector("numeric", length = nrow(marathonM))
+marathonM$Bmarathons <- vector("numeric", length = nrow(marathonM))
+marathonM$avgTime <- vector("numeric", length = nrow(marathonM))
+marathonM$avgTimeScore <- vector("numeric", length = nrow(marathonM))
+marathonM$bestTime <- vector("numeric", length = nrow(marathonM))
+marathonM$dateBestTime <- vector("numeric", length = nrow(marathonM))
+marathonM$bestTimeScore <- vector("numeric", length = nrow(marathonM))
+marathonM$avgPosition <- vector("numeric", length = nrow(marathonM))
+marathonM$avgPositionScore <- vector("numeric", length = nrow(marathonM))
+marathonM$bestPosition <- vector("numeric", length = nrow(marathonM))
+marathonM$bestPositionScore <- vector("numeric", length = nrow(marathonM))
+marathonM$avgPerformanceScore <- vector("numeric", length = nrow(marathonM))
+marathonM$bestPerformanceScore <- vector("numeric", length = nrow(marathonM))
+```
+
+```{r}
+# iteration through each observation and each feature of the observation
+for(i in 1:nrow(marathonM)){
+  out <- feature_creation(m_records, marathonM$Name[i], marathonM$Year[i])
+  for(j in 1:15){
+    marathonM[i, j+19] <- out[[j]]
+  }
+}
+marathonM <- na.omit(marathonM)
+marathonM$dateBestTime <- as.Date(marathonM$dateBestTime, origin = "1970-01-01")
+rm("out", "i", "j")
+```
+
+Female
+```{r}
+marathonF$marathons <- vector("numeric", length = nrow(marathonF))
+marathonF$Gmarathons <- vector("numeric", length = nrow(marathonF))
+marathonF$Smarathons <- vector("numeric", length = nrow(marathonF))
+marathonF$Bmarathons <- vector("numeric", length = nrow(marathonF))
+marathonF$avgTime <- vector("numeric", length = nrow(marathonF))
+marathonF$avgTimeScore <- vector("numeric", length = nrow(marathonF))
+marathonF$bestTime <- vector("numeric", length = nrow(marathonF))
+marathonF$dateBestTime <- vector("numeric", length = nrow(marathonF))
+marathonF$bestTimeScore  <- vector("numeric", length = nrow(marathonF))
+marathonF$avgPosition <- vector("numeric", length = nrow(marathonF))
+marathonF$avgPositionScore <- vector("numeric", length = nrow(marathonF))
+marathonF$bestPosition <- vector("numeric", length = nrow(marathonF))
+marathonF$bestPositionScore <- vector("numeric", length = nrow(marathonF))
+marathonF$avgPerformanceScore <- vector("numeric", length = nrow(marathonF))
+marathonF$bestPerformanceScore <- vector("numeric", length = nrow(marathonF))
+```
+
+```{r}
+# iteration through each observation and each feature of the observation
+for(i in 1:nrow(marathonF)){
+  out <- feature_creation(f_records, marathonF$Name[i], marathonF$Year[i])
+  for(j in 1:15){
+    marathonF[i, j+19] <- out[[j]]
+  }
+}
+
+marathonF <- na.omit(marathonF)
+marathonF$dateBestTime <- as.Date(marathonF$dateBestTime, origin = "1970-01-01")
+rm("out", "i", "j", "m_records", "f_records")
+```
+
+### Count months between bestDate and raceDate
+```{r}
+marathonM$monthsBestTime <- monthCalculator(marathonM$Year, marathonM$dateBestTime)
+marathonF$monthsBestTime <- monthCalculator(marathonF$Year, marathonF$dateBestTime)
+```
+
+### Column Repositioning
+```{r}
+marathonM <- marathonM[, c("Name", "Sex", "Age", "Height", "Weight", "bmi", "Year", "Nationality", "SubRegion", "Population", "GDP", "countryWins" ,"subRegionWins", "HomeAdvantage",  "marathons", "Gmarathons", "Smarathons", "Bmarathons", "avgTime", "bestTime", "avgTimeScore", "bestTimeScore",
+"avgPosition",  "bestPosition", "avgPositionScore", "bestPositionScore", "avgPerformanceScore", "bestPerformanceScore", "monthsBestTime", "Position", "Medal", "Time", "TimeMins", "TimeSecs")]
+
+marathonF <- marathonF[, c("Name", "Sex", "Age", "Height", "Weight", "bmi", "Year", "Nationality", "SubRegion", "Population", "GDP", "countryWins" ,"subRegionWins", "HomeAdvantage",  "marathons", "Gmarathons", "Smarathons", "Bmarathons", "avgTime", "bestTime", "avgTimeScore", "bestTimeScore",
+"avgPosition",  "bestPosition", "avgPositionScore", "bestPositionScore", "avgPerformanceScore", "bestPerformanceScore", "monthsBestTime", "Position", "Medal", "Time", "TimeMins", "TimeSecs")]
+
+```
+
+### Save datasets
+```{r save datasets}
+save(marathonM, file = "Data\\Rda\\marathonM_extended.RData")
+save(marathonF, file = "Data\\Rda\\marathonF_extended.RData")
+```
+
+
+
+

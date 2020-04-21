@@ -1,0 +1,242 @@
+---
+title: "Predict racetime Olympic Marathon"
+author: "Brecht Dewilde"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse, mmpf)
+setwd("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R")
+source("function_library.R")
+```
+
+### Import full dataset 
+```{r data preview, echo=FALSE}
+fData <- read.csv(file.path("Data", "athlete_events.csv"), stringsAsFactors = FALSE)
+```
+
+### Select only marathon events
+```{r selecting only rows concerning marathon, echo=FALSE, eval=FALSE}
+marathon <- filter(fData, grepl("Marathon", fData$Event))
+rm("fData")
+```
+
+### Select only relevant columns
+```{r select relevant columns}
+marathon <- marathon[ ,c("Name", "Sex", "Age", "Height", "Weight", "Year", "City", "Medal", "NOC")]
+```
+
+### Merge with NOC regions
+```{r NOC regions merge, echo=FALSE}
+noc_country <- read.csv(file.path("Data", "noc_regions.csv"))[,c(1,2)]
+marathon <- merge(x = marathon, y = noc_country, all.x = TRUE)
+marathon <- marathon[,c("Name", "Sex", "Age", "Height", "Weight", "Year", "City",  "Medal", "NOC", "region")]
+colnames(marathon)[10] <- "Nationality"
+rm("noc_country")
+```
+
+### Add GDP 
+```{r add gdp, echo=FALSE}
+# Import and cleaning
+gdp <- read.csv(file = file.path("Data", "world_gdp.csv"))[seq(3, 222), c(-3, -4)]
+colnames(gdp) <- c("Country Name",	"Country Code",	as.character(gdp[1,])[seq(3, 59)])
+gdp <- gdp[-1,]
+gdp <- gather(data = gdp, key = "Year", value = "GDP", 3:59)
+colnames(gdp)[c(1,2)] <- c("Nationality", "NOC")
+
+# Merge gdp and marathon
+temp <- merge(marathon, gdp, by = c("Nationality","Year"), all.x = TRUE)
+temp <- merge(temp, gdp, by.x= c("NOC.x","Year"), by.y = c("NOC","Year"), all.x = TRUE)
+temp$GDP <- ifelse(is.na(temp$GDP.x), temp$GDP.y, temp$GDP.x)
+
+marathon <- temp[, c("Name", "Sex", "Age", "Height", "Weight", "Year", "City", "Medal", "NOC.x", "Nationality.x", "GDP")]
+colnames(marathon)[c(9,10)] <- c("NOC", "Nationality")
+rm("gdp", "temp")
+```
+
+### Add Population
+```{r add population, echo=FALSE}
+# Import and cleaning
+pop <- read.csv(file = file.path("Data", "world_pop.csv"))[, c(-3, -4)]
+colnames(pop) <- c("Country Name",	"Country Code", sub("X", "", colnames(pop)[c(-1,-2)]))
+pop <- gather(data = pop, key = "Year", value = "Population", 3:59)
+colnames(pop)[c(1,2)] <- c("Nationality", "NOC")
+
+# Merge Pop and marathon 
+temp <- merge(marathon, pop, by = c("Nationality","Year"), all.x = TRUE)
+temp <- merge(temp, pop, by.x= c("NOC.x","Year"), by.y = c("NOC","Year"), all.x = TRUE)
+temp$Population <- ifelse(is.na(temp$Population.x), temp$Population.y, temp$Population.x)
+
+marathon <- temp[, c("Name", "Sex", "Age", "Height", "Weight", "Year", "City", "Medal", "NOC.x", "Nationality.x", "GDP", "Population")]
+colnames(marathon)[c(9,10)] <- c("NOC", "Nationality")
+
+rm("pop", "temp")
+```
+
+### Column restructering
+```{r column restructering, echo=FALSE}
+marathon <- marathon[, c("Name", "Sex", "Age", "Height", "Weight", "Nationality", "NOC", "Population", "GDP", "Year", "City", "Medal")]
+colnames(marathon)[11] <- "Host city"
+```
+
+### Adapt medal column
+```{r}
+marathon$Medal <- ifelse(is.na(marathon$Medal), FALSE, TRUE)
+```
+
+### Remove GDP/POP/HEIGHT/WEIGHT NA values
+```{r GDP remove NA values, echo=FALSE}
+marathon <- na.omit(marathon)
+```
+
+### Add BMI column
+```{r BMI column and medal column}
+marathon <- add_column(marathon, bmi = marathon$Weight / (marathon$Height/100)^2, .after = "Weight")
+```
+
+### Subregions
+```{r add subregions}
+countries.regions <- read.csv(file.path("Data", "countries_regions.csv"), stringsAsFactors = FALSE)[ ,c(1, 3, 7)]
+colnames(countries.regions) <- c("Nationality", "NOC", "Sub-Region")
+temp <- merge(marathon, countries.regions, by = "Nationality", all.x = TRUE)
+temp <- merge(temp, countries.regions, by.x = "NOC.x", by.y = "NOC", all.x = TRUE)
+temp$SubRegion <- ifelse(is.na(temp$`Sub-Region.x`), temp$`Sub-Region.y`, temp$`Sub-Region.x`)
+marathon <- temp[, c("Name", "Sex", "Age", "Height", "Weight", "bmi", "Year", "Nationality.x", "Population", "GDP", "SubRegion", "Host city", "Medal")]
+colnames(marathon)[8] <- "Nationality"
+marathon <- na.omit(marathon)
+rm("countries.regions", "temp")
+```
+
+### Home Advantage
+```{r Home advantage}
+marathon$`Host city`[marathon$`Host city` == "Roma"] <- "Rome"
+marathon$`Host city`[marathon$`Host city` == "Moskva"] <- "Moscow"
+marathon$`Host city`[marathon$`Host city` == "Athina"] <- "Athens"
+marathon <- add_column(marathon, HostCountry = host_country_determiner(marathon$`Host city`), .after = "Host city")
+marathon <- add_column(marathon, HomeAdvantage = ifelse(marathon$Nationality == marathon$HostCountry, TRUE, FALSE), .after = "HostCountry")
+```
+
+### Gender split
+```{r gender split, echo=FALSE}
+marathonM <- filter(marathon, Sex == "M")
+marathonF <- filter(marathon, Sex == "F")
+rm("marathon")
+```
+
+### Add male racetimes
+[site](http://www.olympicgamesmarathon.com/results.php) 
+**merge condition**: if there are at least two words in the name vector that match then the rows will be merged together
+```{r reading the scraped data, echo=FALSE, eval=FALSE}
+dir =  "Data\\male race times"
+files = list.files(path = "Data\\male race times")
+data_frames <- vector(mode = "list", length = length(files))
+
+index <-1 
+for(file in files){
+  data_frames[[index]] <- read.csv(file.path(dir, file))
+  year <- gsub("[^0-9]", replacement = "", file)
+  data_frames[[index]]$Year <- year
+  index <- index +  1
+}
+race_times <- do.call("rbind", data_frames) %>% filter(Year >= 1960) %>% filter(Time != "")
+race_times$full_name <- paste(race_times$FirstName, race_times$LastName)
+
+# cartesian product of all combinations
+combinations <- mmpf::cartesianExpand(marathonM, race_times)
+indicator <- vector(length = nrow(combinations))
+
+# Compute the output of the function to each row
+for(i in 1:nrow(combinations)){
+  indicator[i] <- match_names(combinations$Name[i], combinations$Year.x[i], combinations$full_name[i], combinations$Year.y[i])
+}
+
+# Filter on the indicator vector
+marathonM <- combinations[indicator,]
+marathonM$Nationality <- as.character(marathonM$Nationality)
+marathonM <- marathonM[, c("Name", "Sex", "Age", "Height", "Weight", "bmi",  "Year.x", "Nationality.x", "SubRegion", "Population", "GDP",  "HomeAdvantage", "Position", "Medal", "Time")]
+colnames(marathonM) <- c("Name", "Sex", "Age", "Height", "Weight", "bmi", "Year", "Nationality", "SubRegion", "Population", "GDP", "HomeAdvantage", "Position", "Medal", "Time")
+
+rm("combinations", "data_frames", "race_times", "dir", "file", "files", "i", "index", "indicator", "year")
+```
+
+
+### Add female racetimes
+extracted from wikipedia
+```{r add female racetimes, echo=FALSE}
+# import all the csv files
+dir <- "Data\\female race times\\"
+file.names <- paste0(dir, list.files(path = "Data\\female race times"))
+out <- lapply(file.names, read.csv, stringsAsFactor = FALSE)
+
+# data cleaning
+out <- lapply(out, woman_data_cleaning)
+nobs <- lapply(out, nrow)
+out <- do.call(rbind, out)
+out$Year <- rep(c(1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016), unlist(nobs))
+
+# merge with marathonF
+combinations <- mmpf::cartesianExpand(marathonF, out)
+indicator <- vector(length = nrow(combinations))
+for(i in 1:nrow(combinations)){
+  indicator[i] <- match_names(combinations$Name.x[i], combinations$Year.x[i], combinations$Name.y[i], combinations$Year.y[i])
+}
+
+marathonF <- combinations[indicator,]
+marathonF$Nationality <- as.character(marathonF$Nationality)
+
+marathonF <- marathonF[, c("Name.x", "Sex", "Age", "Height", "Weight", "bmi",  "Year.x", "Nationality.x", "SubRegion", "Population", "GDP",  "HomeAdvantage", "Position", "Medal", "Time")]
+colnames(marathonF) <- c("Name", "Sex", "Age", "Height", "Weight", "bmi", "Year", "Nationality", "SubRegion", "Population", "GDP", "HomeAdvantage", "Position", "Medal", "Time")
+
+rm("combinations", "nobs", "out", "dir", "file.names", "i", "indicator")
+```
+
+### Express racetime in minutes and in seconds
+```{r change racetime unit}
+marathonM$Time <- as.character(marathonM$Time)
+marathonM$Time[which(is.na(as.POSIXct(marathonM$Time, format = "%H:%M:%S")))] <- c("2:31:18", "2:32:32", "2:26:38", "2:26:33", "2:31:20", "2:27:00", "2:28:55", "2:24:16", "2:32:13", "2:31:32", "2:31:54", "2:29:45", "2:29:40", "2:27:30", "2:22:58", "2:32:12")
+
+marathonM$TimeMins <- convert_to_mins(as.POSIXct(marathonM$Time, format = "%H:%M:%S"))
+marathonM$TimeSecs <- convert_to_secs(as.POSIXct(marathonM$Time, format = "%H:%M:%S"))
+
+marathonF$TimeMins <- convert_to_mins(as.POSIXct(marathonF$Time, format = "%H:%M:%S"))
+marathonF$TimeSecs <- convert_to_secs(as.POSIXct(marathonF$Time, format = "%H:%M:%S"))
+```
+
+### Add Number of won medals given country and given SubRegion
+```{r}
+medals <- as.data.frame(marathonM %>% filter(Medal == TRUE) %>% group_by(Nationality) %>%  count(won = Medal))
+medals <- ifelse(is.na(medals$n[match(marathonM$Nationality, medals$Nationality)]), 0, medals$n[match(marathonM$Nationality, medals$Nationality)])
+marathonM <- add_column(marathonM, countryWins = medals, .after = "GDP")
+
+medals <- as.data.frame(marathonM %>% filter(Medal == TRUE) %>% group_by(SubRegion) %>%  count(won = Medal))
+medals <- ifelse(is.na(medals$n[match(marathonM$SubRegion, medals$SubRegion)]), 0, medals$n[match(marathonM$SubRegion, medals$SubRegion)])
+marathonM <- add_column(marathonM, subRegionWins = medals, .after = "countryWins")
+
+medals <- as.data.frame(marathonF %>% filter(Medal == TRUE) %>% group_by(Nationality) %>%  count(won = Medal))
+medals <- ifelse(is.na(medals$n[match(marathonF$Nationality, medals$Nationality)]), 0, medals$n[match(marathonF$Nationality, medals$Nationality)])
+marathonF <- add_column(marathonF, countryWins = medals, .after = "GDP")
+
+medals <- as.data.frame(marathonF %>% filter(Medal == TRUE) %>% group_by(SubRegion) %>%  count(won = Medal))
+medals <- ifelse(is.na(medals$n[match(marathonF$SubRegion, medals$SubRegion)]), 0, medals$n[match(marathonF$SubRegion, medals$SubRegion)])
+marathonF <- add_column(marathonF, subRegionWins = medals, .after = "countryWins")
+rm("medals")
+```
+
+### Save datasets
+```{r save datasets}
+marathonM <- na.omit(marathonM)
+marathonF <- na.omit(marathonF)
+
+save(marathonM, file = "Data\\Rda\\marathonM.RData")
+save(marathonF, file = "Data\\Rda\\marathonF.RData")
+```
+
+### Write to csv
+```{r Write to csv}
+nocs <- read.csv(file.path("Data", "noc_regions.csv"), stringsAsFactors = FALSE)[, c(1,2)]
+colnames(nocs) <- c("NOC", "Nationality")
+write.csv(merge(marathonM[,c(1,8)], nocs), file.path("Data\\marathonM.csv"))
+write.csv(merge(marathonF[,c(1,8)], nocs), file.path("Data\\marathonF.csv"))
+```
+

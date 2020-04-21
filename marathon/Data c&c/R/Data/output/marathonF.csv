@@ -1,0 +1,272 @@
+"","Name","Sex","Age","Height","Weight","bmi","Year","Nationality","SubRegion","continent","Population","GDP","countryWins","subRegionWins","HomeAdvantage","Position","Medal","Time","TimeMins","TimeSecs"
+"1","Kenza Tifahi Dahmani","F",35,164,54,20.0773349196907,2016,"Algeria","Northern Africa","Africa",40606052,1.59049e+11,0,0,FALSE,50,FALSE,"2:38:37",158.616666666667,9517
+"2","Souad At Salem (-Mahour-Bacha)","F",33,158,50,20.0288415318058,2012,"Algeria","Northern Africa","Africa",37565847,2.09059e+11,0,0,FALSE,37,FALSE,"2:31:15",151.25,9075
+"3","Souad At Salem (-Mahour-Bacha)","F",29,158,50,20.0288415318058,2008,"Algeria","Northern Africa","Africa",34860715,1.71001e+11,0,0,FALSE,9,FALSE,"2:28:29",148.483333333333,8909
+"4","Sandra Edith Torres lvarez","F",29,157,47,19.0677106576332,2004,"Argentina","Latin America and the Caribbean","Latin America and the Caribbean",38728696,1.64658e+11,0,0,FALSE,55,FALSE,"2:54:48",174.8,10488
+"5","Rosa Liliana Godoy","F",34,160,47,18.359375,2016,"Argentina","Latin America and the Caribbean","Latin America and the Caribbean",43847430,5.45476e+11,0,0,FALSE,110,FALSE,"2:52:31",172.516666666667,10351
+"6","Kerryn Anne McCann (Hindmarsh-)","F",37,162,47,17.908855357415,2004,"Australia","Australia and New Zealand","Oceania",20127400,6.1333e+11,0,0,FALSE,31,FALSE,"2:41:41",161.683333333333,9701
+"7","Kate Smyth (Harris-)","F",35,165,50,18.3654729109275,2008,"Australia","Australia and New Zealand","Oceania",21249200,1.05533e+12,0,0,FALSE,44,FALSE,"2:36:10",156.166666666667,9370
+"8","Jessica Trengove","F",28,166,52,18.8706633763972,2016,"Australia","Australia and New Zealand","Oceania",24127159,1.20462e+12,0,0,FALSE,22,FALSE,"2:31:44",151.733333333333,9104
+"9","Lisa Jane Weightman","F",29,157,44,17.8506227433162,2008,"Australia","Australia and New Zealand","Oceania",21249200,1.05533e+12,0,0,FALSE,33,FALSE,"2:34:16",154.266666666667,9256
+"10","Kerryn Anne McCann (Hindmarsh-)","F",33,162,47,17.908855357415,2000,"Australia","Australia and New Zealand","Oceania",19153000,4.15446e+11,0,0,TRUE,11,FALSE,"2:28:37",148.616666666667,8917
+"11","Jessica Trengove","F",24,166,52,18.8706633763972,2012,"Australia","Australia and New Zealand","Oceania",22728254,1.53819e+12,0,0,FALSE,39,FALSE,"2:31:17",151.283333333333,9077
+"12","Susan Elizabeth ""Sue"" Hobson","F",42,170,55,19.0311418685121,2000,"Australia","Australia and New Zealand","Oceania",19153000,4.15446e+11,0,0,TRUE,35,FALSE,"2:38:44",158.733333333333,9524
+"13","Lisa Jane Weightman","F",37,157,44,17.8506227433162,2016,"Australia","Australia and New Zealand","Oceania",24127159,1.20462e+12,0,0,FALSE,31,FALSE,"2:34:41",154.683333333333,9281
+"14","Lisa Jane Weightman","F",33,157,44,17.8506227433162,2012,"Australia","Australia and New Zealand","Oceania",22728254,1.53819e+12,0,0,FALSE,17,FALSE,"2:27:32",147.533333333333,8852
+"15","Eva-Maria Gradwohl (Wilfing-)","F",35,168,57,20.1955782312925,2008,"Austria","Western Europe","Europe",8321496,4.30294e+11,0,0,FALSE,57,FALSE,"2:44:24",164.4,9864
+"16","Andrea Mayr","F",36,174,53,17.5056150085877,2016,"Austria","Western Europe","Europe",8747358,3.908e+11,0,0,FALSE,64,FALSE,"2:41:52",161.866666666667,9712
+"17","Andrea Mayr","F",32,174,53,17.5056150085877,2012,"Austria","Western Europe","Europe",8429991,4.09425e+11,0,0,FALSE,54,FALSE,"2:34:51",154.85,9291
+"18","Els Rens","F",33,160,51,19.921875,2016,"Belgium","Western Europe","Europe",11348159,4.67956e+11,0,0,FALSE,84,FALSE,"2:45:52",165.866666666667,9952
+"19","Veerle Dejaeghere","F",43,159,46,18.1954827736245,2016,"Belgium","Western Europe","Europe",11348159,4.67956e+11,0,0,FALSE,47,FALSE,"2:37:39",157.65,9459
+"20","Magda Ilands (-Moons, -Versluys)","F",38,159,53,20.9643605870021,1988,"Belgium","Western Europe","Europe",9901664,1.63168e+11,0,0,FALSE,35,FALSE,"2:38:02",158.033333333333,9482
+"21","Manuela Soccol","F",28,157,42,17.0392308004382,2016,"Belgium","Western Europe","Europe",11348159,4.67956e+11,0,0,FALSE,74,FALSE,"2:44:18",164.3,9858
+"22","Sonia Calizaya Huanca","F",32,151,43,18.858821981492,2008,"Boliva","Latin America and the Caribbean","Latin America and the Caribbean",9599855,16674324634,0,0,FALSE,59,FALSE,"2:45:53",165.883333333333,9953
+"23","Solange Cordeiro de Souza","F",27,156,43,17.6692965154504,1996,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",164913306,8.50426e+11,0,0,FALSE,60,FALSE,"2:56:23",176.383333333333,10583
+"24","Anglica de Almeida","F",23,158,44,17.6253805479891,1988,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",144001542,3.30397e+11,0,0,FALSE,44,FALSE,"2:43:40",163.666666666667,9820
+"25","Eleonora Costa Soares de Mendona","F",35,165,56,20.5693296602388,1984,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",132800684,2.09024e+11,0,0,FALSE,44,FALSE,"2:52:19",172.316666666667,10339
+"26","Adriana Aparecida da Silva","F",31,166,52,18.8706633763972,2012,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",200560983,2.46519e+12,0,0,FALSE,47,FALSE,"2:33:15",153.25,9195
+"27","Adriana Aparecida da Silva","F",35,166,52,18.8706633763972,2016,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",207652865,1.79619e+12,0,0,TRUE,69,FALSE,"2:43:22",163.366666666667,9802
+"28","Marily dos Santos","F",30,158,46,18.4265342092613,2008,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",192979029,1.69582e+12,0,0,FALSE,51,FALSE,"2:38:10",158.166666666667,9490
+"29","Graciete Feira de Santana","F",35,155,43,17.89802289282,2016,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",207652865,1.79619e+12,0,0,TRUE,128,FALSE,"3:09:15",189.25,11355
+"30","Marily dos Santos","F",38,158,46,18.4265342092613,2016,"Brazil","Latin America and the Caribbean","Latin America and the Caribbean",207652865,1.79619e+12,0,0,TRUE,78,FALSE,"2:45:08",165.133333333333,9908
+"31","Eunice Jepkirui Kirwa","F",32,155,49,20.3954214360042,2016,"Bahrain","Western Asia","Asia",1425171,32179069149,1,1,FALSE,2,TRUE,"2:24:13",144.216666666667,8653
+"32","Lishan Dula Gemgchu","F",25,164,44,16.3593099345628,2012,"Bahrain","Western Asia","Asia",1300217,30749308511,1,1,FALSE,62,FALSE,"2:36:20",156.333333333333,9380
+"33","Militsa Mircheva","F",22,165,50,18.3654729109275,2016,"Bulgaria","Eastern Europe","Europe",7127822,53237882473,0,0,FALSE,108,FALSE,"2:51:06",171.1,10266
+"34","Nary Ly","F",44,160,55,21.484375,2016,"Cambodia","South-eastern Asia","Asia",15762370,20016747754,0,0,FALSE,133,FALSE,"3:20:20",200.333333333333,12020
+"35","Lanni Marchant","F",32,155,48,19.9791883454735,2016,"Canada","Northern America","Northern America",36286425,1.52976e+12,0,0,FALSE,24,FALSE,"2:33:08",153.133333333333,9188
+"36","Odette Lapierre","F",33,162,50,19.0519737844841,1988,"Canada","Northern America","Northern America",26895000,5.07354e+11,0,0,FALSE,11,FALSE,"2:30:56",150.933333333333,9056
+"37","Anne Marie Malone (-Macrow)","F",24,165,42,15.4269972451791,1984,"Canada","Northern America","Northern America",25702000,3.55373e+11,0,0,FALSE,17,FALSE,"2:36:33",156.55,9393
+"38","Krista DuChene","F",39,167,54,19.3624726594715,2016,"Canada","Northern America","Northern America",36286425,1.52976e+12,0,0,FALSE,35,FALSE,"2:35:29",155.483333333333,9329
+"39","rika Alejandra Olivera de la Fuente","F",40,165,55,20.2020202020202,2016,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",17909754,2.47028e+11,0,0,FALSE,36,FALSE,"2:35:49",155.816666666667,9349
+"40","Natalia del Carmen Romero Jaramillo","F",36,163,57,21.4535737137265,2016,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",17909754,2.47028e+11,0,0,FALSE,123,FALSE,"3:01:29",181.483333333333,10889
+"41","Natalia del Carmen Romero Jaramillo","F",32,163,57,21.4535737137265,2012,"Chile","Latin America and the Caribbean","Latin America and the Caribbean",17309746,2.67122e+11,0,0,FALSE,69,FALSE,"2:37:47",157.783333333333,9467
+"42","Ren Xiujuan","F",25,160,56,21.875,2000,"China","Eastern Asia","Asia",1262645000,1.21135e+12,1,3,FALSE,10,FALSE,"2:27:55",147.916666666667,8875
+"43","Li Juan","F",19,160,46,17.96875,1988,"China","Eastern Asia","Asia",1101630000,3.12354e+11,1,3,FALSE,54,FALSE,"2:53:08",173.133333333333,10388
+"44","Wang Xueqin","F",21,162,50,19.0519737844841,2012,"China","Eastern Asia","Asia",1350695000,8.56055e+12,1,3,FALSE,22,FALSE,"2:28:21",148.35,8901
+"45","Zhu Xiaolin","F",24,168,50,17.7154195011338,2008,"China","Eastern Asia","Asia",1324655000,4.59821e+12,1,3,TRUE,4,FALSE,"2:27:16",147.266666666667,8836
+"46","Hua Shaoqing","F",22,165,50,18.3654729109275,2016,"China","Eastern Asia","Asia",1378665000,1.11991e+13,1,3,FALSE,79,FALSE,"2:45:09",165.15,9909
+"47","Zhong Huandi","F",21,155,42,17.4817898022893,1988,"China","Eastern Asia","Asia",1101630000,3.12354e+11,1,3,FALSE,30,FALSE,"2:36:02",156.033333333333,9362
+"48","Zhang Shujing","F",25,163,52,19.5716812826979,2004,"China","Eastern Asia","Asia",1296075000,1.95535e+12,1,3,FALSE,12,FALSE,"2:34:34",154.566666666667,9274
+"49","Zhao Youfeng","F",23,168,49,17.3611111111111,1988,"China","Eastern Asia","Asia",1101630000,3.12354e+11,1,3,FALSE,5,FALSE,"2:27:06",147.1,8826
+"50","Li Helan","F",26,165,48,17.6308539944904,2004,"China","Eastern Asia","Asia",1296075000,1.95535e+12,1,3,FALSE,22,FALSE,"2:37:53",157.883333333333,9473
+"51","Yue Chao","F",25,165,50,18.3654729109275,2016,"China","Eastern Asia","Asia",1378665000,1.11991e+13,1,3,FALSE,53,FALSE,"2:39:09",159.15,9549
+"52","Zhou Chunxiu","F",29,162,45,17.1467764060357,2008,"China","Eastern Asia","Asia",1324655000,4.59821e+12,1,3,TRUE,3,TRUE,"2:27:07",147.116666666667,8827
+"53","Zhang Shujing","F",29,163,52,19.5716812826979,2008,"China","Eastern Asia","Asia",1324655000,4.59821e+12,1,3,TRUE,41,FALSE,"2:35:35",155.583333333333,9335
+"54","Zhu Xiaolin","F",28,168,50,17.7154195011338,2012,"China","Eastern Asia","Asia",1350695000,8.56055e+12,1,3,FALSE,6,FALSE,"2:24:48",144.8,8688
+"55","Zhou Chunxiu","F",25,162,45,17.1467764060357,2004,"China","Eastern Asia","Asia",1296075000,1.95535e+12,1,3,FALSE,33,FALSE,"2:42:54",162.9,9774
+"56","Wang Jiali","F",26,160,50,19.53125,2012,"China","Eastern Asia","Asia",1350695000,8.56055e+12,1,3,FALSE,58,FALSE,"2:35:46",155.766666666667,9346
+"57","Angie Orjuela Soche","F",27,158,46,18.4265342092613,2016,"Colombia","Latin America and the Caribbean","Latin America and the Caribbean",48653419,2.82463e+11,0,0,FALSE,43,FALSE,"2:37:05",157.083333333333,9425
+"58","Annemette Jensen","F",32,163,52,19.5716812826979,2004,"Denmark","Northern Europe","Europe",5404523,2.51373e+11,0,0,FALSE,49,FALSE,"2:50:01",170.016666666667,10201
+"59","Anne Sofie Holm Baumeister (Jrgensen-)","F",28,168,54,19.1326530612245,2016,"Denmark","Northern Europe","Europe",5731118,3.069e+11,0,0,FALSE,55,FALSE,"2:39:49",159.816666666667,9589
+"60","Jessica Margaret Aida ""Jess"" Draskau-Petersson","F",34,170,62,21.4532871972318,2012,"Denmark","Northern Europe","Europe",5591572,3.27149e+11,0,0,FALSE,40,FALSE,"2:31:43",151.716666666667,9103
+"61","Jessica Margaret Aida ""Jess"" Draskau-Petersson","F",38,170,62,21.4532871972318,2016,"Denmark","Northern Europe","Europe",5731118,3.069e+11,0,0,FALSE,40,FALSE,"2:36:14",156.233333333333,9374
+"62","Sandra de las Mercedes Ruales Mosquera","F",34,161,53,20.4467420238417,2008,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",14447562,61762635000,0,0,FALSE,43,FALSE,"2:35:53",155.883333333333,9353
+"63","Mara Elena Calle Galarza","F",41,162,54,20.5761316872428,2016,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",16385068,98613972000,0,0,FALSE,99,FALSE,"2:48:39",168.65,10119
+"64","Silvia Paredes Yucailla","F",33,164,57,21.192742415229,2016,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",16385068,98613972000,0,0,FALSE,95,FALSE,"2:48:01",168.016666666667,10081
+"65","Rosa Alba Chacha Chacha","F",33,155,48,19.9791883454735,2016,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",16385068,98613972000,0,0,FALSE,100,FALSE,"2:48:52",168.866666666667,10132
+"66","Sandra de las Mercedes Ruales Mosquera","F",30,161,53,20.4467420238417,2004,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",13509647,36591661000,0,0,FALSE,36,FALSE,"2:44:28",164.466666666667,9868
+"67","Rosa Alba Chacha Chacha","F",29,155,48,19.9791883454735,2012,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",15419666,87924544000,0,0,FALSE,83,FALSE,"2:40:57",160.95,9657
+"68","Martha Tenorio Pancar","F",34,154,50,21.0828132906055,2000,"Ecuador","Latin America and the Caribbean","Latin America and the Caribbean",12628596,18327764882,0,0,FALSE,25,FALSE,"2:33:54",153.9,9234
+"69","Ana Isabel Alonso Nieto","F",32,152,46,19.909972299169,1996,"Spain","Southern Europe","Europe",39889852,6.40998e+11,0,1,FALSE,49,FALSE,"2:44:12",164.2,9852
+"70","Mara Elena Espeso Gayte","F",39,161,48,18.5178040970642,2012,"Spain","Southern Europe","Europe",46773055,1.33602e+12,0,1,FALSE,61,FALSE,"2:36:12",156.2,9372
+"71","Alessandra Aguilar Morn","F",34,165,50,18.3654729109275,2012,"Spain","Southern Europe","Europe",46773055,1.33602e+12,0,1,FALSE,26,FALSE,"2:29:19",149.316666666667,8959
+"72","Ana Isabel Alonso Nieto","F",37,152,46,19.909972299169,2000,"Spain","Southern Europe","Europe",40567864,5.95403e+11,0,1,FALSE,30,FALSE,"2:36:45",156.75,9405
+"73","Alessandra Aguilar Morn","F",30,165,50,18.3654729109275,2008,"Spain","Southern Europe","Europe",45954106,1.63502e+12,0,1,FALSE,54,FALSE,"2:39:29",159.483333333333,9569
+"74","Yesenia Centeno Sousa","F",37,157,47,19.0677106576332,2008,"Spain","Southern Europe","Europe",45954106,1.63502e+12,0,1,FALSE,45,FALSE,"2:36:25",156.416666666667,9385
+"75","Mara Dolores Pulido Fernndez","F",29,155,41,17.0655567117586,2004,"Spain","Southern Europe","Europe",42921895,1.06956e+12,0,1,FALSE,37,FALSE,"2:44:33",164.55,9873
+"76","Beatriz Ros Blanco","F",30,169,50,17.5063898322888,2004,"Spain","Southern Europe","Europe",42921895,1.06956e+12,0,1,FALSE,32,FALSE,"2:41:51",161.85,9711
+"77","Vanessa Veiga Comesaa","F",33,159,43,17.0088208536055,2012,"Spain","Southern Europe","Europe",46773055,1.33602e+12,0,1,FALSE,97,FALSE,"2:46:53",166.883333333333,10013
+"78","Lily Luik","F",30,163,48,18.066167337875,2016,"Estonia","Northern Europe","Europe",1316481,23337907619,0,0,FALSE,97,FALSE,"2:48:29",168.483333333333,10109
+"79","Leila Luik","F",30,165,48,17.6308539944904,2016,"Estonia","Northern Europe","Europe",1316481,23337907619,0,0,FALSE,114,FALSE,"2:54:38",174.633333333333,10478
+"80","Evelin Talts","F",35,158,54,21.6311488543503,2012,"Estonia","Northern Europe","Europe",1322696,23043864510,0,0,FALSE,103,FALSE,"2:54:15",174.25,10455
+"81","Fatuma Roba","F",26,160,49,19.140625,2000,"Ethiopia","Sub-Saharan Africa","Africa",66537331,8242392104,2,5,FALSE,9,FALSE,"2:27:38",147.633333333333,8858
+"82","Tirfi Tsegaye Beyene","F",31,162,52,19.8140527358634,2016,"Ethiopia","Sub-Saharan Africa","Africa",102403196,72374224249,2,5,FALSE,4,FALSE,"2:24:47",144.783333333333,8687
+"83","Elfenesh Alemu","F",25,165,51,18.732782369146,2000,"Ethiopia","Sub-Saharan Africa","Africa",66537331,8242392104,2,5,FALSE,6,FALSE,"2:26:54",146.9,8814
+"84","Dire Tune Arissi","F",23,158,42,16.8242268867169,2008,"Ethiopia","Sub-Saharan Africa","Africa",83184892,27066912635,2,5,FALSE,15,FALSE,"2:31:16",151.266666666667,9076
+"85","Gadissie Edato","F",27,156,43,17.6692965154504,2000,"Ethiopia","Sub-Saharan Africa","Africa",66537331,8242392104,2,5,FALSE,36,FALSE,"2:42:29",162.483333333333,9749
+"86","Erba Tiki Gelana","F",24,165,48,17.6308539944904,2012,"Ethiopia","Sub-Saharan Africa","Africa",92444183,43310721414,2,5,FALSE,1,TRUE,"2:23:07",143.116666666667,8587
+"87","Aselefech Mergia","F",27,168,50,17.7154195011338,2012,"Ethiopia","Sub-Saharan Africa","Africa",92444183,43310721414,2,5,FALSE,42,FALSE,"2:32:03",152.05,9123
+"88","Mare Dibaba Hurssa (-Ibrahimova-)","F",22,156,45,18.491124260355,2012,"Ethiopia","Sub-Saharan Africa","Africa",92444183,43310721414,2,5,FALSE,23,FALSE,"2:28:48",148.8,8928
+"89","Mare Dibaba Hurssa (-Ibrahimova-)","F",26,156,45,18.491124260355,2016,"Ethiopia","Sub-Saharan Africa","Africa",102403196,72374224249,2,5,FALSE,3,TRUE,"2:24:30",144.5,8670
+"90","Elfenesh Alemu","F",29,165,51,18.732782369146,2004,"Ethiopia","Sub-Saharan Africa","Africa",74624405,10131187261,2,5,FALSE,4,FALSE,"2:28:15",148.25,8895
+"91","Sinikka Marja-Liisa Keskitalo (Leppl-)","F",37,153,46,19.6505617497544,1988,"Finland","Northern Europe","Europe",4946481,1.09103e+11,0,0,FALSE,42,FALSE,"2:43:00",163,9780
+"92","Leena Puotiniemi","F",36,170,52,17.9930795847751,2012,"Finland","Northern Europe","Europe",5413971,2.56706e+11,0,0,FALSE,87,FALSE,"2:42:01",162.016666666667,9721
+"93","Christelle Daunay","F",33,162,43,16.3846974546563,2008,"France","Western Europe","Europe",64374990,2.92347e+12,0,0,FALSE,20,FALSE,"2:31:48",151.8,9108
+"94","Jocelyne Villeton (Tranchant-)","F",34,170,55,19.0311418685121,1988,"France","Western Europe","Europe",57836486,1.0235e+12,0,0,FALSE,19,FALSE,"2:34:02",154.033333333333,9242
+"95","Corinne Raux","F",27,164,50,18.5901249256395,2004,"France","Western Europe","Europe",62704897,2.12411e+12,0,0,FALSE,15,FALSE,"2:35:54",155.9,9354
+"96","Gabriela Petra ""Gaby"" Wolf","F",27,169,60,21.0076677987465,1988,"Germany","Western Europe","Europe",78144619,1.39593e+12,0,0,FALSE,27,FALSE,"2:35:11",155.183333333333,9311
+"97","Tracey Anne Morris (Jones-)","F",36,170,53,18.3391003460208,2004,"UK","Northern Europe","Europe",59987905,2.39856e+12,0,0,FALSE,29,FALSE,"2:41:00",161,9660
+"98","Mara Rosalind Yamauchi (Myers-)","F",34,162,51,19.4330132601738,2008,"UK","Northern Europe","Europe",61806995,2.89056e+12,0,0,FALSE,6,FALSE,"2:27:29",147.483333333333,8849
+"99","Freya Murray (-Ross)","F",28,158,44,17.6253805479891,2012,"UK","Northern Europe","Europe",63700300,2.66209e+12,0,0,TRUE,44,FALSE,"2:32:14",152.233333333333,9134
+"100","Claire Anne Hallissey (Willer-)","F",29,164,48,17.8465199286139,2012,"UK","Northern Europe","Europe",63700300,2.66209e+12,0,0,TRUE,57,FALSE,"2:35:39",155.65,9339
+"101","Alyson Dixon","F",37,155,43,17.89802289282,2016,"UK","Northern Europe","Europe",65637239,2.6479e+12,0,0,FALSE,28,FALSE,"2:34:11",154.183333333333,9251
+"102","Sonia Samuels","F",37,162,47,17.908855357415,2016,"UK","Northern Europe","Europe",65637239,2.6479e+12,0,0,FALSE,30,FALSE,"2:34:36",154.6,9276
+"103","Paula Jane Radcliffe (-Lough)","F",34,173,54,18.0427010591734,2008,"UK","Northern Europe","Europe",61806995,2.89056e+12,0,0,FALSE,23,FALSE,"2:32:38",152.633333333333,9158
+"104","Susan Julia Tooby (-Wightman)","F",27,165,49,17.9981634527089,1988,"UK","Northern Europe","Europe",56928327,9.10123e+11,0,0,FALSE,12,FALSE,"2:31:33",151.55,9093
+"105","Susan Sarah ""Sue"" Crehan (Smart-)","F",32,165,55,20.2020202020202,1988,"UK","Northern Europe","Europe",56928327,9.10123e+11,0,0,FALSE,32,FALSE,"2:36:57",156.95,9417
+"106","Anja Scherl","F",30,160,48,18.75,2016,"Germany","Western Europe","Europe",82667685,3.4778e+12,0,0,FALSE,44,FALSE,"2:37:23",157.383333333333,9443
+"107","Irina Mikitenko (Volynskaya-)","F",39,162,47,17.908855357415,2012,"Germany","Western Europe","Europe",80425823,3.54398e+12,0,0,FALSE,14,FALSE,"2:26:44",146.733333333333,8804
+"108","Anna Hahner","F",26,165,48,17.6308539944904,2016,"Germany","Western Europe","Europe",82667685,3.4778e+12,0,0,FALSE,81,FALSE,"2:45:32",165.533333333333,9932
+"109","Melanie Kraus","F",33,165,50,18.3654729109275,2008,"Germany","Western Europe","Europe",82110097,3.75237e+12,0,0,FALSE,38,FALSE,"2:35:17",155.283333333333,9317
+"110","Lisa Hahner","F",26,167,50,17.9282154254366,2016,"Germany","Western Europe","Europe",82667685,3.4778e+12,0,0,FALSE,82,FALSE,"2:45:33",165.55,9933
+"111","Susanne Hahn (Ritter-)","F",34,169,50,17.5063898322888,2012,"Germany","Western Europe","Europe",80425823,3.54398e+12,0,0,FALSE,32,FALSE,"2:30:22",150.366666666667,9022
+"112","Luminita Zaituc","F",35,165,50,18.3654729109275,2004,"Germany","Western Europe","Europe",82516260,2.81925e+12,0,0,FALSE,18,FALSE,"2:36:45",156.75,9405
+"113","Susanne Hahn (Ritter-)","F",30,169,50,17.5063898322888,2008,"Germany","Western Europe","Europe",82110097,3.75237e+12,0,0,FALSE,52,FALSE,"2:38:31",158.516666666667,9511
+"114","Sofia Riga","F",28,154,46,19.3961882273571,2016,"Greece","Southern Europe","Europe",10746740,1.92691e+11,0,1,FALSE,103,FALSE,"2:49:07",169.116666666667,10147
+"115","Georgia Abatzidou","F",35,155,43,17.89802289282,2004,"Greece","Southern Europe","Europe",10955141,2.40521e+11,0,1,TRUE,50,FALSE,"2:50:01",170.016666666667,10201
+"116","Gina Lizeth Coello Touche","F",37,160,44,17.1875,2000,"Honduras","Latin America and the Caribbean","Latin America and the Caribbean",6524283,7103529494,0,0,FALSE,42,FALSE,"3:02:32",182.533333333333,10952
+"117","Krisztina Papp","F",33,173,53,17.708576965485,2016,"Hungary","Eastern Europe","Europe",9817958,1.25817e+11,0,0,FALSE,65,FALSE,"2:42:03",162.05,9723
+"118","Petra Teveli (Prokoppne-)","F",28,165,48,17.6308539944904,2008,"Hungary","Eastern Europe","Europe",10038188,1.57998e+11,0,0,FALSE,65,FALSE,"2:48:32",168.533333333333,10112
+"119","Simona Staicu","F",33,163,47,17.6897888516692,2004,"Hungary","Eastern Europe","Europe",10107146,1.04067e+11,0,0,FALSE,45,FALSE,"2:48:57",168.95,10137
+"120","Kavita Maheshkumar Tungar (Raut-)","F",31,157,45,18.2563187147552,2016,"India","Southern Asia","Asia",1324171354,2.26379e+12,0,0,FALSE,120,FALSE,"2:59:29",179.483333333333,10769
+"121","Breege Connolly","F",38,163,54,20.3244382551093,2016,"Ireland","Northern Europe","Europe",4773095,3.04819e+11,0,0,FALSE,76,FALSE,"2:44:41",164.683333333333,9881
+"122","Linda Byrne","F",26,163,50,18.8189243102864,2012,"Ireland","Northern Europe","Europe",4586897,2.25572e+11,0,0,FALSE,66,FALSE,"2:37:13",157.216666666667,9433
+"123","Caitriona Jennings","F",32,163,53,19.9480597689036,2012,"Ireland","Northern Europe","Europe",4586897,2.25572e+11,0,0,FALSE,107,FALSE,"3:22:11",202.183333333333,12131
+"124","Marie Murphy-Rollins","F",29,168,52,18.4240362811791,1988,"Ireland","Northern Europe","Europe",3524949,37818133413,0,0,FALSE,57,FALSE,"2:54:37",174.616666666667,10477
+"125","Ava Hutchinson","F",29,165,51,18.732782369146,2012,"Ireland","Northern Europe","Europe",4586897,2.25572e+11,0,0,FALSE,68,FALSE,"2:37:17",157.283333333333,9437
+"126","Ailish Smyth","F",29,171,64,21.8870763653774,1988,"Ireland","Northern Europe","Europe",3524949,37818133413,0,0,FALSE,46,FALSE,"2:44:17",164.283333333333,9857
+"127","Maor Tiyouri","F",25,148,44,20.0876552227904,2016,"Israel","Western Asia","Asia",8547100,3.17745e+11,0,1,FALSE,90,FALSE,"2:47:27",167.45,10047
+"128","Rosaria Console","F",32,160,42,16.40625,2012,"Italy","Southern Europe","Europe",59539717,2.07282e+12,0,1,FALSE,30,FALSE,"2:30:09",150.15,9009
+"129","Maria Curatolo","F",24,147,40,18.5108056828173,1988,"Italy","Southern Europe","Europe",56629288,8.88668e+11,0,1,FALSE,8,FALSE,"2:30:14",150.233333333333,9014
+"130","Vincenza Sicari","F",29,165,45,16.5289256198347,2008,"Italy","Southern Europe","Europe",58826731,2.39073e+12,0,1,FALSE,29,FALSE,"2:33:31",153.516666666667,9211
+"131","Valeria Straneo","F",36,165,45,16.5289256198347,2012,"Italy","Southern Europe","Europe",59539717,2.07282e+12,0,1,FALSE,8,FALSE,"2:25:27",145.45,8727
+"132","Maura Viceconte","F",32,155,47,19.5629552549428,2000,"Italy","Southern Europe","Europe",56942108,1.14176e+12,0,1,FALSE,12,FALSE,"2:29:26",149.433333333333,8966
+"133","Ornella Ferrara","F",32,153,42,17.9418172497757,2000,"Italy","Southern Europe","Europe",56942108,1.14176e+12,0,1,FALSE,18,FALSE,"2:31:32",151.533333333333,9092
+"134","Catherine Bertone","F",44,160,45,17.578125,2016,"Italy","Southern Europe","Europe",60600590,1.85891e+12,0,1,FALSE,25,FALSE,"2:33:29",153.483333333333,9209
+"135","Rosaria Console","F",24,160,42,16.40625,2004,"Italy","Southern Europe","Europe",57685327,1.79831e+12,0,1,FALSE,16,FALSE,"2:35:56",155.933333333333,9356
+"136","Valeria Straneo","F",40,165,45,16.5289256198347,2016,"Italy","Southern Europe","Europe",60600590,1.85891e+12,0,1,FALSE,13,FALSE,"2:29:44",149.733333333333,8984
+"137","Anna Carmela Incerti (-Scaini)","F",28,168,44,15.5895691609977,2008,"Italy","Southern Europe","Europe",58826731,2.39073e+12,0,1,FALSE,14,FALSE,"2:30:55",150.916666666667,9055
+"138","Anna Carmela Incerti (-Scaini)","F",32,168,44,15.5895691609977,2012,"Italy","Southern Europe","Europe",59539717,2.07282e+12,0,1,FALSE,29,FALSE,"2:29:38",149.633333333333,8978
+"139","Laura Fogli (-Rossetti)","F",28,168,50,17.7154195011338,1988,"Italy","Southern Europe","Europe",56629288,8.88668e+11,0,1,FALSE,6,FALSE,"2:27:49",147.816666666667,8869
+"140","Bruna Genovese","F",31,161,50,19.2893792677752,2008,"Italy","Southern Europe","Europe",58826731,2.39073e+12,0,1,FALSE,17,FALSE,"2:31:31",151.516666666667,9091
+"141","Antonella Luigina Bizioli","F",31,160,50,19.53125,1988,"Italy","Southern Europe","Europe",56629288,8.88668e+11,0,1,FALSE,23,FALSE,"2:34:38",154.633333333333,9278
+"142","Bruna Genovese","F",27,161,50,19.2893792677752,2004,"Italy","Southern Europe","Europe",57685327,1.79831e+12,0,1,FALSE,10,FALSE,"2:32:50",152.833333333333,9170
+"143","Yurika Nakamura","F",22,166,48,17.4190738859051,2008,"Japan","Eastern Asia","Asia",128063000,5.03791e+12,2,3,FALSE,13,FALSE,"2:30:19",150.316666666667,9019
+"144","Tomomi Tanaka","F",28,154,39,16.4445943666723,2016,"Japan","Eastern Asia","Asia",126994511,4.94016e+12,2,3,FALSE,19,FALSE,"2:31:12",151.2,9072
+"145","Mizuki Noguchi","F",26,150,40,17.7777777777778,2004,"Japan","Eastern Asia","Asia",127761000,4.81515e+12,2,3,FALSE,1,TRUE,"2:26:20",146.333333333333,8780
+"146","Naoko Sakamoto","F",23,161,44,16.9746537556421,2004,"Japan","Eastern Asia","Asia",127761000,4.81515e+12,2,3,FALSE,7,FALSE,"2:31:43",151.716666666667,9103
+"147","Eri Yamaguchi","F",27,164,47,17.4747174301011,2000,"Japan","Eastern Asia","Asia",126843000,4.88752e+12,2,3,FALSE,7,FALSE,"2:27:03",147.05,8823
+"148","Risa Shigetomo","F",24,168,50,17.7154195011338,2012,"Japan","Eastern Asia","Asia",127629000,6.20321e+12,2,3,FALSE,79,FALSE,"2:40:06",160.1,9606
+"149","Ryoko Kizaki","F",27,157,43,17.4449267718772,2012,"Japan","Eastern Asia","Asia",127629000,6.20321e+12,2,3,FALSE,16,FALSE,"2:27:16",147.266666666667,8836
+"150","Yoshimi Ozaki","F",31,155,41,17.0655567117586,2012,"Japan","Eastern Asia","Asia",127629000,6.20321e+12,2,3,FALSE,19,FALSE,"2:27:43",147.716666666667,8863
+"151","Naoko Takahashi","F",28,161,52,20.0609544384862,2000,"Japan","Eastern Asia","Asia",126843000,4.88752e+12,2,3,FALSE,1,TRUE,"2:23:14",143.233333333333,8594
+"152","Reiko Tosa","F",28,167,46,16.4939581914016,2004,"Japan","Eastern Asia","Asia",127761000,4.81515e+12,2,3,FALSE,5,FALSE,"2:28:44",148.733333333333,8924
+"153","Eriko Asai","F",28,150,40,17.7777777777778,1988,"Japan","Eastern Asia","Asia",122613000,3.05064e+12,2,3,FALSE,25,FALSE,"2:34:41",154.683333333333,9281
+"154","Kumi Araki","F",22,153,40,17.0874449997864,1988,"Japan","Eastern Asia","Asia",122613000,3.05064e+12,2,3,FALSE,28,FALSE,"2:35:15",155.25,9315
+"155","Kayoko Fukushi","F",34,160,47,18.359375,2016,"Japan","Eastern Asia","Asia",126994511,4.94016e+12,2,3,FALSE,14,FALSE,"2:29:53",149.883333333333,8993
+"156","Mai Ito","F",32,156,41,16.8474687705457,2016,"Japan","Eastern Asia","Asia",126994511,4.94016e+12,2,3,FALSE,46,FALSE,"2:37:37",157.616666666667,9457
+"157","Ari Ichihashi","F",22,157,42,17.0392308004382,2000,"Japan","Eastern Asia","Asia",126843000,4.88752e+12,2,3,FALSE,15,FALSE,"2:30:34",150.566666666667,9034
+"158","Misako Miyahara","F",26,155,41,17.0655567117586,1988,"Japan","Eastern Asia","Asia",122613000,3.05064e+12,2,3,FALSE,29,FALSE,"2:35:26",155.433333333333,9326
+"159","Irina Smolnikova","F",36,163,55,20.7008167413151,2016,"Kazakhstan","Central Asia","Asia",17797032,1.37278e+11,0,0,FALSE,122,FALSE,"3:00:31",180.516666666667,10831
+"160","Pascaline Wangui","F",27,165,46,16.8962350780533,1988,"Kenya","Sub-Saharan Africa","Africa",21871442,8355380879,3,5,FALSE,49,FALSE,"2:47:42",167.7,10062
+"161","Edna Ngeringwony Kiplagat","F",32,162,50,19.0519737844841,2012,"Kenya","Sub-Saharan Africa","Africa",43646629,50412754822,3,5,FALSE,20,FALSE,"2:27:52",147.866666666667,8872
+"162","Esther Wanjiru Maina","F",23,162,48,18.2898948331047,2000,"Kenya","Sub-Saharan Africa","Africa",31450483,12705357103,3,5,FALSE,4,FALSE,"2:26:17",146.283333333333,8777
+"163","Martha Komu","F",25,165,52,19.1000918273646,2008,"Kenya","Sub-Saharan Africa","Africa",39148416,35895153328,3,5,FALSE,5,FALSE,"2:27:23",147.383333333333,8843
+"164","Joyce Chepchumba Koech","F",29,160,52,20.3125,2000,"Kenya","Sub-Saharan Africa","Africa",31450483,12705357103,3,5,FALSE,3,TRUE,"2:24:45",144.75,8685
+"165","Alice Chelangat","F",27,152,49,21.2084487534626,2004,"Kenya","Sub-Saharan Africa","Africa",35074931,16095337094,3,5,FALSE,11,FALSE,"2:33:52",153.866666666667,9232
+"166","Tegla Loroupe Chepkite","F",29,156,40,16.4365548980934,2000,"Kenya","Sub-Saharan Africa","Africa",31450483,12705357103,3,5,FALSE,13,FALSE,"2:29:45",149.75,8985
+"167","Salina Jebet Kosgei","F",31,162,58,22.1002895900015,2008,"Kenya","Sub-Saharan Africa","Africa",39148416,35895153328,3,5,FALSE,10,FALSE,"2:29:28",149.466666666667,8968
+"168","Mary Jepkosgei Keitany","F",30,158,42,16.8242268867169,2012,"Kenya","Sub-Saharan Africa","Africa",43646629,50412754822,3,5,FALSE,4,FALSE,"2:23:56",143.933333333333,8636
+"169","Jemima Jelagat Sumgong","F",31,160,45,17.578125,2016,"Kenya","Sub-Saharan Africa","Africa",48461567,70529014778,3,5,FALSE,1,TRUE,"2:24:04",144.066666666667,8644
+"170","Priscah Jeptoo (-Chepsirut)","F",28,165,49,17.9981634527089,2012,"Kenya","Sub-Saharan Africa","Africa",43646629,50412754822,3,5,FALSE,2,TRUE,"2:23:12",143.2,8592
+"171","Visiline Jepkesho","F",26,160,43,16.796875,2016,"Kenya","Sub-Saharan Africa","Africa",48461567,70529014778,3,5,FALSE,86,FALSE,"2:46:05",166.083333333333,9965
+"172","Mariya Korobitskaya","F",26,155,55,22.8928199791883,2016,"Kyrgyzstan","Central Asia","Asia",6082700,6551287938,0,0,FALSE,94,FALSE,"2:47:53",167.883333333333,10073
+"173","Viktoriia Poliudina","F",27,165,55,20.2020202020202,2016,"Kyrgyzstan","Central Asia","Asia",6082700,6551287938,0,0,FALSE,62,FALSE,"2:41:37",161.616666666667,9697
+"174","Lee Mi-Ok","F",30,163,47,17.6897888516692,1988,"South Korea","Eastern Asia","Asia",42031247,1.96964e+11,0,3,TRUE,15,FALSE,"2:32:51",152.85,9171
+"175","Sarah Amer Attar","F",23,165,52,19.1000918273646,2016,"Saudi Arabia","Western Asia","Asia",32275687,6.46438e+11,0,1,FALSE,132,FALSE,"3:16:11",196.183333333333,11771
+"176","Sirivanh Ketavong","F",30,153,49,20.9321201247383,2000,"Laos","South-eastern Asia","Asia",5329304,1731198022,0,0,FALSE,45,FALSE,"3:34:27",214.45,12867
+"177","Ilona Marhele","F",30,164,50,18.5901249256395,2016,"Latvia","Northern Europe","Europe",1960424,27572698482,0,0,FALSE,61,FALSE,"2:41:02",161.033333333333,9662
+"178","Dace Lina","F",30,162,53,20.1950922115531,2012,"Latvia","Northern Europe","Europe",2034319,28119996053,0,0,FALSE,98,FALSE,"2:47:47",167.783333333333,10067
+"179","Mamokete Lechela","F",22,150,59,26.2222222222222,2004,"Lesotho","Sub-Saharan Africa","Africa",1933728,1511236656,0,5,FALSE,64,FALSE,"3:11:56",191.933333333333,11516
+"180","Mamorallo Tjoka","F",27,150,56,24.8888888888889,2012,"Lesotho","Sub-Saharan Africa","Africa",2089928,2678494689,0,5,FALSE,90,FALSE,"2:43:15",163.25,9795
+"181","Chirine Njeim","F",31,168,60,21.2585034013605,2016,"Lebanon","Western Asia","Asia",6006668,49598825982,0,1,FALSE,109,FALSE,"2:51:08",171.133333333333,10268
+"182","Clarisse Rasoarizay","F",32,150,40,17.7777777777778,2004,"Madagascar","Sub-Saharan Africa","Africa",17802997,4363934494,0,5,FALSE,43,FALSE,"2:48:14",168.233333333333,10094
+"183","Kenza Wahbi","F",33,160,47,18.359375,2004,"Morocco","Northern Africa","Africa",30179285,59626020162,0,0,FALSE,30,FALSE,"2:41:36",161.6,9696
+"184","Hafida Izem","F",25,160,41,16.015625,2004,"Morocco","Northern Africa","Africa",30179285,59626020162,0,0,FALSE,27,FALSE,"2:40:46",160.766666666667,9646
+"185","Tereza Master","F",27,149,45,20.2693572361605,2016,"Malawi","Sub-Saharan Africa","Africa",18091575,5433038647,0,5,FALSE,98,FALSE,"2:48:34",168.566666666667,10114
+"186","Margarita Tapia Garca","F",27,161,50,19.2893792677752,2004,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",106995583,7.70268e+11,0,0,FALSE,38,FALSE,"2:46:14",166.233333333333,9974
+"187","Blanca Jaime","F",22,158,52,20.829995193078,1988,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",82083919,1.83144e+11,0,0,FALSE,43,FALSE,"2:43:00",163,9780
+"188","Marisol Guadalupe Romero Rosales","F",29,155,46,19.1467221644121,2012,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",120828307,1.1866e+12,0,0,FALSE,46,FALSE,"2:33:08",153.133333333333,9188
+"189","Mara del Carmen Daz Mancilla","F",26,158,46,18.4265342092613,1996,"Mexico","Latin America and the Caribbean","Latin America and the Caribbean",95687452,3.97404e+11,0,0,FALSE,33,FALSE,"2:37:14",157.233333333333,9434
+"190","Maryse Justin (-Pyndiah)","F",29,158,46,18.4265342092613,1988,"Mauritius","Sub-Saharan Africa","Africa",1043239,2143484488,0,5,FALSE,51,FALSE,"2:50:00",170,10200
+"191","San Ni Lar","F",27,160,50,19.53125,2012,"Myanmar","South-eastern Asia","Asia",50986514,59937797559,0,0,FALSE,105,FALSE,"3:04:27",184.45,11067
+"192","Helalia Lukeiko Johannes","F",27,165,46,16.8962350780533,2008,"Namibia","Sub-Saharan Africa","Africa",2106375,8486721917,0,5,FALSE,40,FALSE,"2:35:22",155.366666666667,9322
+"193","Beata Nandjala Naigambo","F",32,167,48,17.2110868084191,2012,"Namibia","Sub-Saharan Africa","Africa",2263934,13016272899,0,5,FALSE,38,FALSE,"2:31:16",151.266666666667,9076
+"194","Alina Armas","F",32,166,53,19.2335607490202,2016,"Namibia","Sub-Saharan Africa","Africa",2479713,10947880690,0,5,FALSE,75,FALSE,"2:44:20",164.333333333333,9860
+"195","Helalia Lukeiko Johannes","F",35,165,46,16.8962350780533,2016,"Namibia","Sub-Saharan Africa","Africa",2479713,10947880690,0,5,FALSE,56,FALSE,"2:39:55",159.916666666667,9595
+"196","Helalia Lukeiko Johannes","F",31,165,46,16.8962350780533,2012,"Namibia","Sub-Saharan Africa","Africa",2263934,13016272899,0,5,FALSE,12,FALSE,"2:26:09",146.15,8769
+"197","Beata Nandjala Naigambo","F",28,167,48,17.2110868084191,2008,"Namibia","Sub-Saharan Africa","Africa",2106375,8486721917,0,5,FALSE,28,FALSE,"2:33:29",153.483333333333,9209
+"198","Beata Nandjala Naigambo","F",36,167,48,17.2110868084191,2016,"Namibia","Sub-Saharan Africa","Africa",2479713,10947880690,0,5,FALSE,41,FALSE,"2:36:32",156.533333333333,9392
+"199","Hilda Jepchumba Kibet","F",31,168,46,16.2981859410431,2012,"Netherlands","Western Europe","Europe",16754962,8.28947e+11,0,0,FALSE,24,FALSE,"2:28:52",148.866666666667,8932
+"200","Andrea Deelstra","F",31,164,46,17.1029149315883,2016,"Netherlands","Western Europe","Europe",17018408,7.77228e+11,0,0,FALSE,60,FALSE,"2:40:49",160.816666666667,9649
+"201","Raj Kumari Pandey","F",18,165,54,19.8347107438017,1988,"Nepal","Southern Asia","Asia",17873667,3487009748,0,0,FALSE,60,FALSE,"3:10:31",190.516666666667,11431
+"202","Sissel Sofie Grottenberg","F",32,171,54,18.4672206832872,1988,"Norway","Northern Europe","Europe",4209488,1.019e+11,0,0,FALSE,36,FALSE,"2:38:17",158.283333333333,9497
+"203","Kirsten Melkevik (-Kirsten Marathon) Otterbu (-Melkevik-)","F",38,170,52,17.9930795847751,2008,"Norway","Northern Europe","Europe",4768212,4.62554e+11,0,0,FALSE,34,FALSE,"2:34:35",154.583333333333,9275
+"204","Stine Elisabeth Larsen","F",28,158,47,18.8271110398974,2004,"Norway","Northern Europe","Europe",4591910,2.64357e+11,0,0,FALSE,24,FALSE,"2:39:55",159.916666666667,9595
+"205","Nina Kathy Rillstone","F",33,168,45,15.9438775510204,2008,"New Zealand","Australia and New Zealand","Oceania",4259800,1.3328e+11,0,0,FALSE,16,FALSE,"2:31:16",151.266666666667,9076
+"206","Liza Marie Hunter-Galvan","F",39,168,60,21.2585034013605,2008,"New Zealand","Australia and New Zealand","Oceania",4259800,1.3328e+11,0,0,FALSE,35,FALSE,"2:34:51",154.85,9291
+"207","Liza Marie Hunter-Galvan","F",35,168,60,21.2585034013605,2004,"New Zealand","Australia and New Zealand","Oceania",4087500,1.03906e+11,0,0,FALSE,51,FALSE,"2:50:23",170.383333333333,10223
+"208","Lorraine Mary Moller (-Daws, -Smith)","F",33,175,55,17.9591836734694,1988,"New Zealand","Australia and New Zealand","Oceania",3283400,45176167472,0,0,FALSE,33,FALSE,"2:37:52",157.866666666667,9472
+"209","Jovana de la Cruz Capani","F",24,161,53,20.4467420238417,2016,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",31773839,1.92207e+11,0,0,FALSE,36,FALSE,"2:35:49",155.816666666667,9349
+"210","Gladys Lucy Tejeda Pucuhuaranga","F",26,156,47,19.3129520052597,2012,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",30158966,1.92649e+11,0,0,FALSE,43,FALSE,"2:32:07",152.116666666667,9127
+"211","Wilma Yanet Arizapana Yucra","F",29,164,54,20.0773349196907,2012,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",30158966,1.92649e+11,0,0,FALSE,55,FALSE,"2:35:09",155.15,9309
+"212","Gladys Lucy Tejeda Pucuhuaranga","F",30,156,47,19.3129520052597,2016,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",31773839,1.92207e+11,0,0,FALSE,15,FALSE,"2:29:55",149.916666666667,8995
+"213","Mara Portillo Cruz","F",28,162,50,19.0519737844841,2000,"Peru","Latin America and the Caribbean","Latin America and the Caribbean",25914879,51744749133,0,0,FALSE,32,FALSE,"2:36:50",156.833333333333,9410
+"214","Mary Joy Tabal","F",27,149,45,20.2693572361605,2016,"Philippines","South-eastern Asia","Asia",103320222,3.04905e+11,0,0,FALSE,124,FALSE,"3:02:27",182.45,10947
+"215","Iwona Lewandowska","F",31,161,43,16.5888661702866,2016,"Poland","Eastern Europe","Europe",37948016,4.71364e+11,0,0,FALSE,21,FALSE,"2:31:41",151.683333333333,9101
+"216","Dorota Gruca (-Giecek-)","F",37,159,46,18.1954827736245,2008,"Poland","Eastern Europe","Europe",38125759,5.33816e+11,0,0,FALSE,30,FALSE,"2:33:32",153.533333333333,9212
+"217","Elsa Marisa Branco Barros Rodrigues","F",32,160,50,19.53125,2012,"Portugal","Southern Europe","Europe",10514844,2.16368e+11,1,1,FALSE,13,FALSE,"2:26:13",146.216666666667,8773
+"218","Rosa Mara Correia dos Santos Mota","F",30,157,45,18.2563187147552,1988,"Portugal","Southern Europe","Europe",10019610,56352797354,1,1,FALSE,1,TRUE,"2:25:40",145.666666666667,8740
+"219","Elsa Marisa Branco Barros Rodrigues","F",28,160,50,19.53125,2008,"Portugal","Southern Europe","Europe",10558177,2.62008e+11,1,1,FALSE,32,FALSE,"2:34:08",154.133333333333,9248
+"220","Helena Maria Mendes Sampaio","F",30,157,47,19.0677106576332,2004,"Portugal","Southern Europe","Europe",10483861,1.89187e+11,1,1,FALSE,47,FALSE,"2:49:18",169.3,10158
+"221","Ana Maria Guerreiro Dias","F",30,165,52,19.1000918273646,2004,"Portugal","Southern Europe","Europe",10483861,1.89187e+11,1,1,FALSE,62,FALSE,"3:08:11",188.183333333333,11291
+"222","Ana Maria Guerreiro Dias","F",34,165,52,19.1000918273646,2008,"Portugal","Southern Europe","Europe",10558177,2.62008e+11,1,1,FALSE,46,FALSE,"2:36:25",156.416666666667,9385
+"223","Maria Manuela Castro Machado","F",37,158,45,18.0259573786252,2000,"Portugal","Southern Europe","Europe",10289898,1.18358e+11,1,1,FALSE,21,FALSE,"2:32:29",152.483333333333,9149
+"224","Ana Dulce Ferreira Flix","F",33,166,53,19.2335607490202,2016,"Portugal","Southern Europe","Europe",10324611,2.04837e+11,1,1,FALSE,16,FALSE,"2:30:39",150.65,9039
+"225","Ana Dulce Ferreira Flix","F",29,166,53,19.2335607490202,2012,"Portugal","Southern Europe","Europe",10514844,2.16368e+11,1,1,FALSE,21,FALSE,"2:28:12",148.2,8892
+"226","Paula Claudia Todoran","F",31,164,48,17.8465199286139,2016,"Romania","Eastern Europe","Europe",19705301,1.87592e+11,0,0,FALSE,101,FALSE,"2:48:54",168.9,10134
+"227","Camelia Alina Gherasim (Tecua-)","F",28,166,46,16.693279140659,2000,"Romania","Eastern Europe","Europe",22442971,37438527800,0,0,FALSE,29,FALSE,"2:36:16",156.266666666667,9376
+"228","Tanith Gaelene Maxwell","F",36,169,53,18.5567732222261,2012,"South Africa","Sub-Saharan Africa","Africa",52506515.08,3.96333e+11,0,5,FALSE,81,FALSE,"2:40:27",160.45,9627
+"229","Colleen Stella de Reuck (Lindeque-)","F",36,164,47,17.4747174301011,2000,"South Africa","Sub-Saharan Africa","Africa",44896856,1.36362e+11,0,5,FALSE,31,FALSE,"2:36:48",156.8,9408
+"230","Christine Kalmer","F",30,172,55,18.5911303407247,2016,"South Africa","Sub-Saharan Africa","Africa",55908865,2.95456e+11,0,5,FALSE,96,FALSE,"2:48:24",168.4,10104
+"231","Dina Lebo Phalula","F",32,165,46,16.8962350780533,2016,"South Africa","Sub-Saharan Africa","Africa",55908865,2.95456e+11,0,5,FALSE,63,FALSE,"2:41:46",161.766666666667,9706
+"232","Svetlana Vladimirovna Zakharova (Vasilyeva-)","F",33,160,46,17.96875,2004,"Russia","Eastern Europe","Europe",144067054,5.91017e+11,0,0,FALSE,9,FALSE,"2:32:04",152.066666666667,9124
+"233","Madina Ulfatovna Biktagirova","F",35,158,46,18.4265342092613,2000,"Russia","Eastern Europe","Europe",146596557,2.59708e+11,0,0,FALSE,5,FALSE,"2:26:33",146.55,8793
+"234","Irina Nikolayevna Timofeyeva (Grigoryeva-)","F",38,164,48,17.8465199286139,2008,"Russia","Eastern Europe","Europe",142742350,1.66084e+12,0,0,FALSE,7,FALSE,"2:27:31",147.516666666667,8851
+"235","Svetlana Vladimirovna Zakharova (Vasilyeva-)","F",37,160,46,17.96875,2008,"Russia","Eastern Europe","Europe",142742350,1.66084e+12,0,0,FALSE,22,FALSE,"2:32:16",152.266666666667,9136
+"236","Lyubov Vasilyevna Morgunova","F",29,170,46,15.916955017301,2000,"Russia","Eastern Europe","Europe",146596557,2.59708e+11,0,0,FALSE,23,FALSE,"2:32:35",152.583333333333,9155
+"237","Lyudmila Nikolayevna Petrova (Yakimova-)","F",35,160,43,16.796875,2004,"Russia","Eastern Europe","Europe",144067054,5.91017e+11,0,0,FALSE,8,FALSE,"2:31:56",151.933333333333,9116
+"238","Claudette Mukasakindi","F",33,160,50,19.53125,2016,"Rwanda","Sub-Saharan Africa","Africa",11917508,8376048905,0,5,FALSE,126,FALSE,"3:05:57",185.95,11157
+"239","Marcianne Mukamurenzi","F",28,156,51,20.956607495069,1988,"Rwanda","Sub-Saharan Africa","Africa",7030179,2395493878,0,5,FALSE,38,FALSE,"2:40:12",160.2,9612
+"240","Claudette Mukasakindi","F",29,160,50,19.53125,2012,"Rwanda","Sub-Saharan Africa","Africa",10788853,7315702176,0,5,FALSE,101,FALSE,"2:51:07",171.116666666667,10267
+"241","Bogaha Kotuwe Gedara Niluka Geethani Rajasekara","F",34,155,42,17.4817898022893,2016,"Sri Lanka","Southern Asia","Asia",21203000,81321876307,0,0,FALSE,129,FALSE,"3:11:05",191.083333333333,11465
+"242","Genoveva Eichenmann","F",31,162,52,19.8140527358634,1988,"Switzerland","Western Europe","Europe",6593386,2.09298e+11,0,0,FALSE,47,FALSE,"2:44:37",164.616666666667,9877
+"243","Maja Doris Neuenschwander","F",32,168,53,18.7783446712018,2012,"Switzerland","Western Europe","Europe",7996861,6.68044e+11,0,0,FALSE,53,FALSE,"2:34:50",154.833333333333,9290
+"244","Daria Nauer (-Lyrenmann)","F",34,168,50,17.7154195011338,2000,"Switzerland","Western Europe","Europe",7184250,2.72055e+11,0,0,FALSE,38,FALSE,"2:43:00",163,9780
+"245","Maja Doris Neuenschwander","F",36,168,53,18.7783446712018,2016,"Switzerland","Western Europe","Europe",8372098,6.68851e+11,0,0,FALSE,29,FALSE,"2:34:27",154.45,9267
+"246","Evy Gunilla Palm (Warnicke-)","F",46,166,53,19.2335607490202,1988,"Sweden","Northern Europe","Europe",8436489,2.04068e+11,0,0,FALSE,24,FALSE,"2:34:41",154.683333333333,9281
+"247","Isabellah Moraa Andersson (Amoro-)","F",31,170,55,19.0311418685121,2012,"Sweden","Northern Europe","Europe",9519374,5.43881e+11,0,0,FALSE,18,FALSE,"2:27:36",147.6,8856
+"248","Jane Vongvorachoti","F",32,166,53,19.2335607490202,2016,"Thailand","South-eastern Asia","Asia",68863514,4.07026e+11,0,0,FALSE,91,FALSE,"2:47:27",167.45,10047
+"249","Natthaya Thanaronnawat","F",37,158,47,18.8271110398974,2016,"Thailand","South-eastern Asia","Asia",68863514,4.07026e+11,0,0,FALSE,130,FALSE,"3:11:31",191.516666666667,11491
+"250","Aguida Fatima Amaral","F",32,148,43,19.6311176040906,2004,"Timor-Leste","South-eastern Asia","Asia",996698,442875784,0,0,FALSE,65,FALSE,"3:18:25",198.416666666667,11905
+"251","Amira Ben Amor","F",26,168,49,17.3611111111111,2012,"Tunisia","Northern Africa","Africa",10886668,45044112939,0,0,FALSE,80,FALSE,"2:40:13",160.216666666667,9613
+"252","Sultan Haydar","F",25,170,55,19.0311418685121,2012,"Turkey","Western Asia","Asia",74569867,8.73982e+11,0,1,FALSE,72,FALSE,"2:38:26",158.433333333333,9506
+"253","Sultan Haydar","F",29,170,55,19.0311418685121,2016,"Turkey","Western Asia","Asia",79512426,8.63712e+11,0,1,FALSE,111,FALSE,"2:53:57",173.95,10437
+"254","Esma Aydemir","F",24,160,48,18.75,2016,"Turkey","Western Asia","Asia",79512426,8.63712e+11,0,1,FALSE,58,FALSE,"2:39:59",159.983333333333,9599
+"255","Jane Suuto","F",33,176,58,18.724173553719,2012,"Uganda","Sub-Saharan Africa","Africa",36306796,23132149257,0,5,FALSE,93,FALSE,"2:44:46",164.766666666667,9886
+"256","Olha Yevstafivna Kotovska","F",32,167,50,17.9282154254366,2016,"Ukraine","Eastern Europe","Europe",45004645,93270479389,0,0,FALSE,33,FALSE,"2:34:57",154.95,9297
+"257","Nataliya Serhivna Lehonkova","F",33,161,48,18.5178040970642,2016,"Ukraine","Eastern Europe","Europe",45004645,93270479389,0,0,FALSE,87,FALSE,"2:46:08",166.133333333333,9968
+"258","Olena Ivanivna Burkovska","F",30,158,50,20.0288415318058,2012,"Ukraine","Eastern Europe","Europe",45593300,1.75781e+11,0,0,FALSE,48,FALSE,"2:33:26",153.433333333333,9206
+"259","Anne Marie Lauck (Letko-)","F",27,168,48,17.0068027210884,1996,"USA","Northern America","Northern America",269394000,8.1002e+12,0,0,TRUE,10,FALSE,"2:31:30",151.5,9090
+"260","Jennifer L. ""Jen"" Rhines","F",30,160,48,18.75,2004,"USA","Northern America","Northern America",292805298,1.22749e+13,0,0,FALSE,34,FALSE,"2:43:52",163.866666666667,9832
+"261","Colleen Stella de Reuck (Lindeque-)","F",40,164,47,17.4747174301011,2004,"USA","Northern America","Northern America",292805298,1.22749e+13,0,0,FALSE,39,FALSE,"2:46:30",166.5,9990
+"262","Blake Russell (Phillips-)","F",33,165,48,17.6308539944904,2008,"USA","Northern America","Northern America",304093966,1.47186e+13,0,0,FALSE,27,FALSE,"2:33:13",153.216666666667,9193
+"263","Shalane Flanagan (-Edwards)","F",31,166,47,17.056176513282,2012,"USA","Northern America","Northern America",313998379,1.61553e+13,0,0,FALSE,10,FALSE,"2:25:51",145.85,8751
+"264","Kara Goucher (Grgas-, Wheeler-)","F",34,170,56,19.3771626297578,2012,"USA","Northern America","Northern America",313998379,1.61553e+13,0,0,FALSE,11,FALSE,"2:26:07",146.116666666667,8767
+"265","Shalane Flanagan (-Edwards)","F",35,166,47,17.056176513282,2016,"USA","Northern America","Northern America",323127513,1.86245e+13,0,0,FALSE,6,FALSE,"2:25:26",145.433333333333,8726
+"266","Margaret Keyes Groos (Lane-, Thomas-, -Sloan)","F",28,167,54,19.3624726594715,1988,"USA","Northern America","Northern America",244499000,5.25263e+12,0,0,FALSE,39,FALSE,"2:40:59",160.983333333333,9659
+"267","Christine ""Chris"" Clark","F",37,165,50,18.3654729109275,2000,"USA","Northern America","Northern America",282162411,1.02848e+13,0,0,FALSE,19,FALSE,"2:31:35",151.583333333333,9095
+"268","Nancy Jane Ditz (-Mosbacher)","F",34,165,51,18.732782369146,1988,"USA","Northern America","Northern America",244499000,5.25263e+12,0,0,FALSE,17,FALSE,"2:33:42",153.7,9222
+"269","Rutendo Joan Nyahora","F",27,155,45,18.7304890738814,2016,"Zimbabwe","Sub-Saharan Africa","Africa",16150362,16619960402,0,5,FALSE,92,FALSE,"2:47:32",167.533333333333,10052
+"270","Tarath Tabitha Tsatsa","F",35,158,44,17.6253805479891,2008,"Zimbabwe","Sub-Saharan Africa","Africa",13558469,4415702800,0,5,FALSE,49,FALSE,"2:37:10",157.166666666667,9430
+"271","Linda Elisabeth Hunter","F",24,175,54,17.6326530612245,1988,"Zimbabwe","Sub-Saharan Africa","Africa",9604302,7814784100,0,5,FALSE,55,FALSE,"2:53:17",173.283333333333,10397

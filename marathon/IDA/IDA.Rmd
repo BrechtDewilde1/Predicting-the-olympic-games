@@ -1,0 +1,429 @@
+---
+title: "Marathon_Visualisations"
+author: "Brecht Dewilde"
+date: "30-3-2020"
+output: 
+  html_document: 
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = FALSE)
+library(tidyverse)
+library(cowplot)
+library(ggpubr)
+library(gridExtra)
+source("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/function_library.R")
+theme_set(theme_classic())
+pic.path <- "~/Github/Predicting-the-olympic-games/marathon/IDA/Pictures/"
+```
+
+```{r load data, include=FALSE}
+load("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/Rda/marathonM_extended.RData")
+load("~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/Rda/marathonF_extended.RData")
+```
+
+### Analysis of the Olympic marathon participants
+We only use data from 1960 onwards <- Why?
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+file = "~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/athlete_events.csv"
+fdata <- read.csv(file, stringsAsFactors = F)
+marathon <-filter(fdata, grepl("Marathon", fdata$Event)) %>% filter(Year >= 1960)
+men <- marathon %>% filter(Sex == "M") %>% count(Year)
+men$Sex <- rep("M", nrow(men))
+female <- marathon  %>% filter(Sex == "F") %>% count(Year)
+female$Sex <- rep("F", nrow(female))
+temp <- rbind(men,female)
+
+p1 <- ggplot(temp, aes(x = Year, y =  n, shape = Sex, color = Sex)) + geom_point() +  scale_color_manual(values = c("magenta3", "black")) + 
+  labs(title="Evolution of the number of athletes") + geom_smooth(span = 0.3, se = F, method = "loess")  + 
+  scale_x_continuous(name = "Year", breaks = seq(1960, 2016,4)) + 
+  scale_y_continuous(name = "Race participants", breaks = seq(40,160,10))
+backup <- temp
+rm("fdata", "female", "men", "temp", "file")
+```
+
+Number of athletes distributed over the sub-regions
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+file = "~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/noc_regions.csv"
+noc_country <- read.csv(file)[,c(1,2)]
+marathon <- merge(x = marathon, y = noc_country, all.x = TRUE)
+marathon <- marathon[,c("Name", "Sex", "Age", "Height", "Weight", "Year", "City",  "Medal", "NOC", "region")]
+colnames(marathon)[10] <- "Nationality"
+
+file = "~/Github/Predicting-the-olympic-games/marathon/Data c&c/R/Data/countries_regions.csv"
+countries.regions <- read.csv(file, stringsAsFactors = FALSE)[ ,c(1, 3, 7)]
+colnames(countries.regions) <- c("Nationality", "NOC", "Sub-Region")
+temp <- merge(marathon, countries.regions, by = "Nationality", all.x = TRUE)
+temp <- merge(temp, countries.regions, by.x = "NOC.x", by.y = "NOC", all.x = TRUE)
+temp$SubRegion <- ifelse(is.na(temp$`Sub-Region.x`), temp$`Sub-Region.y`, temp$`Sub-Region.x`)
+subRegions <- temp[,c("Sex", "Age", "Height", "Weight", "Year", "SubRegion")]
+subRegions$AggSubRegion <- unlist(lapply(subRegions$SubRegion, regionAggregator))
+men <- subRegions %>% filter(Sex == "M") %>% group_by(AggSubRegion) %>% count(Year)
+men <- na.omit(men)
+female <- subRegions  %>% filter(Sex == "F") %>% group_by(AggSubRegion) %>% count(Year)
+female <- na.omit(female)
+rm("noc_country", "temp", "file")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+p2 <- ggplot(men, aes(x = Year, y =  n, color = AggSubRegion)) + geom_smooth(se = F) + 
+ labs(title="Country participation", subtitle = "Men") +
+  scale_x_continuous(name = "Year", breaks = seq(1960, 2016,8)) + 
+  scale_y_continuous(name = "Race participants") + theme(legend.position="bottom", legend.title = element_blank()) + 
+   scale_color_manual(values = c("darkgreen", "deeppink2", "darkblue", "brown4", "burlywood4", "antiquewhite2"))
+
+p3 <- ggplot(female, aes(x = Year, y =  n, color = AggSubRegion)) + geom_smooth(se = F) + 
+ labs(title="Country participation", subtitle = "Women") +
+  scale_x_continuous(name = "Year", breaks = seq(1960, 2016,4)) + 
+  scale_y_continuous(name = "Race participants") + theme(legend.position="bottom", legend.title = element_blank()) +
+  scale_color_manual(values = c("darkgreen", "deeppink2", "darkblue", "brown4", "burlywood4", "antiquewhite2"))
+```
+
+```{r fig.height=8, fig.width=12, message=FALSE, warning=FALSE}
+save.path <- paste0(pic.path,"Participants.png")
+ggarrange(p1, ggarrange(p2, p3, ncol = 2, common.legend = T,legend = "bottom"), nrow = 2) 
+ggsave(save.path, dpi = "retina", height = 8, width = 12)
+rm("p1", "p2", "p3")
+```
+
+### Analyis of the physical characteristics of the athletes
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+output.men <- cor.test(marathonM$bmi, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 4), ")")
+output.female <- cor.test(marathonF$bmi, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 5), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+
+test <- rbind(marathonM, marathonF)
+bmi <- ggplot(test, aes(bmi, TimeMins, color = Sex)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", formula = y~x, se = F)  + 
+  labs(title="BMI", subtitle = full )  + 
+   scale_color_manual(values = c("magenta3", "black"))
+``` 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+output.men <- cor.test(marathonM$Height, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 4), ")")
+output.female <- cor.test(marathonF$Height, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 5), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+test <- rbind(marathonM, marathonF)
+height <- ggplot(test, aes(Height, TimeMins, color = Sex)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", formula = y~x, se = F)  + 
+  labs(title="Height", subtitle = full)  + 
+   scale_color_manual(values = c("magenta3", "black")) + xlab("Height (cm)")
+``` 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+output.men <- cor.test(marathonM$Weight, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 4), ")")
+output.female <- cor.test(marathonF$Weight, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 5), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+test <- rbind(marathonM, marathonF)
+weight <- ggplot(test, aes(Weight, TimeMins, color = Sex)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", formula = y~x, se = F)  + 
+  labs(title="Weight", subtitle = full )  + 
+   scale_color_manual(values = c("magenta3", "black")) + xlab("Weight (kg)")
+``` 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+output.men <- cor.test(marathonM$Age, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 2), ")")
+output.female <- cor.test(marathonF$Age, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 2), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+test <- rbind(marathonM, marathonF)
+age <- ggplot(test, aes(Age, TimeMins, color = Sex)) + 
+        geom_point() + 
+        geom_smooth(method = "lm", formula = y~x, se = F)  + 
+        labs(title="Age", subtitle = full)  + 
+        scale_color_manual(values = c("magenta3", "black"))
+``` 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+statistics = c("Mean", "Std")
+BMI = c(round(mean(marathonM$bmi), 2), round(sd(marathonM$bmi),2)) 
+Height = round(c(mean(marathonM$Height), sd(marathonM$Height)),2)
+Weight = round(c(mean(marathonM$Weight), sd(marathonM$Weight)),2)
+Age = round(c(mean(marathonM$Age), sd(marathonM$Age)),2)
+SummaryTableM <- data.frame(statistics, BMI, Height, Weight, Age)
+colnames(SummaryTableM)[1] <- c("Men Statistics")
+
+BMI = round(c(mean(marathonF$bmi), sd(marathonF$bmi)),2)
+Height = round(c(mean(marathonF$Height), sd(marathonF$Height)),2)
+Weight = round(c(mean(marathonF$Weight), sd(marathonF$Weight)),2)
+Age = round(c(mean(marathonF$Age), sd(marathonF$Age)),2)
+SummaryTableF <- data.frame(statistics, BMI, Height, Weight, Age)
+colnames(SummaryTableF)[1] <- c("Women Statistics")
+
+table.m <- ggtexttable(SummaryTableM, rows = NULL, 
+                        theme = ttheme(base_size = 7.5))
+table.f <- ggtexttable(SummaryTableF, rows = NULL,
+                        theme = ttheme(base_size = 7.5))
+```
+
+
+```{r fig.height=10, fig.width=8}
+figure <- ggarrange(bmi, height, weight, age, table.m, table.f, nrow = 3, ncol = 2, common.legend = T,legend = "top") 
+
+save.path <- paste0(pic.path,"Physical characteristics.png")
+annotate_figure(figure,
+               top = text_grob("Physical characteristics", color = "black", face = "bold", size = 14))
+ggsave(save.path, dpi = "retina", height = 8, width = 12)
+
+```
+
+
+### Analysis of target variable 'Race Time'
+1) average time trend <- difference between male and female
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+avgMen <- marathonM %>% group_by(Year) %>% summarise(avgTime = mean(TimeMins))
+avgMen$Sex <- rep("M", nrow(avgMen))
+avgFem <- marathonF %>% group_by(Year) %>% summarise(avgTime = mean(TimeMins))
+avgFem$Sex <- rep("F", nrow(avgFem))
+temp <- rbind(avgMen, avgFem)
+
+pic <- ggplot(temp, aes(x = Year, y = avgTime, shape = Sex, color = Sex)) +
+scale_y_continuous(name = "Finish time", 
+                   breaks = seq(130,170, 10), 
+                   labels = c("2:10:00", "2:20:00", "2:30:00", "2:40:00", "2:50:00"), 
+                   limits = c(130, 170)) + 
+  geom_hline(aes(yintercept = 130),  linetype = "dashed" , colour= 'blue') +    
+  geom_hline(aes(yintercept = 140),  linetype = "dashed" , colour= 'blue') +  
+  geom_hline(aes(yintercept = 150),  linetype = "dashed" , colour= 'blue') +  
+  geom_hline(aes(yintercept = 160),  linetype = "dashed" , colour= 'blue') +  
+  geom_hline(aes(yintercept = 170),  linetype = "dashed" , colour= 'blue') +  
+  scale_x_continuous(name = "Year", breaks = seq(1960, 2016,4)) +
+  geom_smooth(se = F, span = 0.5) +  scale_color_manual(values = c("magenta3", "black")) + labs(title="Finish time trend", subtitle = "Average finish time for each year")
+
+save.path <- paste0(pic.path,"FinishTimeTrend.png")
+pic
+ggsave(save.path, dpi = "retina", height = 8, width = 12)
+
+
+rm("fdata", "female", "men", "temp", "file", "avgFem", "avgMen", "fem")
+```
+2) fastest time <- difference between male and female
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+minMen <- marathonM %>% group_by(Year) %>% summarise(minTime = min(TimeMins))
+minMen$Sex <- rep("M", nrow(minMen))
+minFem <- marathonF %>% group_by(Year) %>% summarise(minTime = min(TimeMins))
+minFem$Sex <- rep("F", nrow(minFem))
+temp <- rbind(minMen, minFem)
+
+fastestsMen <- marathonM[match(min(marathonM$TimeMins), marathonM$TimeMins), c("Name", "Time", "TimeMins", "Year")]
+fastestsFem <- marathonF[match(min(marathonF$TimeMins), marathonF$TimeMins), c("Name", "Time", "TimeMins", "Year")]
+
+
+
+pic <- ggplot(temp, aes(x = Year, y = minTime, shape = Sex, color = Sex)) +  geom_line() +  #geom_smooth(se = F, span = 0.5) + 
+scale_y_continuous(name = "Finish time", 
+                   breaks = seq(120,160, 10), 
+                   labels = c("2:00:00", "2:10:00", "2:20:00", "2:30:00", "2:40:00"), 
+                   limits = c(120, 160)) + 
+  geom_point(aes(x = fastestsMen$Year, y = fastestsMen$TimeMins), colour = "black") + 
+  geom_point(aes(x = fastestsFem$Year, y = fastestsFem$TimeMins)) +
+  geom_hline(aes(yintercept = 130),  linetype = "dashed" , colour= 'blue') +    
+  geom_hline(aes(yintercept = 140),  linetype = "dashed" , colour= 'blue') +  
+  geom_hline(aes(yintercept = 150),  linetype = "dashed" , colour= 'blue') +  
+  geom_hline(aes(yintercept = 160),  linetype = "dashed" , colour= 'blue') +  
+  geom_hline(aes(yintercept = 170),  linetype = "dashed" , colour= 'blue') +  
+  scale_x_continuous(name = "Year", breaks = seq(1960, 2016,4)) +
+  scale_color_manual(values = c("magenta3", "black")) + labs(title="Winner time trend", subtitle = "Winners finish time for each year") +
+  annotate("segment", 
+           y = c(fastestsMen$TimeMins - 2, fastestsFem$TimeMins + 7.5), x = c(2005, 2013), 
+           yend =  c(fastestsMen$TimeMins - 0.3 , fastestsFem$TimeMins + 0.4), xend = c(fastestsMen$Year, fastestsFem$Year),
+          arrow = arrow(angle = 20, length = unit(2, "mm"), type = "closed")) + 
+          annotate(geom="text", x = 1999, y = fastestsMen$TimeMins  - 2, 
+                   label= paste("Samuel Wanjiru\n", fastestsMen$Time), color="red") + 
+           annotate(geom="text", x = 2013, y = fastestsFem$TimeMins + 10, 
+                  label= paste("Tiki Gelena\n", fastestsFem$Time), color="red")
+
+save.path <- paste0(pic.path,"WinnerTimeTrend.png")
+pic
+ggsave(save.path, dpi = "retina", height = 8, width = 12)
+```
+
+### Analyis of the demographic influences
+```{r}
+# plot: influence between gdp and race time
+output.men <- cor.test(marathonM$GDP, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 11), ")")
+output.female <- cor.test(marathonF$GDP, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 8), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+
+marathon <- rbind(marathonM, marathonF)
+gdp <- ggplot(marathon, aes(log(GDP), TimeMins, color = Sex)) + 
+        geom_point() + 
+        geom_smooth(method = "lm", formula = y~x, se = F)  + 
+        labs(title="GDP", subtitle = full)  + 
+        scale_color_manual(values = c("magenta3", "black"))
+```
+
+```{r}
+output.men <- cor.test(marathonM$Population, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 11), ")")
+output.female <- cor.test(marathonF$Population, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 9), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+
+marathon <- rbind(marathonM, marathonF)
+pop <- ggplot(marathon, aes(log(Population), TimeMins, color = Sex)) + 
+        geom_point() + 
+        geom_smooth(method = "lm", formula = y~x, se = F)  + 
+        labs(title="Population", subtitle = full)  + 
+        scale_color_manual(values = c("magenta3", "black"))
+
+```
+
+
+```{r fig.height=7, fig.width=6, message=FALSE, warning=FALSE}
+wm <- map_data("world")
+cc <- raster::ccodes()
+# cc$MYCONTINENTS <- 
+
+dat <- read.csv(text="state, RunTime
+Other Europe, 158.36
+Other Asian,   161.52
+Other African,   155.96
+Other North American,  152.15
+Other Latin American,   163.45
+Other Oceania,   155.31")
+
+
+mappings <- c("Asia"="Other Asian", "Africa"="Other African", "North America" = "Other North American", 
+              "Europe" = "Other Europe", "South America" = "Other Latin American", "Oceania" = "Other Oceania")
+
+cc$MYCONTINENTS <- mappings[cc$continent]
+cc <- left_join(cc, dat, by = c("MYCONTINENTS"="state"))
+
+mappings <- c("UK"="United Kingdom", "USA"="United States") # You add the others here
+cc$NAME[match(mappings, cc$NAME)] <- names(mappings)
+
+wm <- left_join(wm, cc[,c("NAME","MYCONTINENTS", "RunTime")], by=c("region"="NAME"))
+world.women <- ggplot() +
+  geom_polygon(aes(x=long, y=lat, group=group, fill=RunTime), wm, colour = NA) +
+  coord_quickmap() + labs(subtitle = "Women") + xlab("") + ylab("") + labs(fill = "Continent Average Race Time (min)") + 
+  theme(legend.direction = "horizontal", legend.position = c(0.5,-0.3),
+  legend.key.size = unit(1.0, "cm"),
+  legend.key.width = unit(1.5,"cm")) + 
+    guides(fill = guide_colourbar(title.position = "top",
+                                title.hjust = .5,
+                                label.position = "bottom")) + 
+  scale_fill_gradientn(colours = c("green", "orange", "red"),
+                       values = c(0,0.5, 1))
+```
+
+```{r fig.height=7, fig.width=6}
+wm <- map_data("world")
+cc <- raster::ccodes()
+# cc$MYCONTINENTS <- 
+
+
+dat <- read.csv(text="state, RunTime
+Other Europe, 141.14
+Other Asian,   142.74
+Other African,   139.27
+Other North American,  138.28
+Other Latin American,   144.44
+Other Oceania,   141.68")
+
+
+mappings <- c("Asia"="Other Asian", "Africa"="Other African", "North America" = "Other North American", 
+              "Europe" = "Other Europe", "South America" = "Other Latin American", "Oceania" = "Other Oceania")
+
+cc$MYCONTINENTS <- mappings[cc$continent]
+cc <- left_join(cc, dat, by = c("MYCONTINENTS"="state"))
+
+mappings <- c("UK"="United Kingdom", "USA"="United States") # You add the others here
+cc$NAME[match(mappings, cc$NAME)] <- names(mappings)
+
+wm <- left_join(wm, cc[,c("NAME","MYCONTINENTS", "RunTime")], by=c("region"="NAME"))
+world.men <- ggplot() +
+  geom_polygon(aes(x=long, y=lat, group=group, fill=RunTime), wm, colour = NA) +
+  coord_quickmap() + labs(subtitle = "Men")  + xlab("") + ylab("") + labs(fill = "Continent Average Race Time (min)") + 
+  theme(legend.direction = "horizontal", legend.position = c(0.5,-0.3),
+  legend.key.size = unit(1.0, "cm"),
+  legend.key.width = unit(1.5,"cm")) + 
+    guides(fill = guide_colourbar(title.position = "top",
+                                title.hjust = .5,
+                                label.position = "bottom")) + 
+  scale_fill_gradientn(colours = c("green", "orange", "red"),
+                       values = c(0,0.5, 1))
+```
+```{r}
+#world.men, world.women, gpd, population
+figure <- ggarrange(gdp, pop, world.men, world.women, nrow = 2, ncol = 2) 
+fig <-annotate_figure(figure,
+               top = text_grob("Demographic influences", color = "black", face = "bold", size = 14))
+save.path <- paste0(pic.path,"Demographics.png")
+fig
+ggsave(save.path, dpi = "retina", height = 9.5, width = 12)
+```
+
+### Analysis of the Performance features
+```{r}
+# plot: influence between TimeScore and race time
+output.men <- cor.test(marathonM$avgTimeScore, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 44), ")")
+output.female <- cor.test(marathonF$avgTimeScore, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 38), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+
+marathon <- rbind(marathonM, marathonF)
+timeScore<- ggplot(marathon, aes(avgTimeScore, TimeMins, color = Sex)) + 
+        geom_point() + 
+        geom_smooth(method = "lm", formula = y~x, se = F)  + 
+        labs(title="Time score", subtitle = full)  + 
+        scale_color_manual(values = c("magenta3", "black")) + xlab("Time score")
+timeScore
+```
+
+```{r}
+# plot: influence between TimeScore and race time
+output.men <- cor.test(marathonM$avgPositionScore, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 10), ")")
+output.female <- cor.test(marathonF$avgPositionScore, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 3), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+
+marathon <- rbind(marathonM, marathonF)
+positionScore<- ggplot(marathon, aes(avgPositionScore, TimeMins, color = Sex)) + 
+        geom_point() + 
+        geom_smooth(method = "lm", formula = y~x, se = F)  + 
+        labs(title="Position score", subtitle = full)  + 
+        scale_color_manual(values = c("magenta3", "black")) + xlab("Position score")
+positionScore
+```
+
+
+```{r}
+# plot: influence between TimeScore and race time
+output.men <- cor.test(marathonM$avgPerformanceScore, marathonM$TimeMins, method =  "spearman", exact = F)
+cM <- paste0(round(output.men$estimate, 2), " (p:", round(output.men$p.value, 38), ")")
+output.female <- cor.test(marathonF$avgPerformanceScore, marathonF$TimeMins, method =  "spearman", exact = F)
+cF <- paste0(round(output.female$estimate, 2), " (p:", round(output.female$p.value, 34), ")")
+full <- paste("Men:", cM, "\nWomen:", cF)
+
+marathon <- rbind(marathonM, marathonF)
+performanceScore<- ggplot(marathon, aes(avgPerformanceScore, TimeMins, color = Sex)) + 
+        geom_point() + 
+        geom_smooth(method = "lm", formula = y~x, se = F)  + 
+        labs(title="Performance score", subtitle = full)  + 
+        scale_color_manual(values = c("magenta3", "black")) + 
+        annotate("text", x = 1200, y = 210, label = "Performance score = Time score + Position score", size = 4, color = "brown4") + xlab("Performance score") +  theme(legend.position = "none")
+performanceScore
+```
+
+```{r}
+save.path <- paste0(pic.path,"Performance.png")
+ggarrange(performanceScore, ggarrange(timeScore, positionScore, ncol = 2, common.legend = T,legend = "bottom"), nrow = 2) 
+ggsave(save.path, dpi = "retina", height = 8, width = 12)
+```
+
